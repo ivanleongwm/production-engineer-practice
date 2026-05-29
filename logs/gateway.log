@@ -1,0 +1,6 @@
+14:00:01 gateway received order_id=O123 client_id=C1
+14:00:01 gateway forwarded order_id=O123 to risk
+14:00:02 gateway received order_id=O456 client_id=C1
+14:00:02 gateway forwarded order_id=O456 to risk
+14:00:05 ERROR gateway failed_to_forward order_id=O789 reason=downstream_timeout
+14:00:08 WARN gateway slow_response order_id=O999 latency_ms=2500
