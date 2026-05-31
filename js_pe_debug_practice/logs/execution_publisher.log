@@ -1,1 +1,2 @@
-2026-05-28T10:03:00.410Z INFO publisher heartbeat status=ok lag_ms=4
+2026-05-28T10:06:00.410Z INFO publisher heartbeat status=ok lag_ms=4
+2026-05-28T10:06:01.985Z INFO execution_published order_id=O6006 exec_id=E5606 status=FILLED

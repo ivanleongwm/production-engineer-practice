@@ -1,1 +1,2 @@
-2026-05-28T10:03:00.900Z INFO order_send order_id=O3003 client_id=C303 symbol=NVDA qty=250 side=BUY
+2026-05-28T10:06:00.900Z INFO order_send order_id=O6006 client_id=C606 symbol=META qty=120 side=BUY
+2026-05-28T10:06:02.030Z WARN slow_ack_observed order_id=O6006 ack_latency_ms=920

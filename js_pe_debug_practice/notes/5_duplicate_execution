@@ -1,0 +1,9 @@
+Expected behavior: client should have received execution report for O4004
+Actual behavior: execution publisher did not publish execution report for O4004
+Correlation key: order_id=O4004
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: Execution Publisher
+Likely root cause: Messaging config/infra : execution failed to publish due to kafka topic not found retrying every 5 seconds
+How I would verify: check execution publisher log
+Fix: investigate reason for error kafka topic not found
+Prevention: monitoring for kafka interface

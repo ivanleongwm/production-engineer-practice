@@ -1,6 +1,7 @@
-2026-05-28T10:03:00.000Z INFO host=node-a cpu_pct=34 mem_pct=58 disk_pct=61
-2026-05-28T10:03:00.120Z WARN ntp_offset_ms=220 source=time-sync-2
-2026-05-28T10:03:00.210Z INFO connectivity check=md-feed status=ok latency_ms=12
-2026-05-28T10:03:00.290Z WARN symbol_map stale_entries=1 symbol=BRK.B mapped_to=BRKB
-2026-05-28T10:03:01.080Z WARN svc=risk p95_latency_ms=232 threshold_ms=150
-2026-05-28T10:03:03.000Z WARN timezone_mismatch svc=client local_ts=2026-05-28T18:00:03+08:00 utc_ts=2026-05-28T10:03:03.000Z
+2026-05-28T10:06:00.000Z INFO host=node-a cpu_pct=34 mem_pct=58 disk_pct=61
+2026-05-28T10:06:00.120Z WARN ntp_offset_ms=220 source=time-sync-2
+2026-05-28T10:06:00.210Z INFO connectivity check=md-feed status=ok latency_ms=12
+2026-05-28T10:06:00.290Z WARN symbol_map stale_entries=1 symbol=BRK.B mapped_to=BRKB
+2026-05-28T10:06:00.970Z WARN svc=gateway queue=gateway_to_risk backlog=1840
+2026-05-28T10:06:00.975Z WARN svc=gateway process=worker-3 state=down restart_count=4
+2026-05-28T10:06:03.000Z WARN timezone_mismatch svc=client local_ts=2026-05-28T18:00:03+08:00 utc_ts=2026-05-28T10:06:03.000Z

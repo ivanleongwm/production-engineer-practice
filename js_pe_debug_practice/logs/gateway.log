@@ -1,6 +1,5 @@
-2026-05-28T10:03:00.340Z INFO healthcheck route=/ping status=200 latency_ms=3
-2026-05-28T10:03:00.920Z INFO order_received order_id=O3003 client_id=C303 symbol=NVDA qty=250 ingress_latency_ms=6
-2026-05-28T10:03:00.940Z INFO order_routed order_id=O3003 route=risk svc=risk-v1 trace_id=T-O3003
-2026-05-28T10:03:00.965Z INFO call_risk order_id=O3003 timeout_ms=150 downstream=risk-v1
-2026-05-28T10:03:01.118Z ERROR risk_timeout order_id=O3003 waited_ms=153 action=reject_downstream_timeout
-2026-05-28T10:03:01.133Z WARN reject_to_client order_id=O3003 status=REJECTED reason=DOWNSTREAM_TIMEOUT
+2026-05-28T10:06:00.340Z INFO healthcheck route=/ping status=200 latency_ms=3
+2026-05-28T10:06:00.920Z INFO order_received order_id=O6006 client_id=C606 symbol=META qty=120 ingress_latency_ms=6
+2026-05-28T10:06:00.940Z INFO order_routed order_id=O6006 route=risk svc=risk-v1 trace_id=T-O6006
+2026-05-28T10:06:00.955Z WARN queue_enqueue order_id=O6006 queue=gateway_to_risk depth=1840
+2026-05-28T10:06:01.820Z INFO ack_to_client order_id=O6006 status=ACK latency_ms=920

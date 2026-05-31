@@ -1,0 +1,9 @@
+Expected behavior: client should have received execution report of fill within expected time
+Actual behavior: client received ack with latency of 920 ms
+Correlation key: order_id=O6006
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: Gateway, order was queued with depth of 1840, ack at 920ms latency
+Likely root cause: buildup of orders in gateway queue
+How I would verify: check gateway log and system log
+Fix: investigate reason for gateway latency
+Prevention: reduce latency at gateway by increasing capacity or reducing queue depth

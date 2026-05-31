@@ -1,0 +1,9 @@
+Expected behavior: order O2002 should be filled
+Actual behavior: order O2002 was rejected due to risk limit breach
+Correlation key: order_id=O2002
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: Risk Manager
+Likely root cause: Notional greater than 1 Mio
+How I would verify: Check the risk limit config and compare to the order
+Fix: increase risk limit
+Prevention: Implement risk limit enforcement in the gateway

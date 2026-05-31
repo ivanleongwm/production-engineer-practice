@@ -1,2 +1,1 @@
-2026-05-28T10:03:00.980Z INFO request_received order_id=O3003 processing_ms=240
-2026-05-28T10:03:01.220Z INFO risk_eval order_id=O3003 decision=ACCEPT reason=within_limits
+2026-05-28T10:06:01.760Z INFO risk_eval order_id=O6006 decision=ACCEPT reason=within_limits processing_ms=8

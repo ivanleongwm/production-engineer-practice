@@ -1,0 +1,9 @@
+Expected behavior: gateway should have received reply from risk for O3003
+Actual behavior: gateway received timeout error from risk
+Correlation key: order_id=O3003
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: Risk Manager
+Likely root cause: Risk manager took 240ms to process but timeout was set to 150ms at gateway
+How I would verify: Check the time taken to process order in risk manager and compare to gateway log
+Fix: investigate the cause for the delay in risk manager
+Prevention: speed up processing in risk manager / identify logical error in risk causing delay
