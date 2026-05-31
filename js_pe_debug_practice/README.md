@@ -1,87 +1,86 @@
 # Production Engineer Debug Practice (Trading System)
 
-This repository is a small, deterministic Python-based debugging lab for Production Engineer interview practice.
+This repository is a deterministic Python-based debugging lab for Production Engineer interview practice — designed to feel closer to real trading-system incident investigation.
 
 It simulates a multi-service trading flow:
 
 - `client` -> `gateway` -> `risk` -> `matching engine` -> `execution publisher` -> `position service`
 - plus `system` health/noise logs
 
-You investigate incidents by correlating logs across components and finding the first divergence.
+You investigate incidents by correlating logs across components, filtering noise, and finding the **first divergence** from the expected path.
 
 ## Repository Layout
 
 ```
 js_pe_debug_practice/
 ├── README.md
+├── INTERVIEW_COMMANDS.md      # grep/find/less cheat sheet
 ├── generate_logs.py
-├── logs/                    # generated log files (overwritten each run)
-├── scenarios/               # incident prompts (no answers)
+├── logs/                      # generated log files (overwritten each run)
+├── scenarios/                 # incident prompts (no answers)
+│   ├── README_RCA_TEMPLATE.md
 │   ├── scenario_01_happy_path.md
-│   ├── scenario_02_risk_reject.md
-│   ├── scenario_03_gateway_timeout.md
-│   ├── scenario_04_missing_execution_report.md
-│   ├── scenario_05_duplicate_fill_position_wrong.md
-│   └── scenario_06_slow_order_latency.md
-└── solutions/               # walkthroughs and expected debugging approach
+│   ├── ...
+│   └── scenario_20_vendor_timeout.md
+└── solutions/                 # detailed walkthroughs
     ├── scenario_01_solution.md
     ├── ...
-    └── scenario_06_solution.md
+    └── scenario_20_solution.md
 ```
 
 ## Prerequisites
 
 - Python 3 (standard library only — no pip install needed)
 
-Check Python is available:
-
-```powershell
+```bash
 python --version
-```
-
-If `python` is not recognized on Windows, try:
-
-```powershell
-py --version
 ```
 
 ## How to Run
 
-All commands below assume you are in the `js_pe_debug_practice/` directory. From the parent workspace:
+All commands assume you are in `js_pe_debug_practice/`:
 
-```powershell
+```bash
 cd js_pe_debug_practice
 ```
 
 ### Generate a specific scenario (deterministic)
 
-Pick a scenario number from 1 to 6:
-
-```powershell
-python generate_logs.py --scenario 3
+```bash
+python generate_logs.py --scenario 11
+python generate_logs.py --scenario 11 --difficulty hard
 ```
 
-On Windows, if `python` fails:
+Scenarios **1–20** are supported. Each `--scenario N` run is deterministic for a given difficulty.
 
-```powershell
-py generate_logs.py --scenario 3
+### Difficulty levels
+
+```bash
+python generate_logs.py --scenario 11 --difficulty easy    # ~100–200 lines, clearer signals
+python generate_logs.py --scenario 11 --difficulty medium  # ~300–500 lines (default)
+python generate_logs.py --scenario 11 --difficulty hard    # ~600–1000 lines, heavy noise
 ```
 
-This overwrites all files in `logs/` with logs for that scenario.
+Default difficulty is **medium** if omitted.
 
-### Generate a random scenario (blind practice)
+### Random blind practice
 
-The script picks a scenario without telling you which one:
-
-```powershell
+```bash
 python generate_logs.py --random
+python generate_logs.py --random --difficulty medium
 ```
 
-Use this when you want to simulate a real interview where you don't know the root cause upfront.
+Picks a scenario **without revealing the number**. Use this to simulate interview conditions.
+
+### Answer key (concise — not the full solution)
+
+```bash
+python generate_logs.py --scenario 11 --answer-key
+```
+
+Prints only: scenario number, title, root cause category, and affected order/client/symbol. Compare with `solutions/` after your RCA.
 
 ### What gets generated
-
-Each run writes these log files:
 
 | File | Component |
 |------|-----------|
@@ -91,93 +90,90 @@ Each run writes these log files:
 | `logs/engine.log` | Matching engine fills |
 | `logs/execution_publisher.log` | Execution report publishing |
 | `logs/position.log` | Position updates |
-| `logs/system.log` | Process health, queues, connectivity |
+| `logs/system.log` | DNS, firewall, deploy, health, disk, LB, NTP |
+
+Log lines use grep-friendly structured fields: `ts=`, `level=`, `service=`, `host=`, `order_id=`, `trace_id=`, `exec_id=`, etc.
 
 ## Scenarios
 
-| # | File | Incident type |
-|---|------|---------------|
-| 1 | `scenario_01_happy_path.md` | Baseline happy path |
-| 2 | `scenario_02_risk_reject.md` | Risk rejection |
-| 3 | `scenario_03_gateway_timeout.md` | Downstream timeout |
-| 4 | `scenario_04_missing_execution_report.md` | Missing execution report |
-| 5 | `scenario_05_duplicate_fill_position_wrong.md` | Duplicate fill, wrong position |
-| 6 | `scenario_06_slow_order_latency.md` | Slow latency / queue backlog |
+| # | Level | File | Incident type | Key correlation ID |
+|---|-------|------|---------------|-------------------|
+| 1 | Beginner | `scenario_01_happy_path.md` | Baseline happy path | O1001 |
+| 2 | Beginner | `scenario_02_risk_reject.md` | Risk rejection | O2002 |
+| 3 | Beginner | `scenario_03_gateway_timeout.md` | Downstream timeout | O3003 |
+| 4 | Beginner | `scenario_04_missing_execution_report.md` | Missing execution report | O4004 |
+| 5 | Beginner | `scenario_05_duplicate_fill_position_wrong.md` | Duplicate fill / wrong position | O5005 / E5505 |
+| 6 | Beginner | `scenario_06_slow_order_latency.md` | Slow latency / queue backlog | O6006 |
+| 7 | Intermediate | `scenario_07_dns_service_discovery.md` | Stale DNS / service discovery | O7007 |
+| 8 | Intermediate | `scenario_08_firewall_port_blocked.md` | Firewall blocks port | O8008 |
+| 9 | Intermediate | `scenario_09_process_down.md` | Process crash / not listening | O9009 |
+| 10 | Intermediate | `scenario_10_bad_deploy_config.md` | Bad deploy / config mismatch | O1010 / 9988.HK |
+| 11 | Intermediate | `scenario_11_queue_consumer_lag.md` | Queue consumer lag | O1111 / E71111 |
+| 12 | Intermediate | `scenario_12_duplicate_idempotency.md` | Duplicate message / idempotency | O1212 / E71212 |
+| 13 | Hard | `scenario_13_gc_latency.md` | GC pause / memory pressure | O1313 |
+| 14 | Hard | `scenario_14_db_pool_exhaustion.md` | DB connection pool exhausted | O1414 |
+| 15 | Hard | `scenario_15_exchange_disconnect.md` | Exchange FIX session disconnect | O1515 |
+| 16 | Hard | `scenario_16_clock_skew.md` | Clock skew / misleading timestamps | O1616 |
+| 17 | Hard | `scenario_17_disk_full.md` | Disk full / persistence failure | O1717 / E71717 |
+| 18 | Hard | `scenario_18_permission_auth.md` | Permission / auth issue | O1818 / C1818 |
+| 19 | Hard | `scenario_19_partial_outage_lb.md` | Bad instance behind load balancer | O1919 |
+| 20 | Hard | `scenario_20_vendor_timeout.md` | External vendor API slow | O2020 |
 
-Open the matching scenario file for the incident report and a blank RCA template. Do **not** open the solution until you've finished your analysis.
+**Beginner (1–6):** shorter paths, fewer red herrings at medium difficulty.  
+**Intermediate/Hard (7–20):** realistic noise, misleading warnings, unrelated orders, and cross-layer failures.
 
-## 30-Minute Practice Routine
+Open the matching scenario file for the incident report. Use `scenarios/README_RCA_TEMPLATE.md` for your write-up. Do **not** open the solution until finished.
 
-1. **Generate a scenario**
-   ```powershell
-   python generate_logs.py --random
-   ```
-2. **Inspect files**
-   ```bash
-   find . -maxdepth 3 -type f
-   ```
-3. **Pick an order ID from the incident report and trace it**
-   ```bash
-   grep -Rni "O3003" logs/
-   ```
-4. **Open full logs for context**
-   ```bash
-   less logs/gateway.log
-   less logs/system.log
-   ```
-5. **Identify the first divergence** in the expected service path.
-6. **Write your root-cause analysis** in the scenario template (expected vs actual behavior, correlation key, hypothesis, fix).
-7. **Compare with the solution**
-   ```bash
-   less solutions/scenario_03_solution.md
-   ```
+See also: [INTERVIEW_COMMANDS.md](INTERVIEW_COMMANDS.md)
+
+## 20-Minute Timed Routine
+
+Set a timer. Goal: isolate the **failing layer**, not memorize every scenario.
+
+1. **Read scenario prompt** (2 min) — note order ID, client, symbol, user complaint
+2. **Search correlation IDs** (3 min) — `grep -Rni "Oxxxx" logs/` and `trace_id=`
+3. **Check ERROR/WARN** (3 min) — `grep -Rni "ERROR\|WARN" logs/` then filter to your order
+4. **Build expected path** (3 min) — write the happy path: client → gateway → risk → engine → publisher → position
+5. **Find first divergence** (4 min) — earliest step where actual ≠ expected; cite log line
+6. **Write RCA** (3 min) — use `scenarios/README_RCA_TEMPLATE.md`
+7. **Compare solution** (2 min) — `less solutions/scenario_XX_solution.md`
+
+Repeat at `--difficulty hard` once medium feels comfortable.
 
 ## First Investigation Flow
 
-After generating logs, run these commands in order:
-
 ```bash
-# 1. See what files exist
 find logs/ -type f
-
-# 2. Search for the order ID from the incident report
-grep -Rni "O3003" logs/
-
-# 3. Filter for errors and warnings only
+grep -Rni "ORDER_ID_FROM_PROMPT" logs/
 grep -Rni "ERROR\|WARN" logs/
-
-# 4. Read the gateway log (usually the best starting point)
 less logs/gateway.log
-
-# 5. Check system health for queue/process issues
-grep -Rni "queue\|backlog\|state=down\|latency" logs/system.log
+less logs/system.log
 ```
 
-Replace `O3003` with the order ID from whichever scenario you are practising.
+Replace `ORDER_ID_FROM_PROMPT` with the order ID from your scenario file.
 
 ## What You Practice
 
-- `grep -Rni` for cross-log correlation
-- `find` for structure and discovery
-- `less` and `/pattern` navigation in large files
-- `tail -n` and `tail -f` for live-style reasoning
-- `ps`-style process reasoning from `system.log`
-- interview-friendly root-cause storytelling
+- Cross-log correlation with `grep -Rni`
+- Distinguishing **symptoms** (timeout, reject) from **root cause layer** (DNS, firewall, pool, skew)
+- Filtering noise: unrelated orders, health checks, misleading errors
+- Building an **expected path** and finding **first divergence**
+- Interview-friendly 60-second root-cause storytelling
 
-## Common Issue Families Included
+## Interview Mindset
 
-- risk rejection
-- downstream timeout
-- missing execution report
-- duplicate fill causing wrong position
-- slow latency due to queue backlog
-- service/process down signal in system logs
-- bad symbol mapping noise
-- timestamp/timezone confusion noise
+In Production Engineer interviews, the goal is **not** to know every failure mode upfront. It is to:
+
+1. Ask what the user expected vs what happened
+2. Pick a correlation key and trace the request
+3. Identify which **layer** broke (network, process, config, queue, external dep)
+4. Explain evidence, red herrings, mitigation, and prevention clearly
+
+Use exactly one of `--scenario` or `--random` — not both (unless using `--answer-key`, which requires `--scenario`).
 
 ## Notes
 
-- Deterministic by default (`--scenario N` always produces the same logs).
-- Standard library only, no external dependencies.
-- Logs intentionally include noisy `INFO`/`WARN`/`ERROR` lines so you must filter effectively.
-- Use exactly one of `--scenario` or `--random` — not both.
+- Deterministic: same scenario number + difficulty → same logs
+- Standard library only, no external dependencies
+- Logs include intentional noise at medium/hard difficulty
+- Scenarios 1–6 preserved; 7–20 extend the lab

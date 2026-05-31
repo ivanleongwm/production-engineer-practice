@@ -1,0 +1,8 @@
+ts=2026-06-02T14:00:00.112Z level=INFO component=risk_engine message=risk_eval_start request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL qty=50 price=175.0 notional=8750.0 client_limit=750000.0
+ts=2026-06-02T14:00:00.119Z level=INFO component=risk_engine message=risk_accept request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=RISK_ACCEPTED notional=8750.0 client_limit=750000.0 check=notional > limit
+ts=2026-06-02T14:00:00.224Z level=INFO component=risk_engine message=risk_eval_start request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD qty=300 price=29.0 notional=8700.0 client_limit=750000.0
+ts=2026-06-02T14:00:00.231Z level=INFO component=risk_engine message=risk_accept request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=RISK_ACCEPTED notional=8700.0 client_limit=750000.0 check=notional > limit
+ts=2026-06-02T14:00:00.336Z level=INFO component=risk_engine message=risk_eval_start request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA qty=200 price=71.5 notional=14300.0 client_limit=750000.0
+ts=2026-06-02T14:00:00.343Z level=INFO component=risk_engine message=risk_accept request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=RISK_ACCEPTED notional=14300.0 client_limit=750000.0 check=notional > limit
+ts=2026-06-02T14:00:00.413Z level=INFO component=risk_engine message=risk_eval_start request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA qty=100 price=72.0 notional=7200.0 client_limit=750000.0
+ts=2026-06-02T14:00:00.420Z level=INFO component=risk_engine message=risk_accept request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=RISK_ACCEPTED notional=7200.0 client_limit=750000.0 check=notional > limit

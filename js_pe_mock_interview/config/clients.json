@@ -1,0 +1,22 @@
+{
+  "C10": {
+    "name": "System Test Desk",
+    "notional_limit": 1000000,
+    "allowed_symbols": ["AAPL", "MSFT", "NVDA", "JD", "BABA", "0700.HK"]
+  },
+  "C17": {
+    "name": "Asia Equity Desk",
+    "notional_limit": 750000,
+    "allowed_symbols": ["AAPL", "JD", "BABA", "0700.HK", "MSFT"]
+  },
+  "C21": {
+    "name": "Quant Swing Desk",
+    "notional_limit": 100000,
+    "allowed_symbols": ["AAPL", "MSFT", "NVDA", "JD", "BABA"]
+  },
+  "C99": {
+    "name": "Legacy Sandbox",
+    "notional_limit": 50000,
+    "allowed_symbols": ["AAPL"]
+  }
+}

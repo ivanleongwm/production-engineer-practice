@@ -1,0 +1,16 @@
+ts=2026-06-02T14:00:00.105Z level=INFO component=order_service message=persist_order request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=VALIDATED db_table=orders
+ts=2026-06-02T14:00:00.126Z level=INFO component=order_service message=audit_update request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=RISK_ACCEPTED db_table=orders
+ts=2026-06-02T14:00:00.140Z level=INFO component=order_service message=audit_update request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=ROUTED db_table=orders
+ts=2026-06-02T14:00:00.154Z level=INFO component=order_service message=audit_update request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=FILLED db_table=orders
+ts=2026-06-02T14:00:00.168Z level=INFO component=order_service message=audit_update request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=PUBLISHED db_table=orders
+ts=2026-06-02T14:00:00.217Z level=INFO component=order_service message=persist_order request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=VALIDATED db_table=orders
+ts=2026-06-02T14:00:00.238Z level=INFO component=order_service message=audit_update request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=RISK_ACCEPTED db_table=orders
+ts=2026-06-02T14:00:00.252Z level=INFO component=order_service message=audit_update request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=ROUTED db_table=orders
+ts=2026-06-02T14:00:00.266Z level=INFO component=order_service message=audit_update request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=FILLED db_table=orders
+ts=2026-06-02T14:00:00.280Z level=INFO component=order_service message=audit_update request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=PUBLISHED db_table=orders
+ts=2026-06-02T14:00:00.329Z level=INFO component=order_service message=persist_order request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=VALIDATED db_table=orders
+ts=2026-06-02T14:00:00.350Z level=INFO component=order_service message=audit_update request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=RISK_ACCEPTED db_table=orders
+ts=2026-06-02T14:00:00.364Z level=INFO component=order_service message=audit_update request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND db_table=orders
+ts=2026-06-02T14:00:00.406Z level=INFO component=order_service message=persist_order request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=VALIDATED db_table=orders
+ts=2026-06-02T14:00:00.427Z level=INFO component=order_service message=audit_update request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=RISK_ACCEPTED db_table=orders
+ts=2026-06-02T14:00:00.441Z level=INFO component=order_service message=audit_update request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND db_table=orders

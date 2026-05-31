@@ -1,0 +1,4 @@
+{"order_id": "ORD-B01", "request_id": "REQ-B01", "client_id": "C21", "symbol": "AAPL", "side": "BUY", "qty": 50, "price": 400.0}
+{"order_id": "ORD-B02", "request_id": "REQ-B02", "client_id": "C21", "symbol": "MSFT", "side": "BUY", "qty": 100, "price": 500.0}
+{"order_id": "ORD-B03", "request_id": "REQ-B03", "client_id": "C21", "symbol": "AAPL", "side": "BUY", "qty": 100, "price": 1000.0}
+{"order_id": "ORD-B04", "request_id": "REQ-B04", "client_id": "C21", "symbol": "NVDA", "side": "BUY", "qty": 10, "price": 900.0}

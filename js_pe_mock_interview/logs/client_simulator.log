@@ -1,0 +1,13 @@
+ts=2026-06-02T14:00:00.042Z level=INFO component=client_simulator message=heartbeat client_id=C10 message_detail=session_keepalive session_id=S-1000
+ts=2026-06-02T14:00:00.049Z level=INFO component=client_simulator message=heartbeat client_id=C11 message_detail=session_keepalive session_id=S-1001
+ts=2026-06-02T14:00:00.056Z level=INFO component=client_simulator message=unrelated_order_ack order_id=ORD-NOISE-1 client_id=C10 symbol=JD state=ACKED
+ts=2026-06-02T14:00:00.063Z level=INFO component=client_simulator message=heartbeat client_id=C12 message_detail=session_keepalive session_id=S-1002
+ts=2026-06-02T14:00:00.070Z level=INFO component=client_simulator message=unrelated_order_ack order_id=ORD-NOISE-2 client_id=C10 symbol=MSFT state=ACKED
+ts=2026-06-02T14:00:00.084Z level=INFO component=client_simulator message=submit_order request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=RECEIVED side=BUY qty=50 price=175.0
+ts=2026-06-02T14:00:00.189Z level=INFO component=client_simulator message=order_response request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=ACKED
+ts=2026-06-02T14:00:00.196Z level=INFO component=client_simulator message=submit_order request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=RECEIVED side=BUY qty=300 price=29.0
+ts=2026-06-02T14:00:00.301Z level=INFO component=client_simulator message=order_response request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=ACKED
+ts=2026-06-02T14:00:00.308Z level=INFO component=client_simulator message=submit_order request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=RECEIVED side=BUY qty=200 price=71.5
+ts=2026-06-02T14:00:00.378Z level=WARN component=client_simulator message=order_response request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND
+ts=2026-06-02T14:00:00.385Z level=INFO component=client_simulator message=submit_order request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=RECEIVED side=SELL qty=100 price=72.0
+ts=2026-06-02T14:00:00.455Z level=WARN component=client_simulator message=order_response request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND

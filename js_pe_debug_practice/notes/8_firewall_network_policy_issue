@@ -1,0 +1,14 @@
+Expected behavior: gateway should be able to reach risk
+Actual behavior: gateway unable to reach risk
+Correlation key: order_id=O8008
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: gateway -> risk (risk unreachable, timeout after 4s)
+Likely root cause: firewall denied gateway from accessing risk
+How I would verify: check the whitelisted firewall ip table 
+Fix: whitelist gateway ip
+Prevention: run script to check ip address of ips of components against firewall to flag missing
+
+gateway connect to risk at 10.0.2.20
+risk authoritative ip 10.0.2.20
+
+firewall denied gateway to risk (source 10.0.1.50 not allowed to dst 10.0.2.20)

@@ -1,0 +1,6 @@
+ts=2026-06-02T14:00:00.007Z level=INFO component=system message=periodic_healthcheck service=gateway status=ok cpu_pct=60 mem_pct=38
+ts=2026-06-02T14:00:00.014Z level=INFO component=system message=periodic_healthcheck service=order_service status=ok cpu_pct=21 mem_pct=58
+ts=2026-06-02T14:00:00.021Z level=INFO component=system message=periodic_healthcheck service=risk_engine status=ok cpu_pct=37 mem_pct=42
+ts=2026-06-02T14:00:00.028Z level=INFO component=system message=periodic_healthcheck service=order_router status=ok cpu_pct=34 mem_pct=39
+ts=2026-06-02T14:00:00.035Z level=INFO component=system message=periodic_healthcheck service=matching_engine status=ok cpu_pct=26 mem_pct=56
+ts=2026-06-02T14:00:00.462Z level=INFO component=system message=periodic_healthcheck service=gateway status=ok cpu_pct=25 mem_pct=41

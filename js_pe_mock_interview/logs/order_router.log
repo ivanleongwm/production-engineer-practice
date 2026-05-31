@@ -1,0 +1,4 @@
+ts=2026-06-02T14:00:00.133Z level=INFO component=order_router message=route_selected request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=ROUTED route=US_EQUITY destination=matching_engine
+ts=2026-06-02T14:00:00.245Z level=INFO component=order_router message=route_selected request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=ROUTED route=HK_EQUITY destination=matching_engine
+ts=2026-06-02T14:00:00.357Z level=ERROR component=order_router message=route_missing request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND config_key=BABA available_routes=0700.HK,AAPL,JD,MSFT,NVDA
+ts=2026-06-02T14:00:00.434Z level=ERROR component=order_router message=route_missing request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND config_key=BABA available_routes=0700.HK,AAPL,JD,MSFT,NVDA

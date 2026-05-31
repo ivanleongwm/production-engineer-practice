@@ -1,0 +1,12 @@
+ts=2026-06-02T14:00:00.091Z level=INFO component=gateway message=order_received request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=RECEIVED qty=50 price=175.0
+ts=2026-06-02T14:00:00.098Z level=INFO component=gateway message=forward_to_order_service request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=VALIDATED
+ts=2026-06-02T14:00:00.182Z level=INFO component=gateway message=ack_to_client request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=ACKED
+ts=2026-06-02T14:00:00.203Z level=INFO component=gateway message=order_received request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=RECEIVED qty=300 price=29.0
+ts=2026-06-02T14:00:00.210Z level=INFO component=gateway message=forward_to_order_service request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=VALIDATED
+ts=2026-06-02T14:00:00.294Z level=INFO component=gateway message=ack_to_client request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=ACKED
+ts=2026-06-02T14:00:00.315Z level=INFO component=gateway message=order_received request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=RECEIVED qty=200 price=71.5
+ts=2026-06-02T14:00:00.322Z level=INFO component=gateway message=forward_to_order_service request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=VALIDATED
+ts=2026-06-02T14:00:00.371Z level=WARN component=gateway message=ack_to_client request_id=REQ-A03 order_id=ORD-A03 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND
+ts=2026-06-02T14:00:00.392Z level=INFO component=gateway message=order_received request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=RECEIVED qty=100 price=72.0
+ts=2026-06-02T14:00:00.399Z level=INFO component=gateway message=forward_to_order_service request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=VALIDATED
+ts=2026-06-02T14:00:00.448Z level=WARN component=gateway message=ack_to_client request_id=REQ-A04 order_id=ORD-A04 client_id=C17 symbol=BABA state=REJECTED reason=ROUTE_NOT_FOUND

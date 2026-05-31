@@ -1,0 +1,3 @@
+ts=2026-06-02T14:00:00.077Z level=INFO component=position_service message=reconcile_pass client_id=C10 symbol=AAPL drift_shares=0 status=within_tolerance
+ts=2026-06-02T14:00:00.175Z level=INFO component=position_service message=position_update request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL exec_id=EXEC-ORD-A01 delta=50 new_position=50
+ts=2026-06-02T14:00:00.287Z level=INFO component=position_service message=position_update request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD exec_id=EXEC-ORD-A02 delta=300 new_position=300

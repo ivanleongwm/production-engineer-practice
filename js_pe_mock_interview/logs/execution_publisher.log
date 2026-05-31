@@ -1,0 +1,2 @@
+ts=2026-06-02T14:00:00.161Z level=INFO component=execution_publisher message=execution_published request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=PUBLISHED exec_id=EXEC-ORD-A01 topic=executions.v1
+ts=2026-06-02T14:00:00.273Z level=INFO component=execution_publisher message=execution_published request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=PUBLISHED exec_id=EXEC-ORD-A02 topic=executions.v1

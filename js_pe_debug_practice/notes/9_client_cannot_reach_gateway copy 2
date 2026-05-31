@@ -1,0 +1,11 @@
+Expected behavior: gateway should be able send order to order router
+Actual behavior: gateway unable to reach order router
+Correlation key: order_id=O9009
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: gateway -> order router (router unreachable)
+Likely root cause: order router service down due to out of memory
+How I would verify: ps aux check order router service still up? check system.log to see if it was killed and if memory kept increasing
+Fix: restart order router, make sure heartbeating
+Prevention: alert should sound if any key service goes down
+
+failed to connect to order router because its unreachable

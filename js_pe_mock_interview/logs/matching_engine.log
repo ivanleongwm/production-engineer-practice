@@ -1,0 +1,2 @@
+ts=2026-06-02T14:00:00.147Z level=INFO component=matching_engine message=order_filled request_id=REQ-A01 order_id=ORD-A01 client_id=C17 symbol=AAPL state=FILLED route=US_EQUITY exec_id=EXEC-ORD-A01 fill_qty=50 fill_price=175.0
+ts=2026-06-02T14:00:00.259Z level=INFO component=matching_engine message=order_filled request_id=REQ-A02 order_id=ORD-A02 client_id=C17 symbol=JD state=FILLED route=HK_EQUITY exec_id=EXEC-ORD-A02 fill_qty=300 fill_price=29.0

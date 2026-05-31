@@ -1,2 +1,71 @@
-2026-05-28T10:06:00.410Z INFO publisher heartbeat status=ok lag_ms=4
-2026-05-28T10:06:01.985Z INFO execution_published order_id=O6006 exec_id=E5606 status=FILLED
+ts=2026-05-28T10:09:08.226Z level=INFO service=execution_publisher host=node-b component=heartbeat event=heartbeat status=ok pid=10966
+ts=2026-05-28T10:09:15.086Z level=WARN pid=12004 host=node-a component=kafka reason=broker_election partition=3 lag_ms=12
+ts=2026-05-28T10:09:24.163Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17201 component=publish event=execution_published order_id=O9201 exec_id=E90201 status=FILLED latency_ms=8
+ts=2026-05-28T10:09:31.394Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17205 component=publish event=execution_published order_id=O9205 exec_id=E90205 status=FILLED latency_ms=8
+ts=2026-05-28T10:09:34.223Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17206 component=publish event=execution_published order_id=O9206 exec_id=E90206 status=FILLED latency_ms=3
+ts=2026-05-28T10:09:36.464Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17208 component=publish event=execution_published order_id=O9208 exec_id=E90208 status=FILLED latency_ms=7
+ts=2026-05-28T10:09:37.262Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17209 component=publish event=execution_published order_id=O9209 exec_id=E90209 status=FILLED latency_ms=5
+ts=2026-05-28T10:09:44.525Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17213 component=publish event=execution_published order_id=O9213 exec_id=E90213 status=FILLED latency_ms=3
+ts=2026-05-28T10:09:45.588Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17214 component=publish event=execution_published order_id=O9214 exec_id=E90214 status=FILLED latency_ms=8
+ts=2026-05-28T10:09:11.010Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17100 component=publish event=execution_published order_id=O9100 exec_id=E90100 status=FILLED latency_ms=2
+ts=2026-05-28T10:09:18.931Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17102 component=publish event=execution_published order_id=O9102 exec_id=E90102 status=FILLED latency_ms=3
+ts=2026-05-28T10:09:24.142Z level=INFO service=execution_publisher host=risk-host-1 component=heartbeat event=heartbeat status=ok pid=10075
+ts=2026-05-28T10:09:28.337Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17103 component=publish event=execution_published order_id=O9103 exec_id=E90103 status=FILLED latency_ms=9
+ts=2026-05-28T10:09:33.982Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17104 component=publish event=execution_published order_id=O9104 exec_id=E90104 status=FILLED latency_ms=9
+ts=2026-05-28T10:10:06.061Z level=INFO service=execution_publisher host=node-a component=heartbeat event=heartbeat status=ok pid=10921
+ts=2026-05-28T10:10:15.423Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17107 component=publish event=execution_published order_id=O9107 exec_id=E90107 status=FILLED latency_ms=5
+ts=2026-05-28T10:10:21.555Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17108 component=publish event=execution_published order_id=O9108 exec_id=E90108 status=FILLED latency_ms=2
+ts=2026-05-28T10:10:30.885Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17110 component=publish event=execution_published order_id=O9110 exec_id=E90110 status=FILLED latency_ms=7
+ts=2026-05-28T10:10:35.726Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17111 component=publish event=execution_published order_id=O9111 exec_id=E90111 status=FILLED latency_ms=3
+ts=2026-05-28T10:10:44.655Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17112 component=publish event=execution_published order_id=O9112 exec_id=E90112 status=FILLED latency_ms=8
+ts=2026-05-28T10:11:11.602Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17114 component=publish event=execution_published order_id=O9114 exec_id=E90114 status=FILLED latency_ms=8
+ts=2026-05-28T10:11:16.821Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17115 component=publish event=execution_published order_id=O9115 exec_id=E90115 status=FILLED latency_ms=4
+ts=2026-05-28T10:11:24.362Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17116 component=publish event=execution_published order_id=O9116 exec_id=E90116 status=FILLED latency_ms=8
+ts=2026-05-28T10:11:30.798Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17117 component=publish event=execution_published order_id=O9117 exec_id=E90117 status=FILLED latency_ms=2
+ts=2026-05-28T10:12:01.556Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17119 component=publish event=execution_published order_id=O9119 exec_id=E90119 status=FILLED latency_ms=4
+ts=2026-05-28T10:12:05.769Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17120 component=publish event=execution_published order_id=O9120 exec_id=E90120 status=FILLED latency_ms=7
+ts=2026-05-28T10:12:06.879Z level=INFO service=execution_publisher host=node-b component=heartbeat event=heartbeat status=ok pid=10372
+ts=2026-05-28T10:12:27.088Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17123 component=publish event=execution_published order_id=O9123 exec_id=E90123 status=FILLED latency_ms=7
+ts=2026-05-28T10:12:43.970Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17124 component=publish event=execution_published order_id=O9124 exec_id=E90124 status=FILLED latency_ms=5
+ts=2026-05-28T10:12:56.613Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17126 component=publish event=execution_published order_id=O9126 exec_id=E90126 status=FILLED latency_ms=5
+ts=2026-05-28T10:13:16.076Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17128 component=publish event=execution_published order_id=O9128 exec_id=E90128 status=FILLED latency_ms=6
+ts=2026-05-28T10:13:35.431Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17129 component=publish event=execution_published order_id=O9129 exec_id=E90129 status=FILLED latency_ms=3
+ts=2026-05-28T10:13:45.330Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17131 component=publish event=execution_published order_id=O9131 exec_id=E90131 status=FILLED latency_ms=9
+ts=2026-05-28T10:13:49.569Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17132 component=publish event=execution_published order_id=O9132 exec_id=E90132 status=FILLED latency_ms=4
+ts=2026-05-28T10:13:59.586Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17133 component=publish event=execution_published order_id=O9133 exec_id=E90133 status=FILLED latency_ms=3
+ts=2026-05-28T10:14:11.279Z level=INFO service=execution_publisher host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10836
+ts=2026-05-28T10:14:17.919Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17136 component=publish event=execution_published order_id=O9136 exec_id=E90136 status=FILLED latency_ms=6
+ts=2026-05-28T10:14:35.506Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17138 component=publish event=execution_published order_id=O9138 exec_id=E90138 status=FILLED latency_ms=9
+ts=2026-05-28T10:14:46.768Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17139 component=publish event=execution_published order_id=O9139 exec_id=E90139 status=FILLED latency_ms=6
+ts=2026-05-28T10:14:53.934Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17140 component=publish event=execution_published order_id=O9140 exec_id=E90140 status=FILLED latency_ms=2
+ts=2026-05-28T10:15:02.843Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17142 component=publish event=execution_published order_id=O9142 exec_id=E90142 status=FILLED latency_ms=7
+ts=2026-05-28T10:15:14.105Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17143 component=publish event=execution_published order_id=O9143 exec_id=E90143 status=FILLED latency_ms=2
+ts=2026-05-28T10:15:19.690Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17144 component=publish event=execution_published order_id=O9144 exec_id=E90144 status=FILLED latency_ms=5
+ts=2026-05-28T10:15:25.448Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17145 component=publish event=execution_published order_id=O9145 exec_id=E90145 status=FILLED latency_ms=9
+ts=2026-05-28T10:15:36.388Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17147 component=publish event=execution_published order_id=O9147 exec_id=E90147 status=FILLED latency_ms=2
+ts=2026-05-28T10:15:40.557Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17148 component=publish event=execution_published order_id=O9148 exec_id=E90148 status=FILLED latency_ms=7
+ts=2026-05-28T10:15:43.888Z level=INFO service=execution_publisher host=node-c component=heartbeat event=heartbeat status=ok pid=10400
+ts=2026-05-28T10:15:51.335Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17149 component=publish event=execution_published order_id=O9149 exec_id=E90149 status=FILLED latency_ms=5
+ts=2026-05-28T10:15:55.976Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17150 component=publish event=execution_published order_id=O9150 exec_id=E90150 status=FILLED latency_ms=8
+ts=2026-05-28T10:16:05.192Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17151 component=publish event=execution_published order_id=O9151 exec_id=E90151 status=FILLED latency_ms=2
+ts=2026-05-28T10:16:09.963Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17152 component=publish event=execution_published order_id=O9152 exec_id=E90152 status=FILLED latency_ms=4
+ts=2026-05-28T10:16:18.853Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17153 component=publish event=execution_published order_id=O9153 exec_id=E90153 status=FILLED latency_ms=9
+ts=2026-05-28T10:16:26.991Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17154 component=publish event=execution_published order_id=O9154 exec_id=E90154 status=FILLED latency_ms=7
+ts=2026-05-28T10:16:36.049Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17155 component=publish event=execution_published order_id=O9155 exec_id=E90155 status=FILLED latency_ms=8
+ts=2026-05-28T10:16:49.590Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17157 component=publish event=execution_published order_id=O9157 exec_id=E90157 status=FILLED latency_ms=5
+ts=2026-05-28T10:17:03.781Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17159 component=publish event=execution_published order_id=O9159 exec_id=E90159 status=FILLED latency_ms=8
+ts=2026-05-28T10:17:08.493Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17160 component=publish event=execution_published order_id=O9160 exec_id=E90160 status=FILLED latency_ms=3
+ts=2026-05-28T10:17:11.439Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17161 component=publish event=execution_published order_id=O9161 exec_id=E90161 status=FILLED latency_ms=9
+ts=2026-05-28T10:17:15.977Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17162 component=publish event=execution_published order_id=O9162 exec_id=E90162 status=FILLED latency_ms=9
+ts=2026-05-28T10:17:19.954Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17163 component=publish event=execution_published order_id=O9163 exec_id=E90163 status=FILLED latency_ms=8
+ts=2026-05-28T10:17:31.669Z level=INFO service=execution_publisher host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10172
+ts=2026-05-28T10:17:36.403Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17165 component=publish event=execution_published order_id=O9165 exec_id=E90165 status=FILLED latency_ms=7
+ts=2026-05-28T10:17:38.696Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17166 component=publish event=execution_published order_id=O9166 exec_id=E90166 status=FILLED latency_ms=9
+ts=2026-05-28T10:17:49.752Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17168 component=publish event=execution_published order_id=O9168 exec_id=E90168 status=FILLED latency_ms=6
+ts=2026-05-28T10:18:02.176Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17169 component=publish event=execution_published order_id=O9169 exec_id=E90169 status=FILLED latency_ms=3
+ts=2026-05-28T10:18:17.431Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17170 component=publish event=execution_published order_id=O9170 exec_id=E90170 status=FILLED latency_ms=9
+ts=2026-05-28T10:18:21.669Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17171 component=publish event=execution_published order_id=O9171 exec_id=E90171 status=FILLED latency_ms=3
+ts=2026-05-28T10:18:36.501Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17173 component=publish event=execution_published order_id=O9173 exec_id=E90173 status=FILLED latency_ms=6
+ts=2026-05-28T10:18:42.887Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17174 component=publish event=execution_published order_id=O9174 exec_id=E90174 status=FILLED latency_ms=7
+ts=2026-05-28T10:18:47.411Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17175 component=publish event=execution_published order_id=O9175 exec_id=E90175 status=FILLED latency_ms=4
+ts=2026-05-28T10:19:10.291Z level=INFO service=execution_publisher host=exec-pub-host-1 pid=17177 component=publish event=execution_published order_id=O9177 exec_id=E90177 status=FILLED latency_ms=5

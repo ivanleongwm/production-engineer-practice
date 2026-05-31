@@ -1,0 +1,12 @@
+Expected behavior: client should be able to reach gateway 
+Actual behavior: client unable to reach gateway for order O7007
+Correlation key: order_id=O6006
+System path: client -> gateway -> risk -> engine -> execution_publisher -> position
+First divergence: client -> gateway (unable to reach gateway after 3 seconds and time out)
+Likely root cause: stale dns cache, client unable to get ip of gateway in time.
+How I would verify: check gateway log and system log
+Fix: investigate reason for gateway latency
+Prevention: reduce latency at gateway by increasing capacity or reducing queue depth
+
+gateway heartbeat listening on 10.0.1.50, port 8080
+client sent order to 10.0.1.99, port 8080

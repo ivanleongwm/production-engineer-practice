@@ -1,0 +1,2 @@
+# Generated logs — do not commit noisy output if using git
+*.log

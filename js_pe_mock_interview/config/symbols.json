@@ -1,0 +1,9 @@
+{
+  "AAPL": {"enabled": true, "tick_size": 0.01, "lot_size": 1, "currency": "USD"},
+  "MSFT": {"enabled": true, "tick_size": 0.01, "lot_size": 1, "currency": "USD"},
+  "NVDA": {"enabled": true, "tick_size": 0.01, "lot_size": 1, "currency": "USD"},
+  "JD": {"enabled": true, "tick_size": 0.01, "lot_size": 100, "currency": "HKD"},
+  "BABA": {"enabled": true, "tick_size": 0.01, "lot_size": 100, "currency": "HKD"},
+  "0700.HK": {"enabled": true, "tick_size": 0.01, "lot_size": 100, "currency": "HKD"},
+  "DISABLED.X": {"enabled": false, "tick_size": 0.01, "lot_size": 1, "currency": "USD"}
+}
