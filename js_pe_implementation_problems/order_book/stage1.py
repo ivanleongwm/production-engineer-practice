@@ -1,3 +1,17 @@
+"""
+Key Invariants
+
+Bids are sorted highest price first.
+Asks are sorted lowest price first.
+Within the same price, earlier orders have priority.
+A trade only happens when prices cross.
+Trade price is the resting order price.
+Fully filled orders are removed from the book.
+Unfilled quantity rests in the book.
+
+"""
+
+
 from collections import defaultdict
 
 class OrderBook:
@@ -172,7 +186,7 @@ class OrderBook:
     def get_trades(self):
         return self.trades
 
-# Test out class
+print("########## Example 1: resting ask, then buy crosses ##############")
 
 book = OrderBook()
 
@@ -183,3 +197,28 @@ print(book.add_order("B1", "BUY", 11.0, 40))
 print("Best ask:", book.get_best_ask())
 print("Trades:", book.get_trades())
 print("Book:", book.get_book())
+
+
+print("########## Example 2: full fill removes resting order ##############"
+
+book.add_order("B2", "BUY", 10.0, 60)
+
+print("Best ask:", book.get_best_ask())
+print("Trades:", book.get_trades())
+print("Book:", book.get_book())
+
+
+print("########## Example 3: buy does not cross, so it rests ############## ")
+
+book.add_order("B3", "BUY", 9.0, 50)
+
+print("Best bid:", book.get_best_bid())
+print("Book:", book.get_book())
+
+
+print("########## Example 4: sell crosses best bid ############## ")
+
+trades = book.add_order("S2", "SELL", 8.0, 20)
+
+print("Trades from S2:", trades)
+print("Best bid:", book.get_best_bid())
