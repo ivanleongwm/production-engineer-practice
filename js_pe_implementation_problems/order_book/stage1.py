@@ -92,7 +92,7 @@ class OrderBook:
             resting_order = self.bids[0]
 
             trade_qty = min(incoming_order["qty"], resting_order["qty"])
-            trade_price = resting_order[0]["price"] # trade price = resting order price
+            trade_price = resting_order["price"] # trade price = resting order price
 
             trade = {
                 "sell_order_id": incoming_order["order_id"],
@@ -199,7 +199,7 @@ print("Trades:", book.get_trades())
 print("Book:", book.get_book())
 
 
-print("########## Example 2: full fill removes resting order ##############"
+print("########## Example 2: full fill removes resting order ##############")
 
 book.add_order("B2", "BUY", 10.0, 60)
 
