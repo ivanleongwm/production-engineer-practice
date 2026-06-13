@@ -1,329 +1,203 @@
-ts=2026-05-28T10:09:01.691Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=46 mem_pct=50 disk_pct=47 status=ok
-ts=2026-05-28T10:09:02.660Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=66 mem_pct=55 disk_pct=75 status=ok
-ts=2026-05-28T10:09:03.546Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=70 mem_pct=56 disk_pct=55 status=ok
-ts=2026-05-28T10:09:05.967Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=62 mem_pct=65 disk_pct=64 status=ok
-ts=2026-05-28T10:09:06.773Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=87 disk_pct=50 status=ok
-ts=2026-05-28T10:09:08.190Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=25 mem_pct=70 disk_pct=44 status=ok
-ts=2026-05-28T10:09:09.579Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:18.295Z level=WARN pid=12006 host=node-a service=gateway component=worker reason=slow_healthcheck latency_ms=88
-ts=2026-05-28T10:09:00.800Z level=ERROR service=order_router host=router-host-1 pid=8201 component=process event=process_exit reason=OOMKilled oom_score=987 restart_pending=true
-ts=2026-05-28T10:09:00.820Z level=INFO service=supervisor host=router-host-1 pid=8202 component=systemd event=restart_attempt target_service=order_router status=starting
-ts=2026-05-28T10:09:00.840Z level=INFO service=netstat-agent host=router-host-1 pid=8203 component=ss event=port_scan cmd=ss -lntp port_9100=not_listening note=nothing_listening_on_9100
-ts=2026-05-28T10:09:00.860Z level=INFO service=health-agent host=router-host-1 pid=8204 component=ping event=host_reachable target_host=10.0.3.30 icmp=ok
-ts=2026-05-28T10:09:02.761Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=44 mem_pct=50 disk_pct=67 status=ok
-ts=2026-05-28T10:09:03.810Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:04.967Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=75 disk_pct=61 status=ok
-ts=2026-05-28T10:09:06.223Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:07.579Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=45 mem_pct=61 disk_pct=67 status=ok
-ts=2026-05-28T10:09:08.788Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:12.750Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=26 mem_pct=65 disk_pct=50 status=ok
-ts=2026-05-28T10:09:13.716Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:16.213Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=55 mem_pct=46 disk_pct=41 status=ok
-ts=2026-05-28T10:09:17.334Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:19.733Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=64 mem_pct=42 disk_pct=42 status=ok
-ts=2026-05-28T10:09:21.905Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:24.108Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=62 mem_pct=53 disk_pct=56 status=ok
-ts=2026-05-28T10:09:25.908Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:29.350Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=68 mem_pct=76 disk_pct=62 status=ok
-ts=2026-05-28T10:09:31.025Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:34.657Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=47 disk_pct=68 status=ok
-ts=2026-05-28T10:09:36.640Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:38.920Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=27 mem_pct=56 disk_pct=69 status=ok
-ts=2026-05-28T10:09:40.283Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:41.721Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=55 mem_pct=73 disk_pct=60 status=ok
-ts=2026-05-28T10:09:43.262Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:48.037Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=33 mem_pct=77 disk_pct=49 status=ok
-ts=2026-05-28T10:09:49.151Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:51.484Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=50 mem_pct=38 disk_pct=49 status=ok
-ts=2026-05-28T10:09:52.795Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:55.157Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=46 mem_pct=81 disk_pct=62 status=ok
-ts=2026-05-28T10:09:55.851Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:56.833Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=67 mem_pct=72 disk_pct=43 status=ok
-ts=2026-05-28T10:09:57.666Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:09:59.594Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=62 disk_pct=75 status=ok
-ts=2026-05-28T10:10:00.235Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:02.530Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=65 mem_pct=59 disk_pct=65 status=ok
-ts=2026-05-28T10:10:03.707Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:06.035Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=19 mem_pct=84 disk_pct=44 status=ok
-ts=2026-05-28T10:10:07.474Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:11.509Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=55 mem_pct=61 disk_pct=78 status=ok
-ts=2026-05-28T10:10:12.726Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:17.423Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=28 mem_pct=60 disk_pct=53 status=ok
-ts=2026-05-28T10:10:18.670Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:22.920Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=55 mem_pct=40 disk_pct=60 status=ok
-ts=2026-05-28T10:10:24.392Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:26.002Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=71 mem_pct=62 disk_pct=64 status=ok
-ts=2026-05-28T10:10:27.741Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:32.850Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=21 mem_pct=81 disk_pct=42 status=ok
-ts=2026-05-28T10:10:34.662Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:37.018Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=40 disk_pct=63 status=ok
-ts=2026-05-28T10:10:39.052Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:40.574Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=51 mem_pct=51 disk_pct=61 status=ok
-ts=2026-05-28T10:10:41.423Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:42.235Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=51 mem_pct=54 disk_pct=46 status=ok
-ts=2026-05-28T10:10:43.344Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:46.384Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=48 mem_pct=74 disk_pct=43 status=ok
-ts=2026-05-28T10:10:48.436Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:49.729Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=61 mem_pct=43 disk_pct=62 status=ok
-ts=2026-05-28T10:10:50.649Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:52.865Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=60 mem_pct=46 disk_pct=47 status=ok
-ts=2026-05-28T10:10:53.803Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:10:56.245Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=65 mem_pct=60 disk_pct=49 status=ok
-ts=2026-05-28T10:10:57.176Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:02.331Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=38 mem_pct=44 disk_pct=55 status=ok
-ts=2026-05-28T10:11:03.626Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:05.831Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=36 mem_pct=39 disk_pct=76 status=ok
-ts=2026-05-28T10:11:06.887Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:09.034Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=55 mem_pct=56 disk_pct=63 status=ok
-ts=2026-05-28T10:11:09.684Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:12.641Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=51 mem_pct=83 disk_pct=53 status=ok
-ts=2026-05-28T10:11:13.463Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:14.290Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=18 mem_pct=45 disk_pct=48 status=ok
-ts=2026-05-28T10:11:16.039Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:18.342Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=71 mem_pct=68 disk_pct=72 status=ok
-ts=2026-05-28T10:11:19.535Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:20.678Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=18 mem_pct=87 disk_pct=41 status=ok
-ts=2026-05-28T10:11:21.858Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:25.884Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=51 mem_pct=52 disk_pct=65 status=ok
-ts=2026-05-28T10:11:26.563Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:27.500Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=30 mem_pct=70 disk_pct=61 status=ok
-ts=2026-05-28T10:11:29.514Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:32.355Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=50 mem_pct=79 disk_pct=58 status=ok
-ts=2026-05-28T10:11:34.112Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:35.620Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=68 mem_pct=75 disk_pct=65 status=ok
-ts=2026-05-28T10:11:36.588Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:38.482Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=59 mem_pct=45 disk_pct=45 status=ok
-ts=2026-05-28T10:11:39.211Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:41.548Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=23 mem_pct=69 disk_pct=48 status=ok
-ts=2026-05-28T10:11:43.624Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:44.425Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=50 mem_pct=57 disk_pct=66 status=ok
-ts=2026-05-28T10:11:46.169Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:48.626Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=18 mem_pct=62 disk_pct=77 status=ok
-ts=2026-05-28T10:11:50.353Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:54.503Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=49 mem_pct=50 disk_pct=47 status=ok
-ts=2026-05-28T10:11:55.551Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:11:57.753Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=57 mem_pct=76 disk_pct=41 status=ok
-ts=2026-05-28T10:11:58.866Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:02.999Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=48 disk_pct=51 status=ok
-ts=2026-05-28T10:12:03.987Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:06.850Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=54 mem_pct=73 disk_pct=52 status=ok
-ts=2026-05-28T10:12:07.653Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:10.891Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=58 disk_pct=53 status=ok
-ts=2026-05-28T10:12:13.071Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:13.923Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=29 mem_pct=84 disk_pct=58 status=ok
-ts=2026-05-28T10:12:15.052Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:18.950Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=60 mem_pct=63 disk_pct=55 status=ok
-ts=2026-05-28T10:12:21.008Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:23.255Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=25 mem_pct=38 disk_pct=71 status=ok
-ts=2026-05-28T10:12:25.073Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:29.071Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=27 mem_pct=57 disk_pct=69 status=ok
-ts=2026-05-28T10:12:30.797Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:32.792Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=54 mem_pct=76 disk_pct=73 status=ok
-ts=2026-05-28T10:12:34.256Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:36.696Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=27 mem_pct=38 disk_pct=66 status=ok
-ts=2026-05-28T10:12:37.646Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:38.742Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=39 mem_pct=48 disk_pct=60 status=ok
-ts=2026-05-28T10:12:39.908Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:40.836Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=33 mem_pct=56 disk_pct=42 status=ok
-ts=2026-05-28T10:12:41.483Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:45.134Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=30 mem_pct=72 disk_pct=56 status=ok
-ts=2026-05-28T10:12:46.267Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:50.906Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=46 mem_pct=58 disk_pct=73 status=ok
-ts=2026-05-28T10:12:52.945Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:54.321Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=47 mem_pct=40 disk_pct=65 status=ok
-ts=2026-05-28T10:12:55.354Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:12:58.059Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=60 disk_pct=52 status=ok
-ts=2026-05-28T10:12:59.585Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:01.707Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=59 mem_pct=65 disk_pct=65 status=ok
-ts=2026-05-28T10:13:02.514Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:04.694Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=45 mem_pct=41 disk_pct=59 status=ok
-ts=2026-05-28T10:13:06.415Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:08.177Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=69 disk_pct=72 status=ok
-ts=2026-05-28T10:13:10.088Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:11.363Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=69 mem_pct=60 disk_pct=68 status=ok
-ts=2026-05-28T10:13:13.016Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:14.452Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=37 disk_pct=47 status=ok
-ts=2026-05-28T10:13:15.244Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:17.653Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=24 mem_pct=67 disk_pct=44 status=ok
-ts=2026-05-28T10:13:19.475Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:21.641Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=25 mem_pct=53 disk_pct=48 status=ok
-ts=2026-05-28T10:13:23.188Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:25.568Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=46 mem_pct=38 disk_pct=53 status=ok
-ts=2026-05-28T10:13:26.781Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:28.700Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=24 mem_pct=84 disk_pct=52 status=ok
-ts=2026-05-28T10:13:29.858Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:32.113Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=19 mem_pct=37 disk_pct=68 status=ok
-ts=2026-05-28T10:13:32.893Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:36.637Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=39 mem_pct=77 disk_pct=67 status=ok
-ts=2026-05-28T10:13:38.102Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:41.550Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=53 mem_pct=72 disk_pct=45 status=ok
-ts=2026-05-28T10:13:42.843Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:46.112Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=60 mem_pct=87 disk_pct=45 status=ok
-ts=2026-05-28T10:13:47.683Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:51.772Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=68 mem_pct=83 disk_pct=50 status=ok
-ts=2026-05-28T10:13:53.593Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:13:55.332Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=28 mem_pct=37 disk_pct=55 status=ok
-ts=2026-05-28T10:13:56.443Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:01.878Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=21 mem_pct=60 disk_pct=60 status=ok
-ts=2026-05-28T10:14:03.761Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:05.220Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=71 mem_pct=57 disk_pct=54 status=ok
-ts=2026-05-28T10:14:06.846Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:11.240Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=79 disk_pct=44 status=ok
-ts=2026-05-28T10:14:12.260Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:15.121Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=50 mem_pct=54 disk_pct=42 status=ok
-ts=2026-05-28T10:14:16.860Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:19.123Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=44 mem_pct=62 disk_pct=52 status=ok
-ts=2026-05-28T10:14:20.668Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:22.604Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=53 mem_pct=76 disk_pct=58 status=ok
-ts=2026-05-28T10:14:23.808Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:25.284Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=70 mem_pct=42 disk_pct=64 status=ok
-ts=2026-05-28T10:14:27.422Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:30.951Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=56 mem_pct=59 disk_pct=45 status=ok
-ts=2026-05-28T10:14:32.683Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:36.466Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=24 mem_pct=47 disk_pct=64 status=ok
-ts=2026-05-28T10:14:37.136Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:38.585Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=20 mem_pct=77 disk_pct=46 status=ok
-ts=2026-05-28T10:14:40.174Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:41.725Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=30 mem_pct=41 disk_pct=53 status=ok
-ts=2026-05-28T10:14:42.713Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:44.105Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=51 mem_pct=64 disk_pct=51 status=ok
-ts=2026-05-28T10:14:45.021Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:48.570Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=53 mem_pct=54 disk_pct=56 status=ok
-ts=2026-05-28T10:14:49.528Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:51.175Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=56 mem_pct=80 disk_pct=63 status=ok
-ts=2026-05-28T10:14:52.299Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:54.561Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=53 mem_pct=84 disk_pct=68 status=ok
-ts=2026-05-28T10:14:55.940Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:14:58.917Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=63 mem_pct=43 disk_pct=75 status=ok
-ts=2026-05-28T10:15:00.663Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:03.544Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=71 mem_pct=57 disk_pct=51 status=ok
-ts=2026-05-28T10:15:05.319Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:07.431Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=49 mem_pct=38 disk_pct=52 status=ok
-ts=2026-05-28T10:15:09.322Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:11.395Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=44 mem_pct=76 disk_pct=67 status=ok
-ts=2026-05-28T10:15:13.062Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:15.815Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=36 mem_pct=35 disk_pct=70 status=ok
-ts=2026-05-28T10:15:17.498Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:21.820Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=48 mem_pct=86 disk_pct=64 status=ok
-ts=2026-05-28T10:15:23.390Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:26.370Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=30 mem_pct=67 disk_pct=64 status=ok
-ts=2026-05-28T10:15:27.719Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:29.297Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=55 mem_pct=72 disk_pct=51 status=ok
-ts=2026-05-28T10:15:31.076Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:33.964Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=28 mem_pct=57 disk_pct=54 status=ok
-ts=2026-05-28T10:15:34.621Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:37.257Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=27 mem_pct=56 disk_pct=57 status=ok
-ts=2026-05-28T10:15:39.217Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:41.440Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=46 mem_pct=75 disk_pct=73 status=ok
-ts=2026-05-28T10:15:42.253Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:43.867Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=35 mem_pct=55 disk_pct=47 status=ok
-ts=2026-05-28T10:15:45.476Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:46.663Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=38 disk_pct=59 status=ok
-ts=2026-05-28T10:15:47.266Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:48.629Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=42 mem_pct=86 disk_pct=76 status=ok
-ts=2026-05-28T10:15:49.436Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:52.610Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=32 mem_pct=40 disk_pct=41 status=ok
-ts=2026-05-28T10:15:53.946Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:15:58.117Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=71 mem_pct=42 disk_pct=75 status=ok
-ts=2026-05-28T10:15:59.702Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:01.252Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=35 mem_pct=57 disk_pct=49 status=ok
-ts=2026-05-28T10:16:02.210Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:06.572Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=63 mem_pct=59 disk_pct=41 status=ok
-ts=2026-05-28T10:16:07.226Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:11.972Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=23 mem_pct=61 disk_pct=69 status=ok
-ts=2026-05-28T10:16:12.683Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:14.676Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=51 mem_pct=64 disk_pct=56 status=ok
-ts=2026-05-28T10:16:15.812Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:20.334Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=52 mem_pct=65 disk_pct=48 status=ok
-ts=2026-05-28T10:16:21.651Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:23.520Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=67 mem_pct=53 disk_pct=65 status=ok
-ts=2026-05-28T10:16:24.757Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:27.797Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=58 mem_pct=58 disk_pct=46 status=ok
-ts=2026-05-28T10:16:29.808Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:32.130Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=32 mem_pct=86 disk_pct=76 status=ok
-ts=2026-05-28T10:16:33.355Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:38.206Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=34 mem_pct=69 disk_pct=62 status=ok
-ts=2026-05-28T10:16:39.089Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:40.393Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=43 mem_pct=78 disk_pct=69 status=ok
-ts=2026-05-28T10:16:41.671Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:45.208Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=22 mem_pct=63 disk_pct=61 status=ok
-ts=2026-05-28T10:16:47.357Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:50.224Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=59 disk_pct=47 status=ok
-ts=2026-05-28T10:16:51.136Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:54.765Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=48 mem_pct=57 disk_pct=59 status=ok
-ts=2026-05-28T10:16:56.265Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:57.091Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=63 mem_pct=61 disk_pct=62 status=ok
-ts=2026-05-28T10:16:58.795Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:16:59.681Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=52 mem_pct=78 disk_pct=55 status=ok
-ts=2026-05-28T10:17:01.486Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:04.722Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=19 mem_pct=61 disk_pct=63 status=ok
-ts=2026-05-28T10:17:05.677Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:09.642Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=53 mem_pct=39 disk_pct=73 status=ok
-ts=2026-05-28T10:17:10.300Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:12.596Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=75 disk_pct=47 status=ok
-ts=2026-05-28T10:17:13.342Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:14.302Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=72 mem_pct=83 disk_pct=77 status=ok
-ts=2026-05-28T10:17:15.130Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:16.668Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=62 mem_pct=52 disk_pct=76 status=ok
-ts=2026-05-28T10:17:17.346Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:21.490Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=27 mem_pct=74 disk_pct=56 status=ok
-ts=2026-05-28T10:17:22.729Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:25.157Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=60 disk_pct=52 status=ok
-ts=2026-05-28T10:17:25.976Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:26.848Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=68 mem_pct=62 disk_pct=47 status=ok
-ts=2026-05-28T10:17:28.457Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:31.657Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=59 disk_pct=70 status=ok
-ts=2026-05-28T10:17:33.274Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:37.167Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=58 mem_pct=86 disk_pct=69 status=ok
-ts=2026-05-28T10:17:37.787Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:40.922Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=60 mem_pct=81 disk_pct=54 status=ok
-ts=2026-05-28T10:17:42.609Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:47.606Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=56 mem_pct=77 disk_pct=63 status=ok
-ts=2026-05-28T10:17:48.844Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:51.992Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=44 mem_pct=51 disk_pct=71 status=ok
-ts=2026-05-28T10:17:54.122Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:55.384Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=53 mem_pct=50 disk_pct=46 status=ok
-ts=2026-05-28T10:17:56.745Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:17:59.168Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=18 mem_pct=82 disk_pct=78 status=ok
-ts=2026-05-28T10:18:01.053Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:03.686Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=37 mem_pct=44 disk_pct=42 status=ok
-ts=2026-05-28T10:18:04.832Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:07.306Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=47 mem_pct=44 disk_pct=66 status=ok
-ts=2026-05-28T10:18:09.274Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:11.739Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=63 mem_pct=83 disk_pct=62 status=ok
-ts=2026-05-28T10:18:12.820Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:14.791Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=47 disk_pct=69 status=ok
-ts=2026-05-28T10:18:15.974Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:18.631Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=26 mem_pct=81 disk_pct=76 status=ok
-ts=2026-05-28T10:18:19.399Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:22.342Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=68 mem_pct=86 disk_pct=57 status=ok
-ts=2026-05-28T10:18:23.545Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:26.585Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=54 disk_pct=67 status=ok
-ts=2026-05-28T10:18:28.635Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:30.503Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=70 mem_pct=70 disk_pct=66 status=ok
-ts=2026-05-28T10:18:32.288Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:33.942Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=75 disk_pct=65 status=ok
-ts=2026-05-28T10:18:35.055Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:38.127Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=24 mem_pct=58 disk_pct=55 status=ok
-ts=2026-05-28T10:18:39.994Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:44.515Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=37 mem_pct=42 disk_pct=53 status=ok
-ts=2026-05-28T10:18:45.715Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:48.330Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=48 mem_pct=44 disk_pct=45 status=ok
-ts=2026-05-28T10:18:49.297Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:51.510Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=33 mem_pct=76 disk_pct=60 status=ok
-ts=2026-05-28T10:18:52.579Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:54.722Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=37 mem_pct=79 disk_pct=64 status=ok
-ts=2026-05-28T10:18:55.755Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:18:58.851Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=46 mem_pct=73 disk_pct=78 status=ok
-ts=2026-05-28T10:19:00.293Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:02.614Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=39 mem_pct=59 disk_pct=76 status=ok
-ts=2026-05-28T10:19:03.939Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:05.023Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=59 mem_pct=88 disk_pct=49 status=ok
-ts=2026-05-28T10:19:05.931Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:07.123Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=49 disk_pct=65 status=ok
-ts=2026-05-28T10:19:09.105Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:12.155Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=41 disk_pct=44 status=ok
-ts=2026-05-28T10:19:13.660Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:15.963Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=57 mem_pct=74 disk_pct=76 status=ok
-ts=2026-05-28T10:19:17.926Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
-ts=2026-05-28T10:19:20.573Z level=WARN service=telemetry host=node-a component=timezone event=timezone_mismatch reason=display_only note=local_ts_may_differ_from_utc
+ts=2026-05-28T10:06:01.431Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=18 mem_pct=63 disk_pct=55 status=ok
+ts=2026-05-28T10:06:03.546Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=52 mem_pct=37 disk_pct=59 status=ok
+ts=2026-05-28T10:06:05.623Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=50 mem_pct=42 disk_pct=41 status=ok
+ts=2026-05-28T10:06:06.854Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=56 mem_pct=47 disk_pct=70 status=ok
+ts=2026-05-28T10:06:09.101Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=60 mem_pct=83 disk_pct=47 status=ok
+ts=2026-05-28T10:06:10.755Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=71 mem_pct=79 disk_pct=66 status=ok
+ts=2026-05-28T10:06:12.335Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:20.718Z level=WARN pid=12006 host=node-a service=gateway component=worker reason=slow_healthcheck latency_ms=88
+ts=2026-05-28T10:06:00.970Z level=WARN service=gateway host=gateway-host-1 pid=9201 component=queue event=backlog queue=gateway_to_risk depth=1840
+ts=2026-05-28T10:06:00.975Z level=WARN service=gateway host=gateway-host-1 pid=9201 component=worker event=worker_state worker=worker-3 state=down restart_count=4
+ts=2026-05-28T10:06:02.287Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=20 mem_pct=45 disk_pct=62 status=ok
+ts=2026-05-28T10:06:04.447Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:05.359Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=27 mem_pct=46 disk_pct=53 status=ok
+ts=2026-05-28T10:06:07.306Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:10.856Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=40 disk_pct=50 status=ok
+ts=2026-05-28T10:06:12.981Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:17.553Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=24 mem_pct=39 disk_pct=55 status=ok
+ts=2026-05-28T10:06:19.447Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:22.870Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=72 mem_pct=40 disk_pct=56 status=ok
+ts=2026-05-28T10:06:24.788Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:27.743Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=31 mem_pct=51 disk_pct=52 status=ok
+ts=2026-05-28T10:06:28.722Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:32.572Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=43 mem_pct=47 disk_pct=59 status=ok
+ts=2026-05-28T10:06:34.259Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:38.658Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=48 mem_pct=51 disk_pct=59 status=ok
+ts=2026-05-28T10:06:40.388Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:42.466Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=82 disk_pct=49 status=ok
+ts=2026-05-28T10:06:43.143Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:44.988Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=66 mem_pct=48 disk_pct=62 status=ok
+ts=2026-05-28T10:06:45.645Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:46.587Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=46 mem_pct=81 disk_pct=46 status=ok
+ts=2026-05-28T10:06:47.972Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:51.175Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=60 mem_pct=78 disk_pct=46 status=ok
+ts=2026-05-28T10:06:52.020Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:52.922Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=38 mem_pct=37 disk_pct=74 status=ok
+ts=2026-05-28T10:06:53.537Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:06:55.568Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=61 mem_pct=52 disk_pct=44 status=ok
+ts=2026-05-28T10:06:57.593Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:02.413Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=61 mem_pct=36 disk_pct=54 status=ok
+ts=2026-05-28T10:07:04.310Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:06.799Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=50 mem_pct=74 disk_pct=54 status=ok
+ts=2026-05-28T10:07:07.690Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:10.613Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=68 mem_pct=64 disk_pct=69 status=ok
+ts=2026-05-28T10:07:12.123Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:15.496Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=27 mem_pct=58 disk_pct=46 status=ok
+ts=2026-05-28T10:07:16.230Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:20.326Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=59 mem_pct=64 disk_pct=68 status=ok
+ts=2026-05-28T10:07:22.493Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:26.587Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=53 mem_pct=56 disk_pct=66 status=ok
+ts=2026-05-28T10:07:27.928Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:32.799Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=37 mem_pct=41 disk_pct=78 status=ok
+ts=2026-05-28T10:07:34.374Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:36.788Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=21 mem_pct=60 disk_pct=72 status=ok
+ts=2026-05-28T10:07:38.689Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:42.053Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=51 mem_pct=86 disk_pct=55 status=ok
+ts=2026-05-28T10:07:44.206Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:46.573Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=39 mem_pct=40 disk_pct=50 status=ok
+ts=2026-05-28T10:07:47.228Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:50.209Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=24 mem_pct=74 disk_pct=57 status=ok
+ts=2026-05-28T10:07:51.069Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:52.018Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=69 mem_pct=57 disk_pct=64 status=ok
+ts=2026-05-28T10:07:54.047Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:07:56.376Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=56 mem_pct=81 disk_pct=49 status=ok
+ts=2026-05-28T10:07:58.070Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:00.920Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=35 mem_pct=83 disk_pct=41 status=ok
+ts=2026-05-28T10:08:01.624Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:03.120Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=54 mem_pct=50 disk_pct=43 status=ok
+ts=2026-05-28T10:08:04.033Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:07.180Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=68 mem_pct=38 disk_pct=66 status=ok
+ts=2026-05-28T10:08:07.796Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:08.644Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=27 mem_pct=51 disk_pct=65 status=ok
+ts=2026-05-28T10:08:10.104Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:13.902Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=27 mem_pct=36 disk_pct=57 status=ok
+ts=2026-05-28T10:08:15.550Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:18.223Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=50 mem_pct=66 disk_pct=41 status=ok
+ts=2026-05-28T10:08:19.201Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:20.313Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=67 disk_pct=67 status=ok
+ts=2026-05-28T10:08:21.668Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:23.323Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=28 mem_pct=63 disk_pct=63 status=ok
+ts=2026-05-28T10:08:25.170Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:29.483Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=18 mem_pct=55 disk_pct=67 status=ok
+ts=2026-05-28T10:08:31.568Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:35.852Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=59 mem_pct=53 disk_pct=55 status=ok
+ts=2026-05-28T10:08:37.743Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:42.522Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=66 mem_pct=52 disk_pct=75 status=ok
+ts=2026-05-28T10:08:43.257Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:47.547Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=36 disk_pct=53 status=ok
+ts=2026-05-28T10:08:48.235Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:49.938Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=26 mem_pct=59 disk_pct=61 status=ok
+ts=2026-05-28T10:08:51.417Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:53.462Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=32 mem_pct=86 disk_pct=74 status=ok
+ts=2026-05-28T10:08:54.223Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:08:59.058Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=40 mem_pct=45 disk_pct=78 status=ok
+ts=2026-05-28T10:09:00.400Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:03.440Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=55 mem_pct=88 disk_pct=76 status=ok
+ts=2026-05-28T10:09:05.027Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:06.791Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=67 mem_pct=81 disk_pct=62 status=ok
+ts=2026-05-28T10:09:08.018Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:09.485Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=39 mem_pct=43 disk_pct=58 status=ok
+ts=2026-05-28T10:09:11.411Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:12.832Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=24 mem_pct=62 disk_pct=47 status=ok
+ts=2026-05-28T10:09:14.466Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:16.296Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=20 mem_pct=69 disk_pct=48 status=ok
+ts=2026-05-28T10:09:17.272Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:20.248Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=21 mem_pct=75 disk_pct=43 status=ok
+ts=2026-05-28T10:09:22.258Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:26.746Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=40 mem_pct=36 disk_pct=56 status=ok
+ts=2026-05-28T10:09:28.017Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:29.983Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=44 mem_pct=64 disk_pct=47 status=ok
+ts=2026-05-28T10:09:31.869Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:33.473Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=62 mem_pct=82 disk_pct=77 status=ok
+ts=2026-05-28T10:09:35.219Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:38.649Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=20 mem_pct=45 disk_pct=76 status=ok
+ts=2026-05-28T10:09:40.263Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:44.551Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=71 mem_pct=87 disk_pct=76 status=ok
+ts=2026-05-28T10:09:45.901Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:48.702Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=43 mem_pct=65 disk_pct=66 status=ok
+ts=2026-05-28T10:09:50.470Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:52.460Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=60 mem_pct=39 disk_pct=64 status=ok
+ts=2026-05-28T10:09:54.195Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:09:58.842Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=53 mem_pct=48 disk_pct=62 status=ok
+ts=2026-05-28T10:10:00.733Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:03.221Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=70 mem_pct=45 disk_pct=67 status=ok
+ts=2026-05-28T10:10:04.332Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:06.705Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=72 mem_pct=43 disk_pct=78 status=ok
+ts=2026-05-28T10:10:08.055Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:09.350Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=46 mem_pct=69 disk_pct=72 status=ok
+ts=2026-05-28T10:10:10.617Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:15.692Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=67 mem_pct=38 disk_pct=73 status=ok
+ts=2026-05-28T10:10:16.359Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:19.538Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=23 mem_pct=55 disk_pct=48 status=ok
+ts=2026-05-28T10:10:20.884Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:23.768Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=61 mem_pct=73 disk_pct=61 status=ok
+ts=2026-05-28T10:10:25.134Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:27.163Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=52 mem_pct=36 disk_pct=59 status=ok
+ts=2026-05-28T10:10:28.398Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:29.523Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=19 mem_pct=42 disk_pct=43 status=ok
+ts=2026-05-28T10:10:30.978Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:33.286Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=31 mem_pct=77 disk_pct=67 status=ok
+ts=2026-05-28T10:10:34.903Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:39.308Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=65 disk_pct=62 status=ok
+ts=2026-05-28T10:10:40.046Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:43.702Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=25 mem_pct=79 disk_pct=60 status=ok
+ts=2026-05-28T10:10:45.444Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:46.375Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=31 mem_pct=39 disk_pct=66 status=ok
+ts=2026-05-28T10:10:47.911Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:51.459Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=59 mem_pct=82 disk_pct=61 status=ok
+ts=2026-05-28T10:10:52.898Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:10:56.243Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=70 disk_pct=78 status=ok
+ts=2026-05-28T10:10:57.194Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:00.718Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=30 mem_pct=76 disk_pct=67 status=ok
+ts=2026-05-28T10:11:02.916Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:06.425Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=61 disk_pct=51 status=ok
+ts=2026-05-28T10:11:07.204Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:09.338Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=59 mem_pct=88 disk_pct=49 status=ok
+ts=2026-05-28T10:11:10.191Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:12.894Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=53 mem_pct=59 disk_pct=41 status=ok
+ts=2026-05-28T10:11:14.101Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:15.307Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=24 mem_pct=57 disk_pct=65 status=ok
+ts=2026-05-28T10:11:17.393Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:19.804Z level=INFO service=health-agent host=risk-host-1 component=healthcheck event=periodic_check cpu_pct=30 mem_pct=36 disk_pct=51 status=ok
+ts=2026-05-28T10:11:20.974Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:22.116Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=19 mem_pct=49 disk_pct=51 status=ok
+ts=2026-05-28T10:11:23.237Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:27.518Z level=INFO service=health-agent host=node-c component=healthcheck event=periodic_check cpu_pct=37 mem_pct=48 disk_pct=67 status=ok
+ts=2026-05-28T10:11:28.459Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:30.715Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=64 mem_pct=45 disk_pct=59 status=ok
+ts=2026-05-28T10:11:32.675Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:35.414Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=61 mem_pct=57 disk_pct=66 status=ok
+ts=2026-05-28T10:11:36.190Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:38.180Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=51 mem_pct=83 disk_pct=53 status=ok
+ts=2026-05-28T10:11:39.314Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:43.627Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=63 mem_pct=75 disk_pct=67 status=ok
+ts=2026-05-28T10:11:44.677Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:48.680Z level=INFO service=health-agent host=node-b component=healthcheck event=periodic_check cpu_pct=62 mem_pct=61 disk_pct=45 status=ok
+ts=2026-05-28T10:11:49.933Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:52.329Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=18 mem_pct=83 disk_pct=42 status=ok
+ts=2026-05-28T10:11:53.794Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:55.523Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=39 disk_pct=55 status=ok
+ts=2026-05-28T10:11:56.639Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:11:59.883Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=45 mem_pct=84 disk_pct=50 status=ok
+ts=2026-05-28T10:12:00.862Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:04.209Z level=INFO service=health-agent host=engine-host-1 component=healthcheck event=periodic_check cpu_pct=58 mem_pct=35 disk_pct=71 status=ok
+ts=2026-05-28T10:12:05.142Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:06.736Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=23 mem_pct=65 disk_pct=63 status=ok
+ts=2026-05-28T10:12:08.604Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:09.709Z level=INFO service=health-agent host=engine-host-2 component=healthcheck event=periodic_check cpu_pct=49 mem_pct=43 disk_pct=57 status=ok
+ts=2026-05-28T10:12:11.690Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:12.836Z level=INFO service=health-agent host=gateway-host-1 component=healthcheck event=periodic_check cpu_pct=26 mem_pct=35 disk_pct=42 status=ok
+ts=2026-05-28T10:12:13.997Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:18.612Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=39 mem_pct=80 disk_pct=65 status=ok
+ts=2026-05-28T10:12:19.764Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:23.722Z level=INFO service=health-agent host=node-a component=healthcheck event=periodic_check cpu_pct=40 mem_pct=62 disk_pct=62 status=ok
+ts=2026-05-28T10:12:25.463Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:28.845Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=69 mem_pct=66 disk_pct=68 status=ok
+ts=2026-05-28T10:12:29.812Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:32.075Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=41 mem_pct=86 disk_pct=68 status=ok
+ts=2026-05-28T10:12:33.376Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:34.954Z level=INFO service=health-agent host=gateway-host-2 component=healthcheck event=periodic_check cpu_pct=52 mem_pct=77 disk_pct=51 status=ok
+ts=2026-05-28T10:12:36.750Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:40.957Z level=INFO service=health-agent host=exec-pub-host-1 component=healthcheck event=periodic_check cpu_pct=72 mem_pct=47 disk_pct=71 status=ok
+ts=2026-05-28T10:12:42.048Z level=WARN pid=12000 host=node-a service=md-feed component=connectivity reason=transient_spike latency_ms=45
+ts=2026-05-28T10:12:42.948Z level=WARN service=telemetry host=node-a component=timezone event=timezone_mismatch reason=display_only note=local_ts_may_differ_from_utc

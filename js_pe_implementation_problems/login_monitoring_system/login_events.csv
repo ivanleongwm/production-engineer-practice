@@ -1,0 +1,5 @@
+user_id,timestamp,success
+"alice", 10, False
+"bob", 15, False
+"alice", 40, False
+"alice", 60, False
