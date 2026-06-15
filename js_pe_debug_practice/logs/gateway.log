@@ -1,160 +1,174 @@
-ts=2026-05-28T10:06:13.861Z level=WARN pid=12001 host=node-a component=rate_limiter reason=burst_detected client_id=C900 action=throttle_skipped
-ts=2026-05-28T10:06:24.582Z level=INFO service=gateway host=gateway-host-2 pid=14200 component=ingress event=order_received order_id=O9200 client_id=C505 symbol=AMZN side=BUY qty=25 trace_id=T-O9200 latency_ms=9
-ts=2026-05-28T10:06:24.659Z level=INFO service=gateway host=gateway-host-1 pid=14200 component=egress event=ack_to_client order_id=O9200 status=ACK latency_ms=117
-ts=2026-05-28T10:06:25.381Z level=INFO service=gateway host=gateway-host-2 pid=14201 component=ingress event=order_received order_id=O9201 client_id=C303 symbol=NVDA side=BUY qty=25 trace_id=T-O9201 latency_ms=8
-ts=2026-05-28T10:06:25.458Z level=INFO service=gateway host=gateway-host-1 pid=14201 component=egress event=ack_to_client order_id=O9201 status=ACK latency_ms=111
-ts=2026-05-28T10:06:27.074Z level=INFO service=gateway host=gateway-host-1 pid=14202 component=ingress event=order_received order_id=O9202 client_id=C101 symbol=GOOG side=SELL qty=200 trace_id=T-O9202 latency_ms=6
-ts=2026-05-28T10:06:27.151Z level=INFO service=gateway host=gateway-host-1 pid=14202 component=egress event=ack_to_client order_id=O9202 status=ACK latency_ms=83
-ts=2026-05-28T10:06:29.194Z level=INFO service=gateway host=gateway-host-1 pid=14203 component=ingress event=order_received order_id=O9203 client_id=C111 symbol=BRK.B side=SELL qty=50 trace_id=T-O9203 latency_ms=5
-ts=2026-05-28T10:06:29.271Z level=INFO service=gateway host=gateway-host-1 pid=14203 component=egress event=ack_to_client order_id=O9203 status=ACK latency_ms=86
-ts=2026-05-28T10:06:29.834Z level=INFO service=gateway host=gateway-host-2 pid=14204 component=ingress event=order_received order_id=O9204 client_id=C303 symbol=NVDA side=SELL qty=50 trace_id=T-O9204 latency_ms=7
-ts=2026-05-28T10:06:29.911Z level=INFO service=gateway host=gateway-host-1 pid=14204 component=egress event=ack_to_client order_id=O9204 status=ACK latency_ms=89
-ts=2026-05-28T10:06:31.627Z level=INFO service=gateway host=gateway-host-2 pid=14205 component=ingress event=order_received order_id=O9205 client_id=C818 symbol=MSFT side=SELL qty=100 trace_id=T-O9205 latency_ms=17
-ts=2026-05-28T10:06:31.704Z level=INFO service=gateway host=gateway-host-1 pid=14205 component=egress event=ack_to_client order_id=O9205 status=ACK latency_ms=105
-ts=2026-05-28T10:06:34.151Z level=INFO service=gateway host=gateway-host-1 pid=14206 component=ingress event=order_received order_id=O9206 client_id=C303 symbol=META side=BUY qty=25 trace_id=T-O9206 latency_ms=20
-ts=2026-05-28T10:06:34.228Z level=INFO service=gateway host=gateway-host-1 pid=14206 component=egress event=ack_to_client order_id=O9206 status=ACK latency_ms=92
-ts=2026-05-28T10:06:35.159Z level=INFO service=gateway host=gateway-host-2 pid=14207 component=ingress event=order_received order_id=O9207 client_id=C900 symbol=AMZN side=BUY qty=25 trace_id=T-O9207 latency_ms=21
-ts=2026-05-28T10:06:35.236Z level=INFO service=gateway host=gateway-host-1 pid=14207 component=egress event=ack_to_client order_id=O9207 status=ACK latency_ms=119
-ts=2026-05-28T10:06:37.540Z level=INFO service=gateway host=gateway-host-2 pid=14208 component=ingress event=order_received order_id=O9208 client_id=C505 symbol=0700.HK side=SELL qty=200 trace_id=T-O9208 latency_ms=11
-ts=2026-05-28T10:06:37.617Z level=INFO service=gateway host=gateway-host-1 pid=14208 component=egress event=ack_to_client order_id=O9208 status=ACK latency_ms=102
-ts=2026-05-28T10:06:39.315Z level=INFO service=gateway host=gateway-host-1 pid=14209 component=ingress event=order_received order_id=O9209 client_id=C111 symbol=9988.HK side=BUY qty=10 trace_id=T-O9209 latency_ms=20
-ts=2026-05-28T10:06:39.392Z level=INFO service=gateway host=gateway-host-1 pid=14209 component=egress event=ack_to_client order_id=O9209 status=ACK latency_ms=129
-ts=2026-05-28T10:06:40.448Z level=INFO service=gateway host=gateway-host-1 pid=14210 component=ingress event=order_received order_id=O9210 client_id=C606 symbol=GOOG side=SELL qty=10 trace_id=T-O9210 latency_ms=3
-ts=2026-05-28T10:06:40.525Z level=INFO service=gateway host=gateway-host-1 pid=14210 component=egress event=ack_to_client order_id=O9210 status=ACK latency_ms=121
-ts=2026-05-28T10:06:42.798Z level=INFO service=gateway host=gateway-host-2 pid=14211 component=ingress event=order_received order_id=O9211 client_id=C505 symbol=9988.HK side=BUY qty=100 trace_id=T-O9211 latency_ms=11
-ts=2026-05-28T10:06:42.875Z level=INFO service=gateway host=gateway-host-1 pid=14211 component=egress event=ack_to_client order_id=O9211 status=ACK latency_ms=81
-ts=2026-05-28T10:06:44.363Z level=INFO service=gateway host=gateway-host-2 pid=14212 component=ingress event=order_received order_id=O9212 client_id=C818 symbol=GOOG side=BUY qty=50 trace_id=T-O9212 latency_ms=12
-ts=2026-05-28T10:06:44.440Z level=INFO service=gateway host=gateway-host-1 pid=14212 component=egress event=ack_to_client order_id=O9212 status=ACK latency_ms=127
-ts=2026-05-28T10:06:45.341Z level=INFO service=gateway host=gateway-host-2 pid=14213 component=ingress event=order_received order_id=O9213 client_id=C606 symbol=MSFT side=BUY qty=200 trace_id=T-O9213 latency_ms=18
-ts=2026-05-28T10:06:45.418Z level=INFO service=gateway host=gateway-host-1 pid=14213 component=egress event=ack_to_client order_id=O9213 status=ACK latency_ms=136
-ts=2026-05-28T10:06:47.832Z level=INFO service=gateway host=gateway-host-2 pid=14214 component=ingress event=order_received order_id=O9214 client_id=C707 symbol=MSFT side=BUY qty=10 trace_id=T-O9214 latency_ms=18
-ts=2026-05-28T10:06:47.909Z level=INFO service=gateway host=gateway-host-1 pid=14214 component=egress event=ack_to_client order_id=O9214 status=ACK latency_ms=119
-ts=2026-05-28T10:06:00.920Z level=INFO service=gateway host=gateway-host-1 pid=9201 component=ingress event=order_received order_id=O6006 client_id=C606 symbol=META side=BUY qty=120 trace_id=T-O6006 latency_ms=6
-ts=2026-05-28T10:06:00.940Z level=INFO service=gateway host=gateway-host-1 pid=9201 component=router event=order_routed order_id=O6006 route=risk svc=risk-v1 trace_id=T-O6006
-ts=2026-05-28T10:06:00.955Z level=WARN service=gateway host=gateway-host-1 pid=9201 component=queue event=queue_enqueue order_id=O6006 queue=gateway_to_risk depth=1840
-ts=2026-05-28T10:06:01.820Z level=INFO service=gateway host=gateway-host-1 pid=9201 component=egress event=ack_to_client order_id=O6006 status=ACK latency_ms=920
-ts=2026-05-28T10:06:09.607Z level=INFO service=gateway host=gateway-host-2 pid=14100 component=ingress event=order_received order_id=O9100 client_id=C202 symbol=AMZN side=BUY qty=25 trace_id=T-O9100 latency_ms=10
-ts=2026-05-28T10:06:09.684Z level=INFO service=gateway host=gateway-host-1 pid=14100 component=egress event=ack_to_client order_id=O9100 status=ACK latency_ms=137
-ts=2026-05-28T10:06:15.357Z level=INFO service=gateway host=gateway-host-2 pid=14101 component=ingress event=order_received order_id=O9101 client_id=C505 symbol=AAPL side=SELL qty=50 trace_id=T-O9101 latency_ms=11
-ts=2026-05-28T10:06:15.434Z level=INFO service=gateway host=gateway-host-1 pid=14101 component=egress event=ack_to_client order_id=O9101 status=ACK latency_ms=103
-ts=2026-05-28T10:06:20.957Z level=INFO service=gateway host=gateway-host-2 pid=14102 component=ingress event=order_received order_id=O9102 client_id=C505 symbol=BRK.B side=SELL qty=10 trace_id=T-O9102 latency_ms=13
-ts=2026-05-28T10:06:21.034Z level=INFO service=gateway host=gateway-host-1 pid=14102 component=egress event=ack_to_client order_id=O9102 status=ACK latency_ms=137
-ts=2026-05-28T10:06:22.893Z level=INFO service=order_router host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10984
-ts=2026-05-28T10:06:26.651Z level=INFO service=gateway host=gateway-host-1 pid=14103 component=ingress event=order_received order_id=O9103 client_id=C202 symbol=AAPL side=SELL qty=10 trace_id=T-O9103 latency_ms=21
-ts=2026-05-28T10:06:26.728Z level=INFO service=gateway host=gateway-host-1 pid=14103 component=egress event=ack_to_client order_id=O9103 status=ACK latency_ms=109
-ts=2026-05-28T10:06:30.868Z level=INFO service=gateway host=gateway-host-2 pid=14104 component=ingress event=order_received order_id=O9104 client_id=C202 symbol=NVDA side=BUY qty=50 trace_id=T-O9104 latency_ms=18
-ts=2026-05-28T10:06:30.945Z level=INFO service=gateway host=gateway-host-1 pid=14104 component=egress event=ack_to_client order_id=O9104 status=ACK latency_ms=80
-ts=2026-05-28T10:06:36.612Z level=INFO service=gateway host=gateway-host-1 pid=14105 component=ingress event=order_received order_id=O9105 client_id=C707 symbol=NVDA side=BUY qty=100 trace_id=T-O9105 latency_ms=20
-ts=2026-05-28T10:06:36.689Z level=INFO service=gateway host=gateway-host-1 pid=14105 component=egress event=ack_to_client order_id=O9105 status=ACK latency_ms=134
-ts=2026-05-28T10:06:38.669Z level=INFO service=gateway host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10337
-ts=2026-05-28T10:06:41.529Z level=INFO service=gateway host=gateway-host-1 pid=14106 component=ingress event=order_received order_id=O9106 client_id=C101 symbol=NVDA side=SELL qty=10 trace_id=T-O9106 latency_ms=18
-ts=2026-05-28T10:06:41.606Z level=INFO service=gateway host=gateway-host-1 pid=14106 component=egress event=ack_to_client order_id=O9106 status=ACK latency_ms=84
-ts=2026-05-28T10:06:49.571Z level=INFO service=gateway host=gateway-host-1 pid=14107 component=ingress event=order_received order_id=O9107 client_id=C818 symbol=BRK.B side=SELL qty=200 trace_id=T-O9107 latency_ms=19
-ts=2026-05-28T10:06:49.648Z level=INFO service=gateway host=gateway-host-1 pid=14107 component=egress event=ack_to_client order_id=O9107 status=ACK latency_ms=93
-ts=2026-05-28T10:07:00.169Z level=INFO service=gateway host=gateway-host-2 pid=14108 component=ingress event=order_received order_id=O9108 client_id=C900 symbol=MSFT side=BUY qty=25 trace_id=T-O9108 latency_ms=12
-ts=2026-05-28T10:07:00.246Z level=INFO service=gateway host=gateway-host-1 pid=14108 component=egress event=ack_to_client order_id=O9108 status=ACK latency_ms=88
-ts=2026-05-28T10:07:02.443Z level=INFO service=order_router host=node-a component=heartbeat event=heartbeat status=ok pid=10068
-ts=2026-05-28T10:07:08.587Z level=INFO service=gateway host=gateway-host-1 pid=14109 component=ingress event=order_received order_id=O9109 client_id=C707 symbol=AMZN side=BUY qty=50 trace_id=T-O9109 latency_ms=14
-ts=2026-05-28T10:07:08.664Z level=INFO service=gateway host=gateway-host-1 pid=14109 component=egress event=ack_to_client order_id=O9109 status=ACK latency_ms=129
-ts=2026-05-28T10:07:13.172Z level=INFO service=gateway host=gateway-host-2 pid=14110 component=ingress event=order_received order_id=O9110 client_id=C818 symbol=AAPL side=SELL qty=200 trace_id=T-O9110 latency_ms=9
-ts=2026-05-28T10:07:13.249Z level=INFO service=gateway host=gateway-host-1 pid=14110 component=egress event=ack_to_client order_id=O9110 status=ACK latency_ms=115
-ts=2026-05-28T10:07:18.388Z level=INFO service=gateway host=gateway-host-2 pid=14111 component=ingress event=order_received order_id=O9111 client_id=C111 symbol=AMZN side=SELL qty=200 trace_id=T-O9111 latency_ms=3
-ts=2026-05-28T10:07:18.465Z level=INFO service=gateway host=gateway-host-1 pid=14111 component=egress event=ack_to_client order_id=O9111 status=ACK latency_ms=126
-ts=2026-05-28T10:07:24.768Z level=INFO service=gateway host=gateway-host-2 pid=14112 component=ingress event=order_received order_id=O9112 client_id=C818 symbol=BRK.B side=SELL qty=50 trace_id=T-O9112 latency_ms=15
-ts=2026-05-28T10:07:24.845Z level=INFO service=gateway host=gateway-host-1 pid=14112 component=egress event=ack_to_client order_id=O9112 status=ACK latency_ms=118
-ts=2026-05-28T10:07:30.510Z level=INFO service=gateway host=gateway-host-1 pid=14113 component=ingress event=order_received order_id=O9113 client_id=C101 symbol=AAPL side=SELL qty=25 trace_id=T-O9113 latency_ms=9
-ts=2026-05-28T10:07:30.587Z level=INFO service=gateway host=gateway-host-1 pid=14113 component=egress event=ack_to_client order_id=O9113 status=ACK latency_ms=108
-ts=2026-05-28T10:07:40.890Z level=INFO service=gateway host=gateway-host-1 pid=14114 component=ingress event=order_received order_id=O9114 client_id=C111 symbol=TSLA side=SELL qty=200 trace_id=T-O9114 latency_ms=12
-ts=2026-05-28T10:07:40.967Z level=INFO service=gateway host=gateway-host-1 pid=14114 component=egress event=ack_to_client order_id=O9114 status=ACK latency_ms=98
-ts=2026-05-28T10:07:46.599Z level=INFO service=gateway host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10278
-ts=2026-05-28T10:07:49.381Z level=INFO service=gateway host=gateway-host-2 pid=14115 component=ingress event=order_received order_id=O9115 client_id=C202 symbol=TSLA side=SELL qty=25 trace_id=T-O9115 latency_ms=13
-ts=2026-05-28T10:07:49.458Z level=INFO service=gateway host=gateway-host-1 pid=14115 component=egress event=ack_to_client order_id=O9115 status=ACK latency_ms=82
-ts=2026-05-28T10:07:50.237Z level=INFO service=order_router host=gateway-host-1 component=heartbeat event=heartbeat status=ok pid=10926
-ts=2026-05-28T10:07:59.988Z level=INFO service=gateway host=gateway-host-2 pid=14116 component=ingress event=order_received order_id=O9116 client_id=C900 symbol=BRK.B side=SELL qty=25 trace_id=T-O9116 latency_ms=5
-ts=2026-05-28T10:08:00.065Z level=INFO service=gateway host=gateway-host-1 pid=14116 component=egress event=ack_to_client order_id=O9116 status=ACK latency_ms=123
-ts=2026-05-28T10:08:05.675Z level=INFO service=gateway host=gateway-host-1 pid=14117 component=ingress event=order_received order_id=O9117 client_id=C818 symbol=META side=BUY qty=50 trace_id=T-O9117 latency_ms=7
-ts=2026-05-28T10:08:05.752Z level=INFO service=gateway host=gateway-host-1 pid=14117 component=egress event=ack_to_client order_id=O9117 status=ACK latency_ms=119
-ts=2026-05-28T10:08:08.670Z level=INFO service=order_router host=node-a component=heartbeat event=heartbeat status=ok pid=10013
-ts=2026-05-28T10:08:12.628Z level=INFO service=gateway host=gateway-host-2 pid=14118 component=ingress event=order_received order_id=O9118 client_id=C505 symbol=MSFT side=BUY qty=50 trace_id=T-O9118 latency_ms=3
-ts=2026-05-28T10:08:12.705Z level=INFO service=gateway host=gateway-host-1 pid=14118 component=egress event=ack_to_client order_id=O9118 status=ACK latency_ms=82
-ts=2026-05-28T10:08:16.526Z level=INFO service=gateway host=gateway-host-1 pid=14119 component=ingress event=order_received order_id=O9119 client_id=C606 symbol=AMZN side=SELL qty=10 trace_id=T-O9119 latency_ms=14
-ts=2026-05-28T10:08:16.603Z level=INFO service=gateway host=gateway-host-1 pid=14119 component=egress event=ack_to_client order_id=O9119 status=ACK latency_ms=103
-ts=2026-05-28T10:08:28.013Z level=INFO service=gateway host=gateway-host-1 pid=14120 component=ingress event=order_received order_id=O9120 client_id=C505 symbol=META side=BUY qty=25 trace_id=T-O9120 latency_ms=4
-ts=2026-05-28T10:08:28.090Z level=INFO service=gateway host=gateway-host-1 pid=14120 component=egress event=ack_to_client order_id=O9120 status=ACK latency_ms=120
-ts=2026-05-28T10:08:34.450Z level=INFO service=gateway host=gateway-host-1 pid=14121 component=ingress event=order_received order_id=O9121 client_id=C202 symbol=AAPL side=SELL qty=100 trace_id=T-O9121 latency_ms=6
-ts=2026-05-28T10:08:34.527Z level=INFO service=gateway host=gateway-host-1 pid=14121 component=egress event=ack_to_client order_id=O9121 status=ACK latency_ms=125
-ts=2026-05-28T10:08:40.394Z level=INFO service=gateway host=gateway-host-2 pid=14122 component=ingress event=order_received order_id=O9122 client_id=C818 symbol=9988.HK side=BUY qty=10 trace_id=T-O9122 latency_ms=16
-ts=2026-05-28T10:08:40.471Z level=INFO service=gateway host=gateway-host-1 pid=14122 component=egress event=ack_to_client order_id=O9122 status=ACK latency_ms=111
-ts=2026-05-28T10:08:45.145Z level=INFO service=gateway host=gateway-host-1 pid=14123 component=ingress event=order_received order_id=O9123 client_id=C202 symbol=NVDA side=SELL qty=50 trace_id=T-O9123 latency_ms=9
-ts=2026-05-28T10:08:45.222Z level=INFO service=gateway host=gateway-host-1 pid=14123 component=egress event=ack_to_client order_id=O9123 status=ACK latency_ms=100
-ts=2026-05-28T10:08:57.170Z level=INFO service=gateway host=gateway-host-1 pid=14124 component=ingress event=order_received order_id=O9124 client_id=C404 symbol=AMZN side=SELL qty=200 trace_id=T-O9124 latency_ms=19
-ts=2026-05-28T10:08:57.247Z level=INFO service=gateway host=gateway-host-1 pid=14124 component=egress event=ack_to_client order_id=O9124 status=ACK latency_ms=110
-ts=2026-05-28T10:09:02.064Z level=INFO service=gateway host=gateway-host-2 pid=14125 component=ingress event=order_received order_id=O9125 client_id=C111 symbol=9988.HK side=SELL qty=50 trace_id=T-O9125 latency_ms=4
-ts=2026-05-28T10:09:02.141Z level=INFO service=gateway host=gateway-host-1 pid=14125 component=egress event=ack_to_client order_id=O9125 status=ACK latency_ms=88
-ts=2026-05-28T10:09:19.017Z level=INFO service=gateway host=gateway-host-1 pid=14126 component=ingress event=order_received order_id=O9126 client_id=C505 symbol=MSFT side=BUY qty=10 trace_id=T-O9126 latency_ms=7
-ts=2026-05-28T10:09:19.094Z level=INFO service=gateway host=gateway-host-1 pid=14126 component=egress event=ack_to_client order_id=O9126 status=ACK latency_ms=124
-ts=2026-05-28T10:09:24.380Z level=INFO service=gateway host=gateway-host-1 pid=14127 component=ingress event=order_received order_id=O9127 client_id=C606 symbol=GOOG side=BUY qty=25 trace_id=T-O9127 latency_ms=6
-ts=2026-05-28T10:09:24.457Z level=INFO service=gateway host=gateway-host-1 pid=14127 component=egress event=ack_to_client order_id=O9127 status=ACK latency_ms=81
-ts=2026-05-28T10:09:30.002Z level=INFO service=gateway host=node-a component=heartbeat event=heartbeat status=ok pid=10810
-ts=2026-05-28T10:09:37.673Z level=INFO service=gateway host=gateway-host-1 pid=14128 component=ingress event=order_received order_id=O9128 client_id=C707 symbol=AMZN side=BUY qty=100 trace_id=T-O9128 latency_ms=6
-ts=2026-05-28T10:09:37.750Z level=INFO service=gateway host=gateway-host-1 pid=14128 component=egress event=ack_to_client order_id=O9128 status=ACK latency_ms=115
-ts=2026-05-28T10:09:42.967Z level=INFO service=gateway host=gateway-host-2 pid=14129 component=ingress event=order_received order_id=O9129 client_id=C606 symbol=AAPL side=BUY qty=50 trace_id=T-O9129 latency_ms=11
-ts=2026-05-28T10:09:43.044Z level=INFO service=gateway host=gateway-host-1 pid=14129 component=egress event=ack_to_client order_id=O9129 status=ACK latency_ms=124
-ts=2026-05-28T10:09:47.014Z level=INFO service=gateway host=gateway-host-1 pid=14130 component=ingress event=order_received order_id=O9130 client_id=C202 symbol=AMZN side=SELL qty=100 trace_id=T-O9130 latency_ms=10
-ts=2026-05-28T10:09:47.091Z level=INFO service=gateway host=gateway-host-1 pid=14130 component=egress event=ack_to_client order_id=O9130 status=ACK latency_ms=112
-ts=2026-05-28T10:09:57.150Z level=INFO service=gateway host=gateway-host-1 pid=14131 component=ingress event=order_received order_id=O9131 client_id=C606 symbol=META side=BUY qty=200 trace_id=T-O9131 latency_ms=7
-ts=2026-05-28T10:09:57.227Z level=INFO service=gateway host=gateway-host-1 pid=14131 component=egress event=ack_to_client order_id=O9131 status=ACK latency_ms=111
-ts=2026-05-28T10:10:01.868Z level=INFO service=gateway host=gateway-host-2 pid=14132 component=ingress event=order_received order_id=O9132 client_id=C818 symbol=9988.HK side=BUY qty=100 trace_id=T-O9132 latency_ms=5
-ts=2026-05-28T10:10:01.945Z level=INFO service=gateway host=gateway-host-1 pid=14132 component=egress event=ack_to_client order_id=O9132 status=ACK latency_ms=138
-ts=2026-05-28T10:10:13.592Z level=INFO service=gateway host=gateway-host-1 pid=14133 component=ingress event=order_received order_id=O9133 client_id=C202 symbol=META side=SELL qty=50 trace_id=T-O9133 latency_ms=4
-ts=2026-05-28T10:10:13.669Z level=INFO service=gateway host=gateway-host-1 pid=14133 component=egress event=ack_to_client order_id=O9133 status=ACK latency_ms=110
-ts=2026-05-28T10:10:15.703Z level=INFO service=gateway host=risk-host-1 component=heartbeat event=heartbeat status=ok pid=10582
-ts=2026-05-28T10:10:17.200Z level=INFO service=gateway host=gateway-host-1 pid=14134 component=ingress event=order_received order_id=O9134 client_id=C606 symbol=AMZN side=SELL qty=50 trace_id=T-O9134 latency_ms=16
-ts=2026-05-28T10:10:17.277Z level=INFO service=gateway host=gateway-host-1 pid=14134 component=egress event=ack_to_client order_id=O9134 status=ACK latency_ms=98
-ts=2026-05-28T10:10:21.887Z level=INFO service=gateway host=gateway-host-1 pid=14135 component=ingress event=order_received order_id=O9135 client_id=C111 symbol=AMZN side=SELL qty=10 trace_id=T-O9135 latency_ms=17
-ts=2026-05-28T10:10:21.964Z level=INFO service=gateway host=gateway-host-1 pid=14135 component=egress event=ack_to_client order_id=O9135 status=ACK latency_ms=137
-ts=2026-05-28T10:10:25.966Z level=INFO service=gateway host=gateway-host-2 pid=14136 component=ingress event=order_received order_id=O9136 client_id=C202 symbol=META side=BUY qty=50 trace_id=T-O9136 latency_ms=22
-ts=2026-05-28T10:10:26.043Z level=INFO service=gateway host=gateway-host-1 pid=14136 component=egress event=ack_to_client order_id=O9136 status=ACK latency_ms=129
-ts=2026-05-28T10:10:37.417Z level=INFO service=gateway host=gateway-host-1 pid=14137 component=ingress event=order_received order_id=O9137 client_id=C101 symbol=AMZN side=SELL qty=10 trace_id=T-O9137 latency_ms=21
-ts=2026-05-28T10:10:37.494Z level=INFO service=gateway host=gateway-host-1 pid=14137 component=egress event=ack_to_client order_id=O9137 status=ACK latency_ms=92
-ts=2026-05-28T10:10:42.200Z level=INFO service=gateway host=gateway-host-2 pid=14138 component=ingress event=order_received order_id=O9138 client_id=C818 symbol=NVDA side=SELL qty=25 trace_id=T-O9138 latency_ms=5
-ts=2026-05-28T10:10:42.277Z level=INFO service=gateway host=gateway-host-1 pid=14138 component=egress event=ack_to_client order_id=O9138 status=ACK latency_ms=108
-ts=2026-05-28T10:10:49.999Z level=INFO service=gateway host=gateway-host-2 pid=14139 component=ingress event=order_received order_id=O9139 client_id=C404 symbol=9988.HK side=BUY qty=50 trace_id=T-O9139 latency_ms=18
-ts=2026-05-28T10:10:50.076Z level=INFO service=gateway host=gateway-host-1 pid=14139 component=egress event=ack_to_client order_id=O9139 status=ACK latency_ms=128
-ts=2026-05-28T10:10:54.077Z level=INFO service=gateway host=gateway-host-1 pid=14140 component=ingress event=order_received order_id=O9140 client_id=C404 symbol=META side=SELL qty=100 trace_id=T-O9140 latency_ms=3
-ts=2026-05-28T10:10:54.154Z level=INFO service=gateway host=gateway-host-1 pid=14140 component=egress event=ack_to_client order_id=O9140 status=ACK latency_ms=107
-ts=2026-05-28T10:10:58.927Z level=INFO service=gateway host=gateway-host-1 pid=14141 component=ingress event=order_received order_id=O9141 client_id=C900 symbol=9988.HK side=SELL qty=25 trace_id=T-O9141 latency_ms=22
-ts=2026-05-28T10:10:59.004Z level=INFO service=gateway host=gateway-host-1 pid=14141 component=egress event=ack_to_client order_id=O9141 status=ACK latency_ms=126
-ts=2026-05-28T10:11:05.577Z level=INFO service=gateway host=gateway-host-2 pid=14142 component=ingress event=order_received order_id=O9142 client_id=C707 symbol=META side=BUY qty=25 trace_id=T-O9142 latency_ms=8
-ts=2026-05-28T10:11:05.654Z level=INFO service=gateway host=gateway-host-1 pid=14142 component=egress event=ack_to_client order_id=O9142 status=ACK latency_ms=110
-ts=2026-05-28T10:11:08.080Z level=INFO service=gateway host=gateway-host-1 pid=14143 component=ingress event=order_received order_id=O9143 client_id=C303 symbol=AMZN side=SELL qty=10 trace_id=T-O9143 latency_ms=7
-ts=2026-05-28T10:11:08.157Z level=INFO service=gateway host=gateway-host-1 pid=14143 component=egress event=ack_to_client order_id=O9143 status=ACK latency_ms=134
-ts=2026-05-28T10:11:10.929Z level=INFO service=gateway host=gateway-host-2 pid=14144 component=ingress event=order_received order_id=O9144 client_id=C707 symbol=0700.HK side=SELL qty=25 trace_id=T-O9144 latency_ms=10
-ts=2026-05-28T10:11:11.006Z level=INFO service=gateway host=gateway-host-1 pid=14144 component=egress event=ack_to_client order_id=O9144 status=ACK latency_ms=130
-ts=2026-05-28T10:11:25.490Z level=INFO service=gateway host=gateway-host-1 pid=14145 component=ingress event=order_received order_id=O9145 client_id=C303 symbol=META side=SELL qty=25 trace_id=T-O9145 latency_ms=3
-ts=2026-05-28T10:11:25.567Z level=INFO service=gateway host=gateway-host-1 pid=14145 component=egress event=ack_to_client order_id=O9145 status=ACK latency_ms=83
-ts=2026-05-28T10:11:30.724Z level=INFO service=order_router host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10980
-ts=2026-05-28T10:11:34.205Z level=INFO service=gateway host=gateway-host-1 pid=14146 component=ingress event=order_received order_id=O9146 client_id=C900 symbol=META side=BUY qty=25 trace_id=T-O9146 latency_ms=3
-ts=2026-05-28T10:11:34.282Z level=INFO service=gateway host=gateway-host-1 pid=14146 component=egress event=ack_to_client order_id=O9146 status=ACK latency_ms=109
-ts=2026-05-28T10:11:37.111Z level=INFO service=gateway host=gateway-host-2 pid=14147 component=ingress event=order_received order_id=O9147 client_id=C111 symbol=NVDA side=SELL qty=100 trace_id=T-O9147 latency_ms=22
-ts=2026-05-28T10:11:37.188Z level=INFO service=gateway host=gateway-host-1 pid=14147 component=egress event=ack_to_client order_id=O9147 status=ACK latency_ms=97
-ts=2026-05-28T10:11:38.212Z level=INFO service=order_router host=node-a component=heartbeat event=heartbeat status=ok pid=10902
-ts=2026-05-28T10:11:41.296Z level=INFO service=gateway host=gateway-host-2 pid=14148 component=ingress event=order_received order_id=O9148 client_id=C404 symbol=MSFT side=SELL qty=200 trace_id=T-O9148 latency_ms=15
-ts=2026-05-28T10:11:41.373Z level=INFO service=gateway host=gateway-host-1 pid=14148 component=egress event=ack_to_client order_id=O9148 status=ACK latency_ms=82
-ts=2026-05-28T10:11:47.197Z level=INFO service=gateway host=gateway-host-1 pid=14149 component=ingress event=order_received order_id=O9149 client_id=C707 symbol=AMZN side=SELL qty=25 trace_id=T-O9149 latency_ms=18
-ts=2026-05-28T10:11:47.274Z level=INFO service=gateway host=gateway-host-1 pid=14149 component=egress event=ack_to_client order_id=O9149 status=ACK latency_ms=119
-ts=2026-05-28T10:11:52.367Z level=INFO service=gateway host=gateway-host-1 component=heartbeat event=heartbeat status=ok pid=10864
-ts=2026-05-28T10:11:54.335Z level=INFO service=gateway host=gateway-host-1 pid=14150 component=ingress event=order_received order_id=O9150 client_id=C818 symbol=META side=SELL qty=50 trace_id=T-O9150 latency_ms=14
-ts=2026-05-28T10:11:54.412Z level=INFO service=gateway host=gateway-host-1 pid=14150 component=egress event=ack_to_client order_id=O9150 status=ACK latency_ms=128
-ts=2026-05-28T10:11:58.188Z level=INFO service=gateway host=gateway-host-2 pid=14151 component=ingress event=order_received order_id=O9151 client_id=C900 symbol=META side=BUY qty=10 trace_id=T-O9151 latency_ms=21
-ts=2026-05-28T10:11:58.265Z level=INFO service=gateway host=gateway-host-1 pid=14151 component=egress event=ack_to_client order_id=O9151 status=ACK latency_ms=136
-ts=2026-05-28T10:12:01.831Z level=INFO service=gateway host=gateway-host-2 pid=14152 component=ingress event=order_received order_id=O9152 client_id=C505 symbol=AMZN side=SELL qty=10 trace_id=T-O9152 latency_ms=19
-ts=2026-05-28T10:12:01.908Z level=INFO service=gateway host=gateway-host-1 pid=14152 component=egress event=ack_to_client order_id=O9152 status=ACK latency_ms=81
-ts=2026-05-28T10:12:16.166Z level=INFO service=gateway host=gateway-host-1 pid=14153 component=ingress event=order_received order_id=O9153 client_id=C707 symbol=AAPL side=SELL qty=25 trace_id=T-O9153 latency_ms=11
-ts=2026-05-28T10:12:16.243Z level=INFO service=gateway host=gateway-host-1 pid=14153 component=egress event=ack_to_client order_id=O9153 status=ACK latency_ms=80
-ts=2026-05-28T10:12:22.630Z level=INFO service=gateway host=gateway-host-1 pid=14154 component=ingress event=order_received order_id=O9154 client_id=C505 symbol=NVDA side=SELL qty=10 trace_id=T-O9154 latency_ms=6
-ts=2026-05-28T10:12:22.707Z level=INFO service=gateway host=gateway-host-1 pid=14154 component=egress event=ack_to_client order_id=O9154 status=ACK latency_ms=125
-ts=2026-05-28T10:12:28.024Z level=INFO service=gateway host=gateway-host-1 pid=14155 component=ingress event=order_received order_id=O9155 client_id=C111 symbol=0700.HK side=SELL qty=10 trace_id=T-O9155 latency_ms=18
-ts=2026-05-28T10:12:28.101Z level=INFO service=gateway host=gateway-host-1 pid=14155 component=egress event=ack_to_client order_id=O9155 status=ACK latency_ms=126
-ts=2026-05-28T10:12:39.588Z level=INFO service=gateway host=gateway-host-2 pid=14156 component=ingress event=order_received order_id=O9156 client_id=C404 symbol=AAPL side=SELL qty=100 trace_id=T-O9156 latency_ms=14
-ts=2026-05-28T10:12:39.665Z level=INFO service=gateway host=gateway-host-1 pid=14156 component=egress event=ack_to_client order_id=O9156 status=ACK latency_ms=127
+ts=2026-05-28T10:19:06.369Z level=INFO service=gateway host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10467
+ts=2026-05-28T10:19:12.083Z level=WARN pid=12001 host=node-a component=rate_limiter reason=burst_detected client_id=C900 action=throttle_skipped
+ts=2026-05-28T10:19:23.922Z level=INFO service=gateway host=gateway-host-2 pid=14200 component=ingress event=order_received order_id=O9200 client_id=C900 symbol=META side=SELL qty=10 trace_id=T-O9200 latency_ms=4
+ts=2026-05-28T10:19:23.999Z level=INFO service=gateway host=gateway-host-1 pid=14200 component=egress event=ack_to_client order_id=O9200 status=ACK latency_ms=95
+ts=2026-05-28T10:19:25.626Z level=INFO service=gateway host=gateway-host-1 pid=14201 component=ingress event=order_received order_id=O9201 client_id=C202 symbol=BRK.B side=BUY qty=10 trace_id=T-O9201 latency_ms=7
+ts=2026-05-28T10:19:25.703Z level=INFO service=gateway host=gateway-host-1 pid=14201 component=egress event=ack_to_client order_id=O9201 status=ACK latency_ms=103
+ts=2026-05-28T10:19:26.331Z level=INFO service=gateway host=gateway-host-2 pid=14202 component=ingress event=order_received order_id=O9202 client_id=C505 symbol=BRK.B side=BUY qty=10 trace_id=T-O9202 latency_ms=4
+ts=2026-05-28T10:19:26.408Z level=INFO service=gateway host=gateway-host-1 pid=14202 component=egress event=ack_to_client order_id=O9202 status=ACK latency_ms=131
+ts=2026-05-28T10:19:27.897Z level=INFO service=gateway host=gateway-host-2 pid=14203 component=ingress event=order_received order_id=O9203 client_id=C900 symbol=GOOG side=BUY qty=200 trace_id=T-O9203 latency_ms=15
+ts=2026-05-28T10:19:27.974Z level=INFO service=gateway host=gateway-host-1 pid=14203 component=egress event=ack_to_client order_id=O9203 status=ACK latency_ms=129
+ts=2026-05-28T10:19:30.236Z level=INFO service=gateway host=gateway-host-1 pid=14204 component=ingress event=order_received order_id=O9204 client_id=C101 symbol=MSFT side=SELL qty=25 trace_id=T-O9204 latency_ms=13
+ts=2026-05-28T10:19:30.313Z level=INFO service=gateway host=gateway-host-1 pid=14204 component=egress event=ack_to_client order_id=O9204 status=ACK latency_ms=97
+ts=2026-05-28T10:19:31.999Z level=INFO service=gateway host=gateway-host-1 pid=14205 component=ingress event=order_received order_id=O9205 client_id=C111 symbol=9988.HK side=SELL qty=10 trace_id=T-O9205 latency_ms=15
+ts=2026-05-28T10:19:32.076Z level=INFO service=gateway host=gateway-host-1 pid=14205 component=egress event=ack_to_client order_id=O9205 status=ACK latency_ms=98
+ts=2026-05-28T10:19:33.835Z level=INFO service=gateway host=gateway-host-2 pid=14206 component=ingress event=order_received order_id=O9206 client_id=C111 symbol=TSLA side=SELL qty=100 trace_id=T-O9206 latency_ms=19
+ts=2026-05-28T10:19:33.912Z level=INFO service=gateway host=gateway-host-1 pid=14206 component=egress event=ack_to_client order_id=O9206 status=ACK latency_ms=115
+ts=2026-05-28T10:19:36.328Z level=INFO service=gateway host=gateway-host-2 pid=14207 component=ingress event=order_received order_id=O9207 client_id=C111 symbol=TSLA side=BUY qty=10 trace_id=T-O9207 latency_ms=22
+ts=2026-05-28T10:19:36.405Z level=INFO service=gateway host=gateway-host-1 pid=14207 component=egress event=ack_to_client order_id=O9207 status=ACK latency_ms=106
+ts=2026-05-28T10:19:37.669Z level=INFO service=gateway host=gateway-host-1 pid=14208 component=ingress event=order_received order_id=O9208 client_id=C707 symbol=GOOG side=SELL qty=25 trace_id=T-O9208 latency_ms=12
+ts=2026-05-28T10:19:37.746Z level=INFO service=gateway host=gateway-host-1 pid=14208 component=egress event=ack_to_client order_id=O9208 status=ACK latency_ms=105
+ts=2026-05-28T10:19:38.238Z level=INFO service=gateway host=gateway-host-2 pid=14209 component=ingress event=order_received order_id=O9209 client_id=C101 symbol=0700.HK side=BUY qty=200 trace_id=T-O9209 latency_ms=9
+ts=2026-05-28T10:19:38.315Z level=INFO service=gateway host=gateway-host-1 pid=14209 component=egress event=ack_to_client order_id=O9209 status=ACK latency_ms=103
+ts=2026-05-28T10:19:40.770Z level=INFO service=gateway host=gateway-host-1 pid=14210 component=ingress event=order_received order_id=O9210 client_id=C505 symbol=TSLA side=BUY qty=50 trace_id=T-O9210 latency_ms=22
+ts=2026-05-28T10:19:40.847Z level=INFO service=gateway host=gateway-host-1 pid=14210 component=egress event=ack_to_client order_id=O9210 status=ACK latency_ms=105
+ts=2026-05-28T10:19:42.327Z level=INFO service=gateway host=gateway-host-1 pid=14211 component=ingress event=order_received order_id=O9211 client_id=C505 symbol=0700.HK side=BUY qty=200 trace_id=T-O9211 latency_ms=4
+ts=2026-05-28T10:19:42.404Z level=INFO service=gateway host=gateway-host-1 pid=14211 component=egress event=ack_to_client order_id=O9211 status=ACK latency_ms=115
+ts=2026-05-28T10:19:43.604Z level=INFO service=gateway host=gateway-host-1 pid=14212 component=ingress event=order_received order_id=O9212 client_id=C404 symbol=AMZN side=BUY qty=50 trace_id=T-O9212 latency_ms=11
+ts=2026-05-28T10:19:43.681Z level=INFO service=gateway host=gateway-host-1 pid=14212 component=egress event=ack_to_client order_id=O9212 status=ACK latency_ms=137
+ts=2026-05-28T10:19:44.290Z level=INFO service=gateway host=gateway-host-2 pid=14213 component=ingress event=order_received order_id=O9213 client_id=C505 symbol=NVDA side=SELL qty=200 trace_id=T-O9213 latency_ms=16
+ts=2026-05-28T10:19:44.367Z level=INFO service=gateway host=gateway-host-1 pid=14213 component=egress event=ack_to_client order_id=O9213 status=ACK latency_ms=133
+ts=2026-05-28T10:19:46.067Z level=INFO service=gateway host=gateway-host-1 pid=14214 component=ingress event=order_received order_id=O9214 client_id=C505 symbol=9988.HK side=SELL qty=25 trace_id=T-O9214 latency_ms=6
+ts=2026-05-28T10:19:46.144Z level=INFO service=gateway host=gateway-host-1 pid=14214 component=egress event=ack_to_client order_id=O9214 status=ACK latency_ms=122
+ts=2026-05-28T10:19:00.920Z level=ERROR service=gateway host=gateway-host-2 pid=9202 component=config event=stale_config order_id=O1919 config_version=gateway-v1.9.0-stale reason=failed_validation trace_id=T-O1919
+ts=2026-05-28T10:19:00.940Z level=WARN service=gateway host=gateway-host-2 pid=9202 component=egress event=reject_to_client order_id=O1919 status=REJECTED reason=CONFIG_ERROR trace_id=T-O1919
+ts=2026-05-28T10:19:01.140Z level=INFO service=gateway host=gateway-host-1 pid=9201 component=ingress event=order_received order_id=O1920 client_id=C1919 symbol=AAPL trace_id=T-O1920
+ts=2026-05-28T10:19:01.160Z level=INFO service=gateway host=gateway-host-1 pid=9201 component=router event=order_routed order_id=O1920 route=risk trace_id=T-O1920
+ts=2026-05-28T10:19:51.848Z level=INFO service=gateway host=gateway-host-2 pid=14100 component=ingress event=order_received order_id=O9100 client_id=C606 symbol=MSFT side=BUY qty=200 trace_id=T-O9100 latency_ms=22
+ts=2026-05-28T10:19:51.925Z level=INFO service=gateway host=gateway-host-1 pid=14100 component=egress event=ack_to_client order_id=O9100 status=ACK latency_ms=108
+ts=2026-05-28T10:19:56.384Z level=INFO service=gateway host=gateway-host-1 pid=14101 component=ingress event=order_received order_id=O9101 client_id=C707 symbol=AAPL side=BUY qty=200 trace_id=T-O9101 latency_ms=3
+ts=2026-05-28T10:19:56.461Z level=INFO service=gateway host=gateway-host-1 pid=14101 component=egress event=ack_to_client order_id=O9101 status=ACK latency_ms=137
+ts=2026-05-28T10:19:59.515Z level=INFO service=gateway host=gateway-host-2 pid=14102 component=ingress event=order_received order_id=O9102 client_id=C111 symbol=GOOG side=BUY qty=10 trace_id=T-O9102 latency_ms=19
+ts=2026-05-28T10:19:59.592Z level=INFO service=gateway host=gateway-host-1 pid=14102 component=egress event=ack_to_client order_id=O9102 status=ACK latency_ms=118
+ts=2026-05-28T10:20:04.073Z level=INFO service=gateway host=gateway-host-1 pid=14103 component=ingress event=order_received order_id=O9103 client_id=C606 symbol=META side=BUY qty=200 trace_id=T-O9103 latency_ms=5
+ts=2026-05-28T10:20:04.150Z level=INFO service=gateway host=gateway-host-1 pid=14103 component=egress event=ack_to_client order_id=O9103 status=ACK latency_ms=124
+ts=2026-05-28T10:20:13.834Z level=INFO service=gateway host=gateway-host-2 pid=14104 component=ingress event=order_received order_id=O9104 client_id=C818 symbol=META side=SELL qty=100 trace_id=T-O9104 latency_ms=20
+ts=2026-05-28T10:20:13.911Z level=INFO service=gateway host=gateway-host-1 pid=14104 component=egress event=ack_to_client order_id=O9104 status=ACK latency_ms=115
+ts=2026-05-28T10:20:18.468Z level=INFO service=gateway host=gateway-host-2 pid=14105 component=ingress event=order_received order_id=O9105 client_id=C505 symbol=BRK.B side=BUY qty=10 trace_id=T-O9105 latency_ms=9
+ts=2026-05-28T10:20:18.545Z level=INFO service=gateway host=gateway-host-1 pid=14105 component=egress event=ack_to_client order_id=O9105 status=ACK latency_ms=121
+ts=2026-05-28T10:20:24.379Z level=INFO service=order_router host=node-b component=heartbeat event=heartbeat status=ok pid=10516
+ts=2026-05-28T10:20:38.163Z level=INFO service=gateway host=gateway-host-2 pid=14106 component=ingress event=order_received order_id=O9106 client_id=C101 symbol=AMZN side=SELL qty=100 trace_id=T-O9106 latency_ms=22
+ts=2026-05-28T10:20:38.240Z level=INFO service=gateway host=gateway-host-1 pid=14106 component=egress event=ack_to_client order_id=O9106 status=ACK latency_ms=133
+ts=2026-05-28T10:20:43.303Z level=INFO service=gateway host=gateway-host-1 pid=14107 component=ingress event=order_received order_id=O9107 client_id=C303 symbol=BRK.B side=BUY qty=10 trace_id=T-O9107 latency_ms=4
+ts=2026-05-28T10:20:43.380Z level=INFO service=gateway host=gateway-host-1 pid=14107 component=egress event=ack_to_client order_id=O9107 status=ACK latency_ms=105
+ts=2026-05-28T10:20:47.359Z level=INFO service=gateway host=node-c component=heartbeat event=heartbeat status=ok pid=10331
+ts=2026-05-28T10:20:53.211Z level=INFO service=gateway host=gateway-host-1 pid=14108 component=ingress event=order_received order_id=O9108 client_id=C101 symbol=BRK.B side=BUY qty=50 trace_id=T-O9108 latency_ms=4
+ts=2026-05-28T10:20:53.288Z level=INFO service=gateway host=gateway-host-1 pid=14108 component=egress event=ack_to_client order_id=O9108 status=ACK latency_ms=81
+ts=2026-05-28T10:20:58.029Z level=INFO service=gateway host=gateway-host-1 pid=14109 component=ingress event=order_received order_id=O9109 client_id=C202 symbol=0700.HK side=BUY qty=25 trace_id=T-O9109 latency_ms=13
+ts=2026-05-28T10:20:58.106Z level=INFO service=gateway host=gateway-host-1 pid=14109 component=egress event=ack_to_client order_id=O9109 status=ACK latency_ms=125
+ts=2026-05-28T10:21:10.023Z level=INFO service=gateway host=gateway-host-2 pid=14110 component=ingress event=order_received order_id=O9110 client_id=C202 symbol=TSLA side=BUY qty=25 trace_id=T-O9110 latency_ms=3
+ts=2026-05-28T10:21:10.100Z level=INFO service=gateway host=gateway-host-1 pid=14110 component=egress event=ack_to_client order_id=O9110 status=ACK latency_ms=99
+ts=2026-05-28T10:21:14.797Z level=INFO service=gateway host=gateway-host-2 pid=14111 component=ingress event=order_received order_id=O9111 client_id=C202 symbol=GOOG side=BUY qty=100 trace_id=T-O9111 latency_ms=17
+ts=2026-05-28T10:21:14.874Z level=INFO service=gateway host=gateway-host-1 pid=14111 component=egress event=ack_to_client order_id=O9111 status=ACK latency_ms=124
+ts=2026-05-28T10:21:19.145Z level=INFO service=gateway host=gateway-host-1 pid=14112 component=ingress event=order_received order_id=O9112 client_id=C707 symbol=9988.HK side=SELL qty=10 trace_id=T-O9112 latency_ms=10
+ts=2026-05-28T10:21:19.222Z level=INFO service=gateway host=gateway-host-1 pid=14112 component=egress event=ack_to_client order_id=O9112 status=ACK latency_ms=116
+ts=2026-05-28T10:21:23.971Z level=INFO service=gateway host=gateway-host-1 pid=14113 component=ingress event=order_received order_id=O9113 client_id=C818 symbol=MSFT side=SELL qty=50 trace_id=T-O9113 latency_ms=19
+ts=2026-05-28T10:21:24.048Z level=INFO service=gateway host=gateway-host-1 pid=14113 component=egress event=ack_to_client order_id=O9113 status=ACK latency_ms=115
+ts=2026-05-28T10:21:28.637Z level=INFO service=gateway host=gateway-host-1 pid=14114 component=ingress event=order_received order_id=O9114 client_id=C303 symbol=TSLA side=BUY qty=50 trace_id=T-O9114 latency_ms=4
+ts=2026-05-28T10:21:28.714Z level=INFO service=gateway host=gateway-host-1 pid=14114 component=egress event=ack_to_client order_id=O9114 status=ACK latency_ms=100
+ts=2026-05-28T10:21:31.044Z level=INFO service=gateway host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10758
+ts=2026-05-28T10:21:33.917Z level=INFO service=gateway host=gateway-host-2 pid=14115 component=ingress event=order_received order_id=O9115 client_id=C818 symbol=0700.HK side=BUY qty=10 trace_id=T-O9115 latency_ms=13
+ts=2026-05-28T10:21:33.994Z level=INFO service=gateway host=gateway-host-1 pid=14115 component=egress event=ack_to_client order_id=O9115 status=ACK latency_ms=110
+ts=2026-05-28T10:21:52.491Z level=INFO service=gateway host=gateway-host-2 pid=14116 component=ingress event=order_received order_id=O9116 client_id=C202 symbol=META side=SELL qty=50 trace_id=T-O9116 latency_ms=18
+ts=2026-05-28T10:21:52.568Z level=INFO service=gateway host=gateway-host-1 pid=14116 component=egress event=ack_to_client order_id=O9116 status=ACK latency_ms=123
+ts=2026-05-28T10:21:58.361Z level=INFO service=gateway host=gateway-host-1 pid=14117 component=ingress event=order_received order_id=O9117 client_id=C111 symbol=META side=BUY qty=25 trace_id=T-O9117 latency_ms=13
+ts=2026-05-28T10:21:58.438Z level=INFO service=gateway host=gateway-host-1 pid=14117 component=egress event=ack_to_client order_id=O9117 status=ACK latency_ms=87
+ts=2026-05-28T10:22:01.508Z level=INFO service=gateway host=gateway-host-1 pid=14118 component=ingress event=order_received order_id=O9118 client_id=C202 symbol=AMZN side=BUY qty=100 trace_id=T-O9118 latency_ms=9
+ts=2026-05-28T10:22:01.585Z level=INFO service=gateway host=gateway-host-1 pid=14118 component=egress event=ack_to_client order_id=O9118 status=ACK latency_ms=115
+ts=2026-05-28T10:22:08.472Z level=INFO service=gateway host=gateway-host-1 pid=14119 component=ingress event=order_received order_id=O9119 client_id=C404 symbol=BRK.B side=BUY qty=50 trace_id=T-O9119 latency_ms=16
+ts=2026-05-28T10:22:08.549Z level=INFO service=gateway host=gateway-host-1 pid=14119 component=egress event=ack_to_client order_id=O9119 status=ACK latency_ms=118
+ts=2026-05-28T10:22:21.489Z level=INFO service=gateway host=gateway-host-1 pid=14120 component=ingress event=order_received order_id=O9120 client_id=C606 symbol=BRK.B side=BUY qty=200 trace_id=T-O9120 latency_ms=16
+ts=2026-05-28T10:22:21.566Z level=INFO service=gateway host=gateway-host-1 pid=14120 component=egress event=ack_to_client order_id=O9120 status=ACK latency_ms=97
+ts=2026-05-28T10:22:25.688Z level=INFO service=gateway host=gateway-host-2 pid=14121 component=ingress event=order_received order_id=O9121 client_id=C606 symbol=META side=BUY qty=100 trace_id=T-O9121 latency_ms=18
+ts=2026-05-28T10:22:25.765Z level=INFO service=gateway host=gateway-host-1 pid=14121 component=egress event=ack_to_client order_id=O9121 status=ACK latency_ms=127
+ts=2026-05-28T10:22:30.175Z level=INFO service=gateway host=gateway-host-1 component=heartbeat event=heartbeat status=ok pid=10750
+ts=2026-05-28T10:22:34.162Z level=INFO service=gateway host=gateway-host-1 pid=14122 component=ingress event=order_received order_id=O9122 client_id=C111 symbol=AAPL side=BUY qty=10 trace_id=T-O9122 latency_ms=14
+ts=2026-05-28T10:22:34.239Z level=INFO service=gateway host=gateway-host-1 pid=14122 component=egress event=ack_to_client order_id=O9122 status=ACK latency_ms=107
+ts=2026-05-28T10:22:47.069Z level=INFO service=gateway host=gateway-host-2 pid=14123 component=ingress event=order_received order_id=O9123 client_id=C505 symbol=MSFT side=SELL qty=10 trace_id=T-O9123 latency_ms=12
+ts=2026-05-28T10:22:47.146Z level=INFO service=gateway host=gateway-host-1 pid=14123 component=egress event=ack_to_client order_id=O9123 status=ACK latency_ms=138
+ts=2026-05-28T10:22:53.023Z level=INFO service=gateway host=gateway-host-1 pid=14124 component=ingress event=order_received order_id=O9124 client_id=C111 symbol=AAPL side=BUY qty=10 trace_id=T-O9124 latency_ms=9
+ts=2026-05-28T10:22:53.100Z level=INFO service=gateway host=gateway-host-1 pid=14124 component=egress event=ack_to_client order_id=O9124 status=ACK latency_ms=99
+ts=2026-05-28T10:22:57.675Z level=INFO service=gateway host=gateway-host-2 pid=14125 component=ingress event=order_received order_id=O9125 client_id=C202 symbol=BRK.B side=SELL qty=100 trace_id=T-O9125 latency_ms=16
+ts=2026-05-28T10:22:57.752Z level=INFO service=gateway host=gateway-host-1 pid=14125 component=egress event=ack_to_client order_id=O9125 status=ACK latency_ms=90
+ts=2026-05-28T10:23:06.893Z level=INFO service=gateway host=gateway-host-2 pid=14126 component=ingress event=order_received order_id=O9126 client_id=C505 symbol=META side=BUY qty=100 trace_id=T-O9126 latency_ms=12
+ts=2026-05-28T10:23:06.970Z level=INFO service=gateway host=gateway-host-1 pid=14126 component=egress event=ack_to_client order_id=O9126 status=ACK latency_ms=121
+ts=2026-05-28T10:23:14.688Z level=INFO service=gateway host=gateway-host-2 pid=14127 component=ingress event=order_received order_id=O9127 client_id=C111 symbol=GOOG side=SELL qty=100 trace_id=T-O9127 latency_ms=14
+ts=2026-05-28T10:23:14.765Z level=INFO service=gateway host=gateway-host-1 pid=14127 component=egress event=ack_to_client order_id=O9127 status=ACK latency_ms=93
+ts=2026-05-28T10:23:18.174Z level=INFO service=gateway host=gateway-host-2 pid=14128 component=ingress event=order_received order_id=O9128 client_id=C111 symbol=TSLA side=SELL qty=25 trace_id=T-O9128 latency_ms=9
+ts=2026-05-28T10:23:18.251Z level=INFO service=gateway host=gateway-host-1 pid=14128 component=egress event=ack_to_client order_id=O9128 status=ACK latency_ms=138
+ts=2026-05-28T10:23:26.130Z level=INFO service=gateway host=gateway-host-2 pid=14129 component=ingress event=order_received order_id=O9129 client_id=C505 symbol=9988.HK side=BUY qty=200 trace_id=T-O9129 latency_ms=13
+ts=2026-05-28T10:23:26.207Z level=INFO service=gateway host=gateway-host-1 pid=14129 component=egress event=ack_to_client order_id=O9129 status=ACK latency_ms=118
+ts=2026-05-28T10:23:27.064Z level=INFO service=gateway host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10321
+ts=2026-05-28T10:23:31.135Z level=INFO service=gateway host=gateway-host-1 pid=14130 component=ingress event=order_received order_id=O9130 client_id=C818 symbol=MSFT side=SELL qty=50 trace_id=T-O9130 latency_ms=19
+ts=2026-05-28T10:23:31.212Z level=INFO service=gateway host=gateway-host-1 pid=14130 component=egress event=ack_to_client order_id=O9130 status=ACK latency_ms=108
+ts=2026-05-28T10:23:35.588Z level=INFO service=gateway host=gateway-host-1 pid=14131 component=ingress event=order_received order_id=O9131 client_id=C202 symbol=GOOG side=BUY qty=200 trace_id=T-O9131 latency_ms=17
+ts=2026-05-28T10:23:35.665Z level=INFO service=gateway host=gateway-host-1 pid=14131 component=egress event=ack_to_client order_id=O9131 status=ACK latency_ms=109
+ts=2026-05-28T10:23:41.871Z level=INFO service=gateway host=gateway-host-1 pid=14132 component=ingress event=order_received order_id=O9132 client_id=C202 symbol=NVDA side=BUY qty=50 trace_id=T-O9132 latency_ms=16
+ts=2026-05-28T10:23:41.948Z level=INFO service=gateway host=gateway-host-1 pid=14132 component=egress event=ack_to_client order_id=O9132 status=ACK latency_ms=87
+ts=2026-05-28T10:23:52.539Z level=INFO service=gateway host=gateway-host-1 pid=14133 component=ingress event=order_received order_id=O9133 client_id=C404 symbol=TSLA side=BUY qty=100 trace_id=T-O9133 latency_ms=9
+ts=2026-05-28T10:23:52.616Z level=INFO service=gateway host=gateway-host-1 pid=14133 component=egress event=ack_to_client order_id=O9133 status=ACK latency_ms=136
+ts=2026-05-28T10:24:13.261Z level=INFO service=gateway host=gateway-host-1 pid=14134 component=ingress event=order_received order_id=O9134 client_id=C111 symbol=BRK.B side=SELL qty=10 trace_id=T-O9134 latency_ms=5
+ts=2026-05-28T10:24:13.338Z level=INFO service=gateway host=gateway-host-1 pid=14134 component=egress event=ack_to_client order_id=O9134 status=ACK latency_ms=92
+ts=2026-05-28T10:24:16.781Z level=INFO service=gateway host=gateway-host-1 pid=14135 component=ingress event=order_received order_id=O9135 client_id=C606 symbol=TSLA side=SELL qty=25 trace_id=T-O9135 latency_ms=17
+ts=2026-05-28T10:24:16.858Z level=INFO service=gateway host=gateway-host-1 pid=14135 component=egress event=ack_to_client order_id=O9135 status=ACK latency_ms=120
+ts=2026-05-28T10:24:23.897Z level=INFO service=gateway host=gateway-host-2 pid=14136 component=ingress event=order_received order_id=O9136 client_id=C818 symbol=AMZN side=SELL qty=200 trace_id=T-O9136 latency_ms=20
+ts=2026-05-28T10:24:23.974Z level=INFO service=gateway host=gateway-host-1 pid=14136 component=egress event=ack_to_client order_id=O9136 status=ACK latency_ms=102
+ts=2026-05-28T10:24:30.298Z level=INFO service=gateway host=gateway-host-1 pid=14137 component=ingress event=order_received order_id=O9137 client_id=C111 symbol=AAPL side=SELL qty=100 trace_id=T-O9137 latency_ms=16
+ts=2026-05-28T10:24:30.375Z level=INFO service=gateway host=gateway-host-1 pid=14137 component=egress event=ack_to_client order_id=O9137 status=ACK latency_ms=137
+ts=2026-05-28T10:24:34.623Z level=INFO service=gateway host=gateway-host-2 pid=14138 component=ingress event=order_received order_id=O9138 client_id=C303 symbol=META side=BUY qty=200 trace_id=T-O9138 latency_ms=13
+ts=2026-05-28T10:24:34.700Z level=INFO service=gateway host=gateway-host-1 pid=14138 component=egress event=ack_to_client order_id=O9138 status=ACK latency_ms=108
+ts=2026-05-28T10:24:39.471Z level=INFO service=gateway host=gateway-host-1 pid=14139 component=ingress event=order_received order_id=O9139 client_id=C404 symbol=GOOG side=BUY qty=25 trace_id=T-O9139 latency_ms=14
+ts=2026-05-28T10:24:39.548Z level=INFO service=gateway host=gateway-host-1 pid=14139 component=egress event=ack_to_client order_id=O9139 status=ACK latency_ms=83
+ts=2026-05-28T10:24:48.002Z level=INFO service=gateway host=gateway-host-1 pid=14140 component=ingress event=order_received order_id=O9140 client_id=C707 symbol=GOOG side=SELL qty=100 trace_id=T-O9140 latency_ms=3
+ts=2026-05-28T10:24:48.079Z level=INFO service=gateway host=gateway-host-1 pid=14140 component=egress event=ack_to_client order_id=O9140 status=ACK latency_ms=104
+ts=2026-05-28T10:24:52.807Z level=INFO service=gateway host=gateway-host-1 pid=14141 component=ingress event=order_received order_id=O9141 client_id=C111 symbol=AAPL side=SELL qty=100 trace_id=T-O9141 latency_ms=9
+ts=2026-05-28T10:24:52.884Z level=INFO service=gateway host=gateway-host-1 pid=14141 component=egress event=ack_to_client order_id=O9141 status=ACK latency_ms=96
+ts=2026-05-28T10:24:56.311Z level=INFO service=gateway host=gateway-host-1 pid=14142 component=ingress event=order_received order_id=O9142 client_id=C101 symbol=9988.HK side=SELL qty=100 trace_id=T-O9142 latency_ms=13
+ts=2026-05-28T10:24:56.388Z level=INFO service=gateway host=gateway-host-1 pid=14142 component=egress event=ack_to_client order_id=O9142 status=ACK latency_ms=81
+ts=2026-05-28T10:25:08.656Z level=INFO service=gateway host=gateway-host-1 pid=14143 component=ingress event=order_received order_id=O9143 client_id=C404 symbol=NVDA side=BUY qty=200 trace_id=T-O9143 latency_ms=9
+ts=2026-05-28T10:25:08.733Z level=INFO service=gateway host=gateway-host-1 pid=14143 component=egress event=ack_to_client order_id=O9143 status=ACK latency_ms=108
+ts=2026-05-28T10:25:10.239Z level=INFO service=gateway host=node-c component=heartbeat event=heartbeat status=ok pid=10187
+ts=2026-05-28T10:25:16.230Z level=INFO service=gateway host=gateway-host-1 pid=14144 component=ingress event=order_received order_id=O9144 client_id=C202 symbol=AAPL side=BUY qty=50 trace_id=T-O9144 latency_ms=10
+ts=2026-05-28T10:25:16.307Z level=INFO service=gateway host=gateway-host-1 pid=14144 component=egress event=ack_to_client order_id=O9144 status=ACK latency_ms=82
+ts=2026-05-28T10:25:21.742Z level=INFO service=gateway host=gateway-host-1 pid=14145 component=ingress event=order_received order_id=O9145 client_id=C818 symbol=9988.HK side=BUY qty=25 trace_id=T-O9145 latency_ms=22
+ts=2026-05-28T10:25:21.819Z level=INFO service=gateway host=gateway-host-1 pid=14145 component=egress event=ack_to_client order_id=O9145 status=ACK latency_ms=127
+ts=2026-05-28T10:25:31.447Z level=INFO service=gateway host=gateway-host-1 pid=14146 component=ingress event=order_received order_id=O9146 client_id=C111 symbol=NVDA side=SELL qty=100 trace_id=T-O9146 latency_ms=15
+ts=2026-05-28T10:25:31.524Z level=INFO service=gateway host=gateway-host-1 pid=14146 component=egress event=ack_to_client order_id=O9146 status=ACK latency_ms=82
+ts=2026-05-28T10:25:36.920Z level=INFO service=gateway host=gateway-host-1 pid=14147 component=ingress event=order_received order_id=O9147 client_id=C818 symbol=AMZN side=BUY qty=50 trace_id=T-O9147 latency_ms=6
+ts=2026-05-28T10:25:36.997Z level=INFO service=gateway host=gateway-host-1 pid=14147 component=egress event=ack_to_client order_id=O9147 status=ACK latency_ms=85
+ts=2026-05-28T10:25:40.415Z level=INFO service=gateway host=gateway-host-1 pid=14148 component=ingress event=order_received order_id=O9148 client_id=C606 symbol=TSLA side=SELL qty=100 trace_id=T-O9148 latency_ms=17
+ts=2026-05-28T10:25:40.492Z level=INFO service=gateway host=gateway-host-1 pid=14148 component=egress event=ack_to_client order_id=O9148 status=ACK latency_ms=109
+ts=2026-05-28T10:25:54.018Z level=INFO service=gateway host=gateway-host-2 pid=14149 component=ingress event=order_received order_id=O9149 client_id=C101 symbol=BRK.B side=BUY qty=50 trace_id=T-O9149 latency_ms=21
+ts=2026-05-28T10:25:54.095Z level=INFO service=gateway host=gateway-host-1 pid=14149 component=egress event=ack_to_client order_id=O9149 status=ACK latency_ms=139
+ts=2026-05-28T10:25:55.738Z level=INFO service=gateway host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10584
+ts=2026-05-28T10:26:06.038Z level=INFO service=gateway host=gateway-host-1 pid=14150 component=ingress event=order_received order_id=O9150 client_id=C818 symbol=AMZN side=BUY qty=25 trace_id=T-O9150 latency_ms=20
+ts=2026-05-28T10:26:06.115Z level=INFO service=gateway host=gateway-host-1 pid=14150 component=egress event=ack_to_client order_id=O9150 status=ACK latency_ms=80
+ts=2026-05-28T10:26:10.733Z level=INFO service=gateway host=gateway-host-2 pid=14151 component=ingress event=order_received order_id=O9151 client_id=C202 symbol=BRK.B side=BUY qty=100 trace_id=T-O9151 latency_ms=8
+ts=2026-05-28T10:26:10.810Z level=INFO service=gateway host=gateway-host-1 pid=14151 component=egress event=ack_to_client order_id=O9151 status=ACK latency_ms=111
+ts=2026-05-28T10:26:17.471Z level=INFO service=gateway host=gateway-host-2 pid=14152 component=ingress event=order_received order_id=O9152 client_id=C505 symbol=AMZN side=SELL qty=50 trace_id=T-O9152 latency_ms=4
+ts=2026-05-28T10:26:17.548Z level=INFO service=gateway host=gateway-host-1 pid=14152 component=egress event=ack_to_client order_id=O9152 status=ACK latency_ms=124
+ts=2026-05-28T10:26:22.086Z level=INFO service=gateway host=gateway-host-2 pid=14153 component=ingress event=order_received order_id=O9153 client_id=C202 symbol=MSFT side=BUY qty=25 trace_id=T-O9153 latency_ms=16
+ts=2026-05-28T10:26:22.163Z level=INFO service=gateway host=gateway-host-1 pid=14153 component=egress event=ack_to_client order_id=O9153 status=ACK latency_ms=130
+ts=2026-05-28T10:26:28.390Z level=INFO service=gateway host=gateway-host-2 pid=14154 component=ingress event=order_received order_id=O9154 client_id=C303 symbol=NVDA side=BUY qty=50 trace_id=T-O9154 latency_ms=6
+ts=2026-05-28T10:26:28.467Z level=INFO service=gateway host=gateway-host-1 pid=14154 component=egress event=ack_to_client order_id=O9154 status=ACK latency_ms=140
+ts=2026-05-28T10:26:38.919Z level=INFO service=gateway host=gateway-host-1 pid=14155 component=ingress event=order_received order_id=O9155 client_id=C202 symbol=TSLA side=SELL qty=100 trace_id=T-O9155 latency_ms=16
+ts=2026-05-28T10:26:38.996Z level=INFO service=gateway host=gateway-host-1 pid=14155 component=egress event=ack_to_client order_id=O9155 status=ACK latency_ms=122
+ts=2026-05-28T10:26:44.167Z level=INFO service=gateway host=gateway-host-1 pid=14156 component=ingress event=order_received order_id=O9156 client_id=C111 symbol=NVDA side=SELL qty=10 trace_id=T-O9156 latency_ms=7
+ts=2026-05-28T10:26:44.244Z level=INFO service=gateway host=gateway-host-1 pid=14156 component=egress event=ack_to_client order_id=O9156 status=ACK latency_ms=128
+ts=2026-05-28T10:26:47.546Z level=INFO service=gateway host=gateway-host-1 pid=14157 component=ingress event=order_received order_id=O9157 client_id=C818 symbol=MSFT side=SELL qty=200 trace_id=T-O9157 latency_ms=5
+ts=2026-05-28T10:26:47.623Z level=INFO service=gateway host=gateway-host-1 pid=14157 component=egress event=ack_to_client order_id=O9157 status=ACK latency_ms=127
+ts=2026-05-28T10:26:50.691Z level=INFO service=gateway host=gateway-host-2 pid=14158 component=ingress event=order_received order_id=O9158 client_id=C900 symbol=AAPL side=SELL qty=100 trace_id=T-O9158 latency_ms=5
+ts=2026-05-28T10:26:50.768Z level=INFO service=gateway host=gateway-host-1 pid=14158 component=egress event=ack_to_client order_id=O9158 status=ACK latency_ms=132
+ts=2026-05-28T10:26:58.145Z level=INFO service=gateway host=gateway-host-2 pid=14159 component=ingress event=order_received order_id=O9159 client_id=C111 symbol=9988.HK side=SELL qty=10 trace_id=T-O9159 latency_ms=8
+ts=2026-05-28T10:26:58.222Z level=INFO service=gateway host=gateway-host-1 pid=14159 component=egress event=ack_to_client order_id=O9159 status=ACK latency_ms=114
+ts=2026-05-28T10:27:04.246Z level=INFO service=gateway host=gateway-host-1 pid=14160 component=ingress event=order_received order_id=O9160 client_id=C404 symbol=NVDA side=BUY qty=50 trace_id=T-O9160 latency_ms=4
+ts=2026-05-28T10:27:04.323Z level=INFO service=gateway host=gateway-host-1 pid=14160 component=egress event=ack_to_client order_id=O9160 status=ACK latency_ms=120
+ts=2026-05-28T10:27:11.594Z level=INFO service=gateway host=gateway-host-1 pid=14161 component=ingress event=order_received order_id=O9161 client_id=C707 symbol=AMZN side=SELL qty=10 trace_id=T-O9161 latency_ms=21
+ts=2026-05-28T10:27:11.671Z level=INFO service=gateway host=gateway-host-1 pid=14161 component=egress event=ack_to_client order_id=O9161 status=ACK latency_ms=128
+ts=2026-05-28T10:27:16.031Z level=INFO service=gateway host=gateway-host-2 pid=14162 component=ingress event=order_received order_id=O9162 client_id=C202 symbol=AAPL side=BUY qty=50 trace_id=T-O9162 latency_ms=21
+ts=2026-05-28T10:27:16.108Z level=INFO service=gateway host=gateway-host-1 pid=14162 component=egress event=ack_to_client order_id=O9162 status=ACK latency_ms=97
+ts=2026-05-28T10:27:17.573Z level=INFO service=gateway host=node-a component=heartbeat event=heartbeat status=ok pid=10915
+ts=2026-05-28T10:27:23.552Z level=INFO service=gateway host=gateway-host-1 pid=14163 component=ingress event=order_received order_id=O9163 client_id=C900 symbol=META side=SELL qty=50 trace_id=T-O9163 latency_ms=3
+ts=2026-05-28T10:27:23.629Z level=INFO service=gateway host=gateway-host-1 pid=14163 component=egress event=ack_to_client order_id=O9163 status=ACK latency_ms=106
+ts=2026-05-28T10:27:30.696Z level=INFO service=gateway host=gateway-host-2 pid=14164 component=ingress event=order_received order_id=O9164 client_id=C606 symbol=BRK.B side=SELL qty=50 trace_id=T-O9164 latency_ms=7
+ts=2026-05-28T10:27:30.773Z level=INFO service=gateway host=gateway-host-1 pid=14164 component=egress event=ack_to_client order_id=O9164 status=ACK latency_ms=85

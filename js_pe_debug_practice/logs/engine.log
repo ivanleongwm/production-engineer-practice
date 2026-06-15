@@ -1,58 +1,56 @@
-ts=2026-05-28T10:06:16.237Z level=WARN pid=12003 host=node-a component=book symbol=BRK.B reason=wide_spread spread_bps=42
-ts=2026-05-28T10:06:24.724Z level=INFO service=engine host=engine-host-1 pid=16200 component=match event=fill_generated order_id=O9200 exec_id=E90200 symbol=AMZN side=BUY qty=25 price=189.34 trace_id=T-O9200
-ts=2026-05-28T10:06:27.216Z level=INFO service=engine host=engine-host-1 pid=16202 component=match event=fill_generated order_id=O9202 exec_id=E90202 symbol=GOOG side=SELL qty=200 price=366.73 trace_id=T-O9202
-ts=2026-05-28T10:06:29.976Z level=INFO service=engine host=engine-host-1 pid=16204 component=match event=fill_generated order_id=O9204 exec_id=E90204 symbol=NVDA side=SELL qty=50 price=312.89 trace_id=T-O9204
-ts=2026-05-28T10:06:35.301Z level=INFO service=engine host=engine-host-1 pid=16207 component=match event=fill_generated order_id=O9207 exec_id=E90207 symbol=AMZN side=BUY qty=25 price=419.48 trace_id=T-O9207
-ts=2026-05-28T10:06:39.457Z level=INFO service=engine host=engine-host-1 pid=16209 component=match event=fill_generated order_id=O9209 exec_id=E90209 symbol=9988.HK side=BUY qty=10 price=408.48 trace_id=T-O9209
-ts=2026-05-28T10:06:40.590Z level=INFO service=engine host=engine-host-1 pid=16210 component=match event=fill_generated order_id=O9210 exec_id=E90210 symbol=GOOG side=SELL qty=10 price=325.65 trace_id=T-O9210
-ts=2026-05-28T10:06:42.940Z level=INFO service=engine host=engine-host-1 pid=16211 component=match event=fill_generated order_id=O9211 exec_id=E90211 symbol=9988.HK side=BUY qty=100 price=484.09 trace_id=T-O9211
-ts=2026-05-28T10:06:44.505Z level=INFO service=engine host=engine-host-1 pid=16212 component=match event=fill_generated order_id=O9212 exec_id=E90212 symbol=GOOG side=BUY qty=50 price=299.86 trace_id=T-O9212
-ts=2026-05-28T10:06:45.483Z level=INFO service=engine host=engine-host-1 pid=16213 component=match event=fill_generated order_id=O9213 exec_id=E90213 symbol=MSFT side=BUY qty=200 price=431.57 trace_id=T-O9213
-ts=2026-05-28T10:06:47.974Z level=INFO service=engine host=engine-host-1 pid=16214 component=match event=fill_generated order_id=O9214 exec_id=E90214 symbol=MSFT side=BUY qty=10 price=451.63 trace_id=T-O9214
-ts=2026-05-28T10:06:01.950Z level=INFO service=engine host=engine-host-1 pid=9401 component=match event=fill_generated order_id=O6006 exec_id=E5606 qty=120 price=495.8
-ts=2026-05-28T10:06:09.749Z level=INFO service=engine host=engine-host-1 pid=16100 component=match event=fill_generated order_id=O9100 exec_id=E90100 symbol=AMZN side=BUY qty=25 price=461.12 trace_id=T-O9100
-ts=2026-05-28T10:06:15.499Z level=INFO service=engine host=engine-host-1 pid=16101 component=match event=fill_generated order_id=O9101 exec_id=E90101 symbol=AAPL side=SELL qty=50 price=419.71 trace_id=T-O9101
-ts=2026-05-28T10:06:21.099Z level=INFO service=engine host=engine-host-1 pid=16102 component=match event=fill_generated order_id=O9102 exec_id=E90102 symbol=BRK.B side=SELL qty=10 price=311.54 trace_id=T-O9102
-ts=2026-05-28T10:06:36.754Z level=INFO service=engine host=engine-host-1 pid=16105 component=match event=fill_generated order_id=O9105 exec_id=E90105 symbol=NVDA side=BUY qty=100 price=438.65 trace_id=T-O9105
-ts=2026-05-28T10:06:49.713Z level=INFO service=engine host=engine-host-1 pid=16107 component=match event=fill_generated order_id=O9107 exec_id=E90107 symbol=BRK.B side=SELL qty=200 price=181.7 trace_id=T-O9107
-ts=2026-05-28T10:07:00.311Z level=INFO service=engine host=engine-host-1 pid=16108 component=match event=fill_generated order_id=O9108 exec_id=E90108 symbol=MSFT side=BUY qty=25 price=72.25 trace_id=T-O9108
-ts=2026-05-28T10:07:08.729Z level=INFO service=engine host=engine-host-1 pid=16109 component=match event=fill_generated order_id=O9109 exec_id=E90109 symbol=AMZN side=BUY qty=50 price=70.9 trace_id=T-O9109
-ts=2026-05-28T10:07:13.314Z level=INFO service=engine host=engine-host-1 pid=16110 component=match event=fill_generated order_id=O9110 exec_id=E90110 symbol=AAPL side=SELL qty=200 price=271.75 trace_id=T-O9110
-ts=2026-05-28T10:07:18.530Z level=INFO service=engine host=engine-host-1 pid=16111 component=match event=fill_generated order_id=O9111 exec_id=E90111 symbol=AMZN side=SELL qty=200 price=490.84 trace_id=T-O9111
-ts=2026-05-28T10:07:30.652Z level=INFO service=engine host=engine-host-1 pid=16113 component=match event=fill_generated order_id=O9113 exec_id=E90113 symbol=AAPL side=SELL qty=25 price=265.95 trace_id=T-O9113
-ts=2026-05-28T10:07:41.032Z level=INFO service=engine host=engine-host-1 pid=16114 component=match event=fill_generated order_id=O9114 exec_id=E90114 symbol=TSLA side=SELL qty=200 price=399.49 trace_id=T-O9114
-ts=2026-05-28T10:08:00.130Z level=INFO service=engine host=engine-host-1 pid=16116 component=match event=fill_generated order_id=O9116 exec_id=E90116 symbol=BRK.B side=SELL qty=25 price=396.04 trace_id=T-O9116
-ts=2026-05-28T10:08:05.817Z level=INFO service=engine host=engine-host-1 pid=16117 component=match event=fill_generated order_id=O9117 exec_id=E90117 symbol=META side=BUY qty=50 price=238.74 trace_id=T-O9117
-ts=2026-05-28T10:08:16.668Z level=INFO service=engine host=engine-host-1 pid=16119 component=match event=fill_generated order_id=O9119 exec_id=E90119 symbol=AMZN side=SELL qty=10 price=123.86 trace_id=T-O9119
-ts=2026-05-28T10:08:45.287Z level=INFO service=engine host=engine-host-1 pid=16123 component=match event=fill_generated order_id=O9123 exec_id=E90123 symbol=NVDA side=SELL qty=50 price=397.43 trace_id=T-O9123
-ts=2026-05-28T10:08:57.312Z level=INFO service=engine host=engine-host-1 pid=16124 component=match event=fill_generated order_id=O9124 exec_id=E90124 symbol=AMZN side=SELL qty=200 price=411.45 trace_id=T-O9124
-ts=2026-05-28T10:09:12.841Z level=INFO service=engine host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10217
-ts=2026-05-28T10:09:24.522Z level=INFO service=engine host=engine-host-1 pid=16127 component=match event=fill_generated order_id=O9127 exec_id=E90127 symbol=GOOG side=BUY qty=25 price=477.14 trace_id=T-O9127
-ts=2026-05-28T10:09:37.815Z level=INFO service=engine host=engine-host-1 pid=16128 component=match event=fill_generated order_id=O9128 exec_id=E90128 symbol=AMZN side=BUY qty=100 price=429.56 trace_id=T-O9128
-ts=2026-05-28T10:09:43.109Z level=INFO service=engine host=engine-host-1 pid=16129 component=match event=fill_generated order_id=O9129 exec_id=E90129 symbol=AAPL side=BUY qty=50 price=192.87 trace_id=T-O9129
-ts=2026-05-28T10:09:44.558Z level=INFO service=engine host=gateway-host-1 component=heartbeat event=heartbeat status=ok pid=10264
-ts=2026-05-28T10:09:47.156Z level=INFO service=engine host=engine-host-1 pid=16130 component=match event=fill_generated order_id=O9130 exec_id=E90130 symbol=AMZN side=SELL qty=100 price=274.13 trace_id=T-O9130
-ts=2026-05-28T10:09:57.292Z level=INFO service=engine host=engine-host-1 pid=16131 component=match event=fill_generated order_id=O9131 exec_id=E90131 symbol=META side=BUY qty=200 price=200.42 trace_id=T-O9131
-ts=2026-05-28T10:10:02.010Z level=INFO service=engine host=engine-host-1 pid=16132 component=match event=fill_generated order_id=O9132 exec_id=E90132 symbol=9988.HK side=BUY qty=100 price=268.66 trace_id=T-O9132
-ts=2026-05-28T10:10:17.342Z level=INFO service=engine host=engine-host-1 pid=16134 component=match event=fill_generated order_id=O9134 exec_id=E90134 symbol=AMZN side=SELL qty=50 price=431.62 trace_id=T-O9134
-ts=2026-05-28T10:10:19.565Z level=INFO service=engine host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10678
-ts=2026-05-28T10:10:22.029Z level=INFO service=engine host=engine-host-1 pid=16135 component=match event=fill_generated order_id=O9135 exec_id=E90135 symbol=AMZN side=SELL qty=10 price=357.3 trace_id=T-O9135
-ts=2026-05-28T10:10:26.108Z level=INFO service=engine host=engine-host-1 pid=16136 component=match event=fill_generated order_id=O9136 exec_id=E90136 symbol=META side=BUY qty=50 price=335.11 trace_id=T-O9136
-ts=2026-05-28T10:10:37.559Z level=INFO service=engine host=engine-host-1 pid=16137 component=match event=fill_generated order_id=O9137 exec_id=E90137 symbol=AMZN side=SELL qty=10 price=111.84 trace_id=T-O9137
-ts=2026-05-28T10:10:42.342Z level=INFO service=engine host=engine-host-1 pid=16138 component=match event=fill_generated order_id=O9138 exec_id=E90138 symbol=NVDA side=SELL qty=25 price=120.66 trace_id=T-O9138
-ts=2026-05-28T10:10:54.219Z level=INFO service=engine host=engine-host-1 pid=16140 component=match event=fill_generated order_id=O9140 exec_id=E90140 symbol=META side=SELL qty=100 price=120.97 trace_id=T-O9140
-ts=2026-05-28T10:10:59.069Z level=INFO service=engine host=engine-host-1 pid=16141 component=match event=fill_generated order_id=O9141 exec_id=E90141 symbol=9988.HK side=SELL qty=25 price=156.31 trace_id=T-O9141
-ts=2026-05-28T10:11:05.719Z level=INFO service=engine host=engine-host-1 pid=16142 component=match event=fill_generated order_id=O9142 exec_id=E90142 symbol=META side=BUY qty=25 price=164.85 trace_id=T-O9142
-ts=2026-05-28T10:11:06.432Z level=INFO service=engine host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10339
-ts=2026-05-28T10:11:27.549Z level=INFO service=engine host=node-c component=heartbeat event=heartbeat status=ok pid=10428
-ts=2026-05-28T10:11:34.347Z level=INFO service=engine host=engine-host-1 pid=16146 component=match event=fill_generated order_id=O9146 exec_id=E90146 symbol=META side=BUY qty=25 price=220.64 trace_id=T-O9146
-ts=2026-05-28T10:11:37.253Z level=INFO service=engine host=engine-host-1 pid=16147 component=match event=fill_generated order_id=O9147 exec_id=E90147 symbol=NVDA side=SELL qty=100 price=420.05 trace_id=T-O9147
-ts=2026-05-28T10:11:41.438Z level=INFO service=engine host=engine-host-1 pid=16148 component=match event=fill_generated order_id=O9148 exec_id=E90148 symbol=MSFT side=SELL qty=200 price=57.25 trace_id=T-O9148
-ts=2026-05-28T10:11:54.477Z level=INFO service=engine host=engine-host-1 pid=16150 component=match event=fill_generated order_id=O9150 exec_id=E90150 symbol=META side=SELL qty=50 price=304.15 trace_id=T-O9150
-ts=2026-05-28T10:11:58.330Z level=INFO service=engine host=engine-host-1 pid=16151 component=match event=fill_generated order_id=O9151 exec_id=E90151 symbol=META side=BUY qty=10 price=67.14 trace_id=T-O9151
-ts=2026-05-28T10:12:01.973Z level=INFO service=engine host=engine-host-1 pid=16152 component=match event=fill_generated order_id=O9152 exec_id=E90152 symbol=AMZN side=SELL qty=10 price=426.88 trace_id=T-O9152
-ts=2026-05-28T10:12:16.308Z level=INFO service=engine host=engine-host-1 pid=16153 component=match event=fill_generated order_id=O9153 exec_id=E90153 symbol=AAPL side=SELL qty=25 price=299.71 trace_id=T-O9153
-ts=2026-05-28T10:12:22.772Z level=INFO service=engine host=engine-host-1 pid=16154 component=match event=fill_generated order_id=O9154 exec_id=E90154 symbol=NVDA side=SELL qty=10 price=387.52 trace_id=T-O9154
-ts=2026-05-28T10:12:28.166Z level=INFO service=engine host=engine-host-1 pid=16155 component=match event=fill_generated order_id=O9155 exec_id=E90155 symbol=0700.HK side=SELL qty=10 price=223.94 trace_id=T-O9155
-ts=2026-05-28T10:12:34.987Z level=INFO service=engine host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10517
-ts=2026-05-28T10:12:39.730Z level=INFO service=engine host=engine-host-1 pid=16156 component=match event=fill_generated order_id=O9156 exec_id=E90156 symbol=AAPL side=SELL qty=100 price=302.98 trace_id=T-O9156
+ts=2026-05-28T10:19:15.106Z level=WARN pid=12003 host=node-a component=book symbol=BRK.B reason=wide_spread spread_bps=42
+ts=2026-05-28T10:19:24.064Z level=INFO service=engine host=engine-host-1 pid=16200 component=match event=fill_generated order_id=O9200 exec_id=E90200 symbol=META side=SELL qty=10 price=106.34 trace_id=T-O9200
+ts=2026-05-28T10:19:25.768Z level=INFO service=engine host=engine-host-1 pid=16201 component=match event=fill_generated order_id=O9201 exec_id=E90201 symbol=BRK.B side=BUY qty=10 price=437.78 trace_id=T-O9201
+ts=2026-05-28T10:19:26.473Z level=INFO service=engine host=engine-host-1 pid=16202 component=match event=fill_generated order_id=O9202 exec_id=E90202 symbol=BRK.B side=BUY qty=10 price=476.71 trace_id=T-O9202
+ts=2026-05-28T10:19:30.378Z level=INFO service=engine host=engine-host-1 pid=16204 component=match event=fill_generated order_id=O9204 exec_id=E90204 symbol=MSFT side=SELL qty=25 price=275.05 trace_id=T-O9204
+ts=2026-05-28T10:19:32.141Z level=INFO service=engine host=engine-host-1 pid=16205 component=match event=fill_generated order_id=O9205 exec_id=E90205 symbol=9988.HK side=SELL qty=10 price=245.24 trace_id=T-O9205
+ts=2026-05-28T10:19:33.977Z level=INFO service=engine host=engine-host-1 pid=16206 component=match event=fill_generated order_id=O9206 exec_id=E90206 symbol=TSLA side=SELL qty=100 price=451.95 trace_id=T-O9206
+ts=2026-05-28T10:19:36.470Z level=INFO service=engine host=engine-host-1 pid=16207 component=match event=fill_generated order_id=O9207 exec_id=E90207 symbol=TSLA side=BUY qty=10 price=306.02 trace_id=T-O9207
+ts=2026-05-28T10:19:38.380Z level=INFO service=engine host=engine-host-1 pid=16209 component=match event=fill_generated order_id=O9209 exec_id=E90209 symbol=0700.HK side=BUY qty=200 price=378.11 trace_id=T-O9209
+ts=2026-05-28T10:19:40.912Z level=INFO service=engine host=engine-host-1 pid=16210 component=match event=fill_generated order_id=O9210 exec_id=E90210 symbol=TSLA side=BUY qty=50 price=200.75 trace_id=T-O9210
+ts=2026-05-28T10:19:42.469Z level=INFO service=engine host=engine-host-1 pid=16211 component=match event=fill_generated order_id=O9211 exec_id=E90211 symbol=0700.HK side=BUY qty=200 price=189.4 trace_id=T-O9211
+ts=2026-05-28T10:19:44.432Z level=INFO service=engine host=engine-host-1 pid=16213 component=match event=fill_generated order_id=O9213 exec_id=E90213 symbol=NVDA side=SELL qty=200 price=281.19 trace_id=T-O9213
+ts=2026-05-28T10:19:46.209Z level=INFO service=engine host=engine-host-1 pid=16214 component=match event=fill_generated order_id=O9214 exec_id=E90214 symbol=9988.HK side=SELL qty=25 price=346.12 trace_id=T-O9214
+ts=2026-05-28T10:19:51.990Z level=INFO service=engine host=engine-host-1 pid=16100 component=match event=fill_generated order_id=O9100 exec_id=E90100 symbol=MSFT side=BUY qty=200 price=84.82 trace_id=T-O9100
+ts=2026-05-28T10:19:56.526Z level=INFO service=engine host=engine-host-1 pid=16101 component=match event=fill_generated order_id=O9101 exec_id=E90101 symbol=AAPL side=BUY qty=200 price=430.06 trace_id=T-O9101
+ts=2026-05-28T10:19:59.657Z level=INFO service=engine host=engine-host-1 pid=16102 component=match event=fill_generated order_id=O9102 exec_id=E90102 symbol=GOOG side=BUY qty=10 price=398.0 trace_id=T-O9102
+ts=2026-05-28T10:20:18.610Z level=INFO service=engine host=engine-host-1 pid=16105 component=match event=fill_generated order_id=O9105 exec_id=E90105 symbol=BRK.B side=BUY qty=10 price=69.93 trace_id=T-O9105
+ts=2026-05-28T10:20:43.445Z level=INFO service=engine host=engine-host-1 pid=16107 component=match event=fill_generated order_id=O9107 exec_id=E90107 symbol=BRK.B side=BUY qty=10 price=278.95 trace_id=T-O9107
+ts=2026-05-28T10:20:53.353Z level=INFO service=engine host=engine-host-1 pid=16108 component=match event=fill_generated order_id=O9108 exec_id=E90108 symbol=BRK.B side=BUY qty=50 price=373.16 trace_id=T-O9108
+ts=2026-05-28T10:20:58.171Z level=INFO service=engine host=engine-host-1 pid=16109 component=match event=fill_generated order_id=O9109 exec_id=E90109 symbol=0700.HK side=BUY qty=25 price=190.7 trace_id=T-O9109
+ts=2026-05-28T10:20:59.765Z level=INFO service=engine host=exec-pub-host-1 component=heartbeat event=heartbeat status=ok pid=10078
+ts=2026-05-28T10:21:24.113Z level=INFO service=engine host=engine-host-1 pid=16113 component=match event=fill_generated order_id=O9113 exec_id=E90113 symbol=MSFT side=SELL qty=50 price=155.01 trace_id=T-O9113
+ts=2026-05-28T10:21:42.529Z level=INFO service=engine host=node-a component=heartbeat event=heartbeat status=ok pid=10864
+ts=2026-05-28T10:21:52.633Z level=INFO service=engine host=engine-host-1 pid=16116 component=match event=fill_generated order_id=O9116 exec_id=E90116 symbol=META side=SELL qty=50 price=104.5 trace_id=T-O9116
+ts=2026-05-28T10:21:58.503Z level=INFO service=engine host=engine-host-1 pid=16117 component=match event=fill_generated order_id=O9117 exec_id=E90117 symbol=META side=BUY qty=25 price=288.02 trace_id=T-O9117
+ts=2026-05-28T10:22:01.650Z level=INFO service=engine host=engine-host-1 pid=16118 component=match event=fill_generated order_id=O9118 exec_id=E90118 symbol=AMZN side=BUY qty=100 price=424.7 trace_id=T-O9118
+ts=2026-05-28T10:22:25.830Z level=INFO service=engine host=engine-host-1 pid=16121 component=match event=fill_generated order_id=O9121 exec_id=E90121 symbol=META side=BUY qty=100 price=326.96 trace_id=T-O9121
+ts=2026-05-28T10:22:39.969Z level=INFO service=engine host=node-c component=heartbeat event=heartbeat status=ok pid=10206
+ts=2026-05-28T10:22:47.211Z level=INFO service=engine host=engine-host-1 pid=16123 component=match event=fill_generated order_id=O9123 exec_id=E90123 symbol=MSFT side=SELL qty=10 price=99.98 trace_id=T-O9123
+ts=2026-05-28T10:22:57.817Z level=INFO service=engine host=engine-host-1 pid=16125 component=match event=fill_generated order_id=O9125 exec_id=E90125 symbol=BRK.B side=SELL qty=100 price=222.26 trace_id=T-O9125
+ts=2026-05-28T10:23:18.316Z level=INFO service=engine host=engine-host-1 pid=16128 component=match event=fill_generated order_id=O9128 exec_id=E90128 symbol=TSLA side=SELL qty=25 price=178.75 trace_id=T-O9128
+ts=2026-05-28T10:23:26.272Z level=INFO service=engine host=engine-host-1 pid=16129 component=match event=fill_generated order_id=O9129 exec_id=E90129 symbol=9988.HK side=BUY qty=200 price=50.27 trace_id=T-O9129
+ts=2026-05-28T10:23:42.013Z level=INFO service=engine host=engine-host-1 pid=16132 component=match event=fill_generated order_id=O9132 exec_id=E90132 symbol=NVDA side=BUY qty=50 price=296.99 trace_id=T-O9132
+ts=2026-05-28T10:24:52.949Z level=INFO service=engine host=engine-host-1 pid=16141 component=match event=fill_generated order_id=O9141 exec_id=E90141 symbol=AAPL side=SELL qty=100 price=149.61 trace_id=T-O9141
+ts=2026-05-28T10:24:54.245Z level=INFO service=engine host=node-b component=heartbeat event=heartbeat status=ok pid=10514
+ts=2026-05-28T10:25:08.798Z level=INFO service=engine host=engine-host-1 pid=16143 component=match event=fill_generated order_id=O9143 exec_id=E90143 symbol=NVDA side=BUY qty=200 price=270.15 trace_id=T-O9143
+ts=2026-05-28T10:25:16.372Z level=INFO service=engine host=engine-host-1 pid=16144 component=match event=fill_generated order_id=O9144 exec_id=E90144 symbol=AAPL side=BUY qty=50 price=302.86 trace_id=T-O9144
+ts=2026-05-28T10:25:21.884Z level=INFO service=engine host=engine-host-1 pid=16145 component=match event=fill_generated order_id=O9145 exec_id=E90145 symbol=9988.HK side=BUY qty=25 price=372.98 trace_id=T-O9145
+ts=2026-05-28T10:25:31.589Z level=INFO service=engine host=engine-host-1 pid=16146 component=match event=fill_generated order_id=O9146 exec_id=E90146 symbol=NVDA side=SELL qty=100 price=180.74 trace_id=T-O9146
+ts=2026-05-28T10:25:37.062Z level=INFO service=engine host=engine-host-1 pid=16147 component=match event=fill_generated order_id=O9147 exec_id=E90147 symbol=AMZN side=BUY qty=50 price=443.46 trace_id=T-O9147
+ts=2026-05-28T10:25:40.557Z level=INFO service=engine host=engine-host-1 pid=16148 component=match event=fill_generated order_id=O9148 exec_id=E90148 symbol=TSLA side=SELL qty=100 price=149.0 trace_id=T-O9148
+ts=2026-05-28T10:25:41.523Z level=INFO service=engine host=gateway-host-1 component=heartbeat event=heartbeat status=ok pid=10023
+ts=2026-05-28T10:25:54.160Z level=INFO service=engine host=engine-host-1 pid=16149 component=match event=fill_generated order_id=O9149 exec_id=E90149 symbol=BRK.B side=BUY qty=50 price=103.63 trace_id=T-O9149
+ts=2026-05-28T10:26:06.180Z level=INFO service=engine host=engine-host-1 pid=16150 component=match event=fill_generated order_id=O9150 exec_id=E90150 symbol=AMZN side=BUY qty=25 price=436.85 trace_id=T-O9150
+ts=2026-05-28T10:26:06.883Z level=INFO service=engine host=engine-host-2 component=heartbeat event=heartbeat status=ok pid=10735
+ts=2026-05-28T10:26:10.875Z level=INFO service=engine host=engine-host-1 pid=16151 component=match event=fill_generated order_id=O9151 exec_id=E90151 symbol=BRK.B side=BUY qty=100 price=310.87 trace_id=T-O9151
+ts=2026-05-28T10:26:17.613Z level=INFO service=engine host=engine-host-1 pid=16152 component=match event=fill_generated order_id=O9152 exec_id=E90152 symbol=AMZN side=SELL qty=50 price=70.71 trace_id=T-O9152
+ts=2026-05-28T10:26:44.309Z level=INFO service=engine host=engine-host-1 pid=16156 component=match event=fill_generated order_id=O9156 exec_id=E90156 symbol=NVDA side=SELL qty=10 price=366.31 trace_id=T-O9156
+ts=2026-05-28T10:26:47.688Z level=INFO service=engine host=engine-host-1 pid=16157 component=match event=fill_generated order_id=O9157 exec_id=E90157 symbol=MSFT side=SELL qty=200 price=187.58 trace_id=T-O9157
+ts=2026-05-28T10:26:50.833Z level=INFO service=engine host=engine-host-1 pid=16158 component=match event=fill_generated order_id=O9158 exec_id=E90158 symbol=AAPL side=SELL qty=100 price=376.47 trace_id=T-O9158
+ts=2026-05-28T10:26:58.287Z level=INFO service=engine host=engine-host-1 pid=16159 component=match event=fill_generated order_id=O9159 exec_id=E90159 symbol=9988.HK side=SELL qty=10 price=347.39 trace_id=T-O9159
+ts=2026-05-28T10:27:04.388Z level=INFO service=engine host=engine-host-1 pid=16160 component=match event=fill_generated order_id=O9160 exec_id=E90160 symbol=NVDA side=BUY qty=50 price=264.66 trace_id=T-O9160
+ts=2026-05-28T10:27:11.736Z level=INFO service=engine host=engine-host-1 pid=16161 component=match event=fill_generated order_id=O9161 exec_id=E90161 symbol=AMZN side=SELL qty=10 price=163.6 trace_id=T-O9161
+ts=2026-05-28T10:27:16.173Z level=INFO service=engine host=engine-host-1 pid=16162 component=match event=fill_generated order_id=O9162 exec_id=E90162 symbol=AAPL side=BUY qty=50 price=486.38 trace_id=T-O9162
+ts=2026-05-28T10:27:23.694Z level=INFO service=engine host=engine-host-1 pid=16163 component=match event=fill_generated order_id=O9163 exec_id=E90163 symbol=META side=SELL qty=50 price=82.65 trace_id=T-O9163
+ts=2026-05-28T10:27:30.838Z level=INFO service=engine host=engine-host-1 pid=16164 component=match event=fill_generated order_id=O9164 exec_id=E90164 symbol=BRK.B side=SELL qty=50 price=417.49 trace_id=T-O9164

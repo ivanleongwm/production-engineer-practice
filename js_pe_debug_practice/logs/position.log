@@ -1,61 +1,55 @@
-ts=2026-05-28T10:06:01.458Z level=INFO service=position host=node-c component=heartbeat event=heartbeat status=ok pid=10436
-ts=2026-05-28T10:06:09.122Z level=INFO service=position host=node-c component=heartbeat event=heartbeat status=ok pid=10303
-ts=2026-05-28T10:06:18.766Z level=WARN pid=12005 host=node-a component=reconcile reason=intraday_drift delta_shares=0 status=within_tolerance
-ts=2026-05-28T10:06:24.794Z level=INFO service=position host=node-c pid=18200 component=ledger event=position_update client_id=C505 order_id=O9200 exec_id=E90200 symbol=AMZN delta=25 trace_id=T-O9200
-ts=2026-05-28T10:06:27.286Z level=INFO service=position host=node-c pid=18202 component=ledger event=position_update client_id=C101 order_id=O9202 exec_id=E90202 symbol=GOOG delta=-200 trace_id=T-O9202
-ts=2026-05-28T10:06:30.046Z level=INFO service=position host=node-c pid=18204 component=ledger event=position_update client_id=C303 order_id=O9204 exec_id=E90204 symbol=NVDA delta=-50 trace_id=T-O9204
-ts=2026-05-28T10:06:35.371Z level=INFO service=position host=node-c pid=18207 component=ledger event=position_update client_id=C900 order_id=O9207 exec_id=E90207 symbol=AMZN delta=25 trace_id=T-O9207
-ts=2026-05-28T10:06:39.527Z level=INFO service=position host=node-c pid=18209 component=ledger event=position_update client_id=C111 order_id=O9209 exec_id=E90209 symbol=9988.HK delta=10 trace_id=T-O9209
-ts=2026-05-28T10:06:40.660Z level=INFO service=position host=node-c pid=18210 component=ledger event=position_update client_id=C606 order_id=O9210 exec_id=E90210 symbol=GOOG delta=-10 trace_id=T-O9210
-ts=2026-05-28T10:06:43.010Z level=INFO service=position host=node-c pid=18211 component=ledger event=position_update client_id=C505 order_id=O9211 exec_id=E90211 symbol=9988.HK delta=100 trace_id=T-O9211
-ts=2026-05-28T10:06:44.575Z level=INFO service=position host=node-c pid=18212 component=ledger event=position_update client_id=C818 order_id=O9212 exec_id=E90212 symbol=GOOG delta=50 trace_id=T-O9212
-ts=2026-05-28T10:06:45.553Z level=INFO service=position host=node-c pid=18213 component=ledger event=position_update client_id=C606 order_id=O9213 exec_id=E90213 symbol=MSFT delta=200 trace_id=T-O9213
-ts=2026-05-28T10:06:48.044Z level=INFO service=position host=node-c pid=18214 component=ledger event=position_update client_id=C707 order_id=O9214 exec_id=E90214 symbol=MSFT delta=10 trace_id=T-O9214
-ts=2026-05-28T10:06:09.819Z level=INFO service=position host=node-c pid=18100 component=ledger event=position_update client_id=C202 order_id=O9100 exec_id=E90100 symbol=AMZN delta=25 trace_id=T-O9100
-ts=2026-05-28T10:06:15.569Z level=INFO service=position host=node-c pid=18101 component=ledger event=position_update client_id=C505 order_id=O9101 exec_id=E90101 symbol=AAPL delta=-50 trace_id=T-O9101
-ts=2026-05-28T10:06:21.169Z level=INFO service=position host=node-c pid=18102 component=ledger event=position_update client_id=C505 order_id=O9102 exec_id=E90102 symbol=BRK.B delta=-10 trace_id=T-O9102
-ts=2026-05-28T10:06:36.824Z level=INFO service=position host=node-c pid=18105 component=ledger event=position_update client_id=C707 order_id=O9105 exec_id=E90105 symbol=NVDA delta=100 trace_id=T-O9105
-ts=2026-05-28T10:06:42.480Z level=INFO service=position host=risk-host-1 component=heartbeat event=heartbeat status=ok pid=10948
-ts=2026-05-28T10:06:45.005Z level=INFO service=position host=node-c component=heartbeat event=heartbeat status=ok pid=10688
-ts=2026-05-28T10:06:49.783Z level=INFO service=position host=node-c pid=18107 component=ledger event=position_update client_id=C818 order_id=O9107 exec_id=E90107 symbol=BRK.B delta=-200 trace_id=T-O9107
-ts=2026-05-28T10:07:00.381Z level=INFO service=position host=node-c pid=18108 component=ledger event=position_update client_id=C900 order_id=O9108 exec_id=E90108 symbol=MSFT delta=25 trace_id=T-O9108
-ts=2026-05-28T10:07:08.799Z level=INFO service=position host=node-c pid=18109 component=ledger event=position_update client_id=C707 order_id=O9109 exec_id=E90109 symbol=AMZN delta=50 trace_id=T-O9109
-ts=2026-05-28T10:07:13.384Z level=INFO service=position host=node-c pid=18110 component=ledger event=position_update client_id=C818 order_id=O9110 exec_id=E90110 symbol=AAPL delta=-200 trace_id=T-O9110
-ts=2026-05-28T10:07:18.600Z level=INFO service=position host=node-c pid=18111 component=ledger event=position_update client_id=C111 order_id=O9111 exec_id=E90111 symbol=AMZN delta=-200 trace_id=T-O9111
-ts=2026-05-28T10:07:30.722Z level=INFO service=position host=node-c pid=18113 component=ledger event=position_update client_id=C101 order_id=O9113 exec_id=E90113 symbol=AAPL delta=-25 trace_id=T-O9113
-ts=2026-05-28T10:07:41.102Z level=INFO service=position host=node-c pid=18114 component=ledger event=position_update client_id=C111 order_id=O9114 exec_id=E90114 symbol=TSLA delta=-200 trace_id=T-O9114
-ts=2026-05-28T10:08:00.200Z level=INFO service=position host=node-c pid=18116 component=ledger event=position_update client_id=C900 order_id=O9116 exec_id=E90116 symbol=BRK.B delta=-25 trace_id=T-O9116
-ts=2026-05-28T10:08:05.887Z level=INFO service=position host=node-c pid=18117 component=ledger event=position_update client_id=C818 order_id=O9117 exec_id=E90117 symbol=META delta=50 trace_id=T-O9117
-ts=2026-05-28T10:08:16.738Z level=INFO service=position host=node-c pid=18119 component=ledger event=position_update client_id=C606 order_id=O9119 exec_id=E90119 symbol=AMZN delta=-10 trace_id=T-O9119
-ts=2026-05-28T10:08:45.357Z level=INFO service=position host=node-c pid=18123 component=ledger event=position_update client_id=C202 order_id=O9123 exec_id=E90123 symbol=NVDA delta=-50 trace_id=T-O9123
-ts=2026-05-28T10:08:53.501Z level=INFO service=position host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10357
-ts=2026-05-28T10:08:57.382Z level=INFO service=position host=node-c pid=18124 component=ledger event=position_update client_id=C404 order_id=O9124 exec_id=E90124 symbol=AMZN delta=-200 trace_id=T-O9124
-ts=2026-05-28T10:09:24.592Z level=INFO service=position host=node-c pid=18127 component=ledger event=position_update client_id=C606 order_id=O9127 exec_id=E90127 symbol=GOOG delta=25 trace_id=T-O9127
-ts=2026-05-28T10:09:37.885Z level=INFO service=position host=node-c pid=18128 component=ledger event=position_update client_id=C707 order_id=O9128 exec_id=E90128 symbol=AMZN delta=100 trace_id=T-O9128
-ts=2026-05-28T10:09:43.179Z level=INFO service=position host=node-c pid=18129 component=ledger event=position_update client_id=C606 order_id=O9129 exec_id=E90129 symbol=AAPL delta=50 trace_id=T-O9129
-ts=2026-05-28T10:09:47.226Z level=INFO service=position host=node-c pid=18130 component=ledger event=position_update client_id=C202 order_id=O9130 exec_id=E90130 symbol=AMZN delta=-100 trace_id=T-O9130
-ts=2026-05-28T10:09:57.362Z level=INFO service=position host=node-c pid=18131 component=ledger event=position_update client_id=C606 order_id=O9131 exec_id=E90131 symbol=META delta=200 trace_id=T-O9131
-ts=2026-05-28T10:10:02.080Z level=INFO service=position host=node-c pid=18132 component=ledger event=position_update client_id=C818 order_id=O9132 exec_id=E90132 symbol=9988.HK delta=100 trace_id=T-O9132
-ts=2026-05-28T10:10:06.732Z level=INFO service=position host=gateway-host-2 component=heartbeat event=heartbeat status=ok pid=10368
-ts=2026-05-28T10:10:17.412Z level=INFO service=position host=node-c pid=18134 component=ledger event=position_update client_id=C606 order_id=O9134 exec_id=E90134 symbol=AMZN delta=-50 trace_id=T-O9134
-ts=2026-05-28T10:10:22.099Z level=INFO service=position host=node-c pid=18135 component=ledger event=position_update client_id=C111 order_id=O9135 exec_id=E90135 symbol=AMZN delta=-10 trace_id=T-O9135
-ts=2026-05-28T10:10:26.178Z level=INFO service=position host=node-c pid=18136 component=ledger event=position_update client_id=C202 order_id=O9136 exec_id=E90136 symbol=META delta=50 trace_id=T-O9136
-ts=2026-05-28T10:10:37.629Z level=INFO service=position host=node-c pid=18137 component=ledger event=position_update client_id=C101 order_id=O9137 exec_id=E90137 symbol=AMZN delta=-10 trace_id=T-O9137
-ts=2026-05-28T10:10:42.412Z level=INFO service=position host=node-c pid=18138 component=ledger event=position_update client_id=C818 order_id=O9138 exec_id=E90138 symbol=NVDA delta=-25 trace_id=T-O9138
-ts=2026-05-28T10:10:46.394Z level=INFO service=position host=node-b component=heartbeat event=heartbeat status=ok pid=10931
-ts=2026-05-28T10:10:54.289Z level=INFO service=position host=node-c pid=18140 component=ledger event=position_update client_id=C404 order_id=O9140 exec_id=E90140 symbol=META delta=-100 trace_id=T-O9140
-ts=2026-05-28T10:10:59.139Z level=INFO service=position host=node-c pid=18141 component=ledger event=position_update client_id=C900 order_id=O9141 exec_id=E90141 symbol=9988.HK delta=-25 trace_id=T-O9141
-ts=2026-05-28T10:11:05.789Z level=INFO service=position host=node-c pid=18142 component=ledger event=position_update client_id=C707 order_id=O9142 exec_id=E90142 symbol=META delta=25 trace_id=T-O9142
-ts=2026-05-28T10:11:34.417Z level=INFO service=position host=node-c pid=18146 component=ledger event=position_update client_id=C900 order_id=O9146 exec_id=E90146 symbol=META delta=25 trace_id=T-O9146
-ts=2026-05-28T10:11:37.323Z level=INFO service=position host=node-c pid=18147 component=ledger event=position_update client_id=C111 order_id=O9147 exec_id=E90147 symbol=NVDA delta=-100 trace_id=T-O9147
-ts=2026-05-28T10:11:41.508Z level=INFO service=position host=node-c pid=18148 component=ledger event=position_update client_id=C404 order_id=O9148 exec_id=E90148 symbol=MSFT delta=-200 trace_id=T-O9148
-ts=2026-05-28T10:11:48.698Z level=INFO service=position host=node-b component=heartbeat event=heartbeat status=ok pid=10617
-ts=2026-05-28T10:11:54.547Z level=INFO service=position host=node-c pid=18150 component=ledger event=position_update client_id=C818 order_id=O9150 exec_id=E90150 symbol=META delta=-50 trace_id=T-O9150
-ts=2026-05-28T10:11:55.553Z level=INFO service=position host=engine-host-1 component=heartbeat event=heartbeat status=ok pid=10147
-ts=2026-05-28T10:11:58.400Z level=INFO service=position host=node-c pid=18151 component=ledger event=position_update client_id=C900 order_id=O9151 exec_id=E90151 symbol=META delta=10 trace_id=T-O9151
-ts=2026-05-28T10:12:02.043Z level=INFO service=position host=node-c pid=18152 component=ledger event=position_update client_id=C505 order_id=O9152 exec_id=E90152 symbol=AMZN delta=-10 trace_id=T-O9152
-ts=2026-05-28T10:12:09.739Z level=INFO service=position host=engine-host-2 component=heartbeat event=heartbeat status=ok pid=10848
-ts=2026-05-28T10:12:16.378Z level=INFO service=position host=node-c pid=18153 component=ledger event=position_update client_id=C707 order_id=O9153 exec_id=E90153 symbol=AAPL delta=-25 trace_id=T-O9153
-ts=2026-05-28T10:12:22.842Z level=INFO service=position host=node-c pid=18154 component=ledger event=position_update client_id=C505 order_id=O9154 exec_id=E90154 symbol=NVDA delta=-10 trace_id=T-O9154
-ts=2026-05-28T10:12:28.236Z level=INFO service=position host=node-c pid=18155 component=ledger event=position_update client_id=C111 order_id=O9155 exec_id=E90155 symbol=0700.HK delta=-10 trace_id=T-O9155
-ts=2026-05-28T10:12:39.800Z level=INFO service=position host=node-c pid=18156 component=ledger event=position_update client_id=C404 order_id=O9156 exec_id=E90156 symbol=AAPL delta=-100 trace_id=T-O9156
+ts=2026-05-28T10:19:18.084Z level=WARN pid=12005 host=node-a component=reconcile reason=intraday_drift delta_shares=0 status=within_tolerance
+ts=2026-05-28T10:19:24.134Z level=INFO service=position host=node-c pid=18200 component=ledger event=position_update client_id=C900 order_id=O9200 exec_id=E90200 symbol=META delta=-10 trace_id=T-O9200
+ts=2026-05-28T10:19:25.838Z level=INFO service=position host=node-c pid=18201 component=ledger event=position_update client_id=C202 order_id=O9201 exec_id=E90201 symbol=BRK.B delta=10 trace_id=T-O9201
+ts=2026-05-28T10:19:26.543Z level=INFO service=position host=node-c pid=18202 component=ledger event=position_update client_id=C505 order_id=O9202 exec_id=E90202 symbol=BRK.B delta=10 trace_id=T-O9202
+ts=2026-05-28T10:19:30.448Z level=INFO service=position host=node-c pid=18204 component=ledger event=position_update client_id=C101 order_id=O9204 exec_id=E90204 symbol=MSFT delta=-25 trace_id=T-O9204
+ts=2026-05-28T10:19:32.211Z level=INFO service=position host=node-c pid=18205 component=ledger event=position_update client_id=C111 order_id=O9205 exec_id=E90205 symbol=9988.HK delta=-10 trace_id=T-O9205
+ts=2026-05-28T10:19:34.047Z level=INFO service=position host=node-c pid=18206 component=ledger event=position_update client_id=C111 order_id=O9206 exec_id=E90206 symbol=TSLA delta=-100 trace_id=T-O9206
+ts=2026-05-28T10:19:36.540Z level=INFO service=position host=node-c pid=18207 component=ledger event=position_update client_id=C111 order_id=O9207 exec_id=E90207 symbol=TSLA delta=10 trace_id=T-O9207
+ts=2026-05-28T10:19:38.450Z level=INFO service=position host=node-c pid=18209 component=ledger event=position_update client_id=C101 order_id=O9209 exec_id=E90209 symbol=0700.HK delta=200 trace_id=T-O9209
+ts=2026-05-28T10:19:40.982Z level=INFO service=position host=node-c pid=18210 component=ledger event=position_update client_id=C505 order_id=O9210 exec_id=E90210 symbol=TSLA delta=50 trace_id=T-O9210
+ts=2026-05-28T10:19:42.539Z level=INFO service=position host=node-c pid=18211 component=ledger event=position_update client_id=C505 order_id=O9211 exec_id=E90211 symbol=0700.HK delta=200 trace_id=T-O9211
+ts=2026-05-28T10:19:44.502Z level=INFO service=position host=node-c pid=18213 component=ledger event=position_update client_id=C505 order_id=O9213 exec_id=E90213 symbol=NVDA delta=-200 trace_id=T-O9213
+ts=2026-05-28T10:19:46.279Z level=INFO service=position host=node-c pid=18214 component=ledger event=position_update client_id=C505 order_id=O9214 exec_id=E90214 symbol=9988.HK delta=-25 trace_id=T-O9214
+ts=2026-05-28T10:19:52.060Z level=INFO service=position host=node-c pid=18100 component=ledger event=position_update client_id=C606 order_id=O9100 exec_id=E90100 symbol=MSFT delta=200 trace_id=T-O9100
+ts=2026-05-28T10:19:56.596Z level=INFO service=position host=node-c pid=18101 component=ledger event=position_update client_id=C707 order_id=O9101 exec_id=E90101 symbol=AAPL delta=200 trace_id=T-O9101
+ts=2026-05-28T10:19:59.727Z level=INFO service=position host=node-c pid=18102 component=ledger event=position_update client_id=C111 order_id=O9102 exec_id=E90102 symbol=GOOG delta=10 trace_id=T-O9102
+ts=2026-05-28T10:20:18.680Z level=INFO service=position host=node-c pid=18105 component=ledger event=position_update client_id=C505 order_id=O9105 exec_id=E90105 symbol=BRK.B delta=10 trace_id=T-O9105
+ts=2026-05-28T10:20:34.921Z level=INFO service=position host=node-b component=heartbeat event=heartbeat status=ok pid=10109
+ts=2026-05-28T10:20:43.515Z level=INFO service=position host=node-c pid=18107 component=ledger event=position_update client_id=C303 order_id=O9107 exec_id=E90107 symbol=BRK.B delta=10 trace_id=T-O9107
+ts=2026-05-28T10:20:53.423Z level=INFO service=position host=node-c pid=18108 component=ledger event=position_update client_id=C101 order_id=O9108 exec_id=E90108 symbol=BRK.B delta=50 trace_id=T-O9108
+ts=2026-05-28T10:20:58.241Z level=INFO service=position host=node-c pid=18109 component=ledger event=position_update client_id=C202 order_id=O9109 exec_id=E90109 symbol=0700.HK delta=25 trace_id=T-O9109
+ts=2026-05-28T10:21:24.183Z level=INFO service=position host=node-c pid=18113 component=ledger event=position_update client_id=C818 order_id=O9113 exec_id=E90113 symbol=MSFT delta=-50 trace_id=T-O9113
+ts=2026-05-28T10:21:52.703Z level=INFO service=position host=node-c pid=18116 component=ledger event=position_update client_id=C202 order_id=O9116 exec_id=E90116 symbol=META delta=-50 trace_id=T-O9116
+ts=2026-05-28T10:21:58.573Z level=INFO service=position host=node-c pid=18117 component=ledger event=position_update client_id=C111 order_id=O9117 exec_id=E90117 symbol=META delta=25 trace_id=T-O9117
+ts=2026-05-28T10:22:01.720Z level=INFO service=position host=node-c pid=18118 component=ledger event=position_update client_id=C202 order_id=O9118 exec_id=E90118 symbol=AMZN delta=100 trace_id=T-O9118
+ts=2026-05-28T10:22:03.697Z level=INFO service=position host=node-a component=heartbeat event=heartbeat status=ok pid=10064
+ts=2026-05-28T10:22:25.900Z level=INFO service=position host=node-c pid=18121 component=ledger event=position_update client_id=C606 order_id=O9121 exec_id=E90121 symbol=META delta=100 trace_id=T-O9121
+ts=2026-05-28T10:22:47.281Z level=INFO service=position host=node-c pid=18123 component=ledger event=position_update client_id=C505 order_id=O9123 exec_id=E90123 symbol=MSFT delta=-10 trace_id=T-O9123
+ts=2026-05-28T10:22:57.887Z level=INFO service=position host=node-c pid=18125 component=ledger event=position_update client_id=C202 order_id=O9125 exec_id=E90125 symbol=BRK.B delta=-100 trace_id=T-O9125
+ts=2026-05-28T10:23:18.386Z level=INFO service=position host=node-c pid=18128 component=ledger event=position_update client_id=C111 order_id=O9128 exec_id=E90128 symbol=TSLA delta=-25 trace_id=T-O9128
+ts=2026-05-28T10:23:22.503Z level=INFO service=position host=engine-host-2 component=heartbeat event=heartbeat status=ok pid=10927
+ts=2026-05-28T10:23:26.342Z level=INFO service=position host=node-c pid=18129 component=ledger event=position_update client_id=C505 order_id=O9129 exec_id=E90129 symbol=9988.HK delta=200 trace_id=T-O9129
+ts=2026-05-28T10:23:42.083Z level=INFO service=position host=node-c pid=18132 component=ledger event=position_update client_id=C202 order_id=O9132 exec_id=E90132 symbol=NVDA delta=50 trace_id=T-O9132
+ts=2026-05-28T10:24:07.252Z level=INFO service=position host=engine-host-2 component=heartbeat event=heartbeat status=ok pid=10399
+ts=2026-05-28T10:24:21.007Z level=INFO service=position host=node-b component=heartbeat event=heartbeat status=ok pid=10475
+ts=2026-05-28T10:24:53.019Z level=INFO service=position host=node-c pid=18141 component=ledger event=position_update client_id=C111 order_id=O9141 exec_id=E90141 symbol=AAPL delta=-100 trace_id=T-O9141
+ts=2026-05-28T10:25:08.868Z level=INFO service=position host=node-c pid=18143 component=ledger event=position_update client_id=C404 order_id=O9143 exec_id=E90143 symbol=NVDA delta=200 trace_id=T-O9143
+ts=2026-05-28T10:25:16.442Z level=INFO service=position host=node-c pid=18144 component=ledger event=position_update client_id=C202 order_id=O9144 exec_id=E90144 symbol=AAPL delta=50 trace_id=T-O9144
+ts=2026-05-28T10:25:21.954Z level=INFO service=position host=node-c pid=18145 component=ledger event=position_update client_id=C818 order_id=O9145 exec_id=E90145 symbol=9988.HK delta=25 trace_id=T-O9145
+ts=2026-05-28T10:25:31.659Z level=INFO service=position host=node-c pid=18146 component=ledger event=position_update client_id=C111 order_id=O9146 exec_id=E90146 symbol=NVDA delta=-100 trace_id=T-O9146
+ts=2026-05-28T10:25:37.132Z level=INFO service=position host=node-c pid=18147 component=ledger event=position_update client_id=C818 order_id=O9147 exec_id=E90147 symbol=AMZN delta=50 trace_id=T-O9147
+ts=2026-05-28T10:25:40.627Z level=INFO service=position host=node-c pid=18148 component=ledger event=position_update client_id=C606 order_id=O9148 exec_id=E90148 symbol=TSLA delta=-100 trace_id=T-O9148
+ts=2026-05-28T10:25:54.230Z level=INFO service=position host=node-c pid=18149 component=ledger event=position_update client_id=C101 order_id=O9149 exec_id=E90149 symbol=BRK.B delta=50 trace_id=T-O9149
+ts=2026-05-28T10:26:06.250Z level=INFO service=position host=node-c pid=18150 component=ledger event=position_update client_id=C818 order_id=O9150 exec_id=E90150 symbol=AMZN delta=25 trace_id=T-O9150
+ts=2026-05-28T10:26:10.945Z level=INFO service=position host=node-c pid=18151 component=ledger event=position_update client_id=C202 order_id=O9151 exec_id=E90151 symbol=BRK.B delta=100 trace_id=T-O9151
+ts=2026-05-28T10:26:17.683Z level=INFO service=position host=node-c pid=18152 component=ledger event=position_update client_id=C505 order_id=O9152 exec_id=E90152 symbol=AMZN delta=-50 trace_id=T-O9152
+ts=2026-05-28T10:26:44.379Z level=INFO service=position host=node-c pid=18156 component=ledger event=position_update client_id=C111 order_id=O9156 exec_id=E90156 symbol=NVDA delta=-10 trace_id=T-O9156
+ts=2026-05-28T10:26:47.758Z level=INFO service=position host=node-c pid=18157 component=ledger event=position_update client_id=C818 order_id=O9157 exec_id=E90157 symbol=MSFT delta=-200 trace_id=T-O9157
+ts=2026-05-28T10:26:50.903Z level=INFO service=position host=node-c pid=18158 component=ledger event=position_update client_id=C900 order_id=O9158 exec_id=E90158 symbol=AAPL delta=-100 trace_id=T-O9158
+ts=2026-05-28T10:26:58.357Z level=INFO service=position host=node-c pid=18159 component=ledger event=position_update client_id=C111 order_id=O9159 exec_id=E90159 symbol=9988.HK delta=-10 trace_id=T-O9159
+ts=2026-05-28T10:27:04.458Z level=INFO service=position host=node-c pid=18160 component=ledger event=position_update client_id=C404 order_id=O9160 exec_id=E90160 symbol=NVDA delta=50 trace_id=T-O9160
+ts=2026-05-28T10:27:11.806Z level=INFO service=position host=node-c pid=18161 component=ledger event=position_update client_id=C707 order_id=O9161 exec_id=E90161 symbol=AMZN delta=-10 trace_id=T-O9161
+ts=2026-05-28T10:27:16.243Z level=INFO service=position host=node-c pid=18162 component=ledger event=position_update client_id=C202 order_id=O9162 exec_id=E90162 symbol=AAPL delta=50 trace_id=T-O9162
+ts=2026-05-28T10:27:23.764Z level=INFO service=position host=node-c pid=18163 component=ledger event=position_update client_id=C900 order_id=O9163 exec_id=E90163 symbol=META delta=-50 trace_id=T-O9163
+ts=2026-05-28T10:27:30.908Z level=INFO service=position host=node-c pid=18164 component=ledger event=position_update client_id=C606 order_id=O9164 exec_id=E90164 symbol=BRK.B delta=-50 trace_id=T-O9164

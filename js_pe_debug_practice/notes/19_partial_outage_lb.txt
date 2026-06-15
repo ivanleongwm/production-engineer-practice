@@ -1,0 +1,16 @@
+1. Read Prompt carefully
+
+2. Restate understanding
+
+3. Identify expected path
+
+4. Find correlation key: order_id / trace_id / service / timestamp
+
+5. Search Log files
+
+6. Find first divergence
+
+7. explain evidence
+
+8  Suggest Mitgation and Prevention
+

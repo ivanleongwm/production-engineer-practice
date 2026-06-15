@@ -1,0 +1,27 @@
+1. Read Prompt carefully
+
+2. Restate understanding
+
+3. Identify expected path
+
+client -> oe_gateway -> risk -> matching engine -> execution publisher -> client
+
+4. Find correlation key: order_id / trace_id / service / timestamp
+
+order_id=O2020
+
+5. Search Log files
+
+6. Find first divergence
+gateway was unable to find ref data for vendor for symbol BRK.B after 4 seconds 
+and sent a reject to the client
+
+7. explain evidence
+vendor data was not found in cache, so refdata-vendor-api was likely used to fetch
+the data but api call timed out at the vendor
+
+
+8  Suggest Mitgation and Prevention
+- ensure that refdata is available in cache for all tradable instruments, by scannning
+for it before the trading day
+
